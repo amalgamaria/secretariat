@@ -1,0 +1,10 @@
+# Don't track content of these ...
+
+# Folders
+_build/
+_static/
+_templates/
+
+# Files
+make.bat
+Makefile
