@@ -1,5 +1,5 @@
-.. secretariat documentation master file, created by
-   sphinx-quickstart on Fri Oct 18 11:45:26 2019.
+secretariat documentation master file, created by
+sphinx-quickstart on Fri Oct 18 11:45:26 2019.
 
 .. toctree::
    :maxdepth: 1
