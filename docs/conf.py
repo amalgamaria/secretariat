@@ -12,13 +12,17 @@ release = "0.1.0"
 # -- General configuration ---------------------------------------------------
 
 master_doc = "index"
-source_suffix = [".rst"]
+source_suffix = [".rst", ]
+extensions = ["sphinx_rtd_theme", ]
 
-
-extensions = ["sphinx_rtd_theme",]
+from sphinx.highlighting import lexers
+from pygments.lexers.web import PhpLexer
+lexers['php'] = PhpLexer(startinline=True, linenos=1)
+lexers['php-annotations'] = PhpLexer(startinline=True, linenos=1)
+primary_domain = 'php'
 
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = "sphinx_rtd_theme"
-html_theme_path = ["_themes" ]
+html_theme_path = ["_themes", ]
 
