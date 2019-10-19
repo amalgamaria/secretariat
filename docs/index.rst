@@ -51,6 +51,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Maintenance
+   :caption: maintenance
 
    maintenance/CHANGELOG
