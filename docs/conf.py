@@ -18,10 +18,11 @@ release = '0.1.0'
 templates_path = ['_templates']
 exclude_patterns = ['_build']
 master_doc = 'index'
-source_suffix = ['.rst', ]
+source_suffix = ['.rst']
 extensions = [
 	'sphinx.ext.autodoc',
-	'sphinx_rtd_theme', 
+	'sphinx_rtd_theme',
+	'sphinx_markdown_tables' 
 ]
 
 from sphinx.highlighting import lexers
@@ -35,5 +36,5 @@ primary_domain = 'php'
 htmlhelp_basename = 'secretariatdoc'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_theme_path = ['_themes', ]
+html_theme_path = ['_themes']
 
