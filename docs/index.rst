@@ -1,5 +1,5 @@
-Index Page Title
-================
+Research Computing Center for Human Genetics
+============================================
 
 Subtitle
 ********
