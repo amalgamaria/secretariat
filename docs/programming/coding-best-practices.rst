@@ -1,5 +1,5 @@
-coding-best-practices Page Title
-================================
+Coding best practices
+=====================
 
 Subtitle
 ********
