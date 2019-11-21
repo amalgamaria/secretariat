@@ -1,5 +1,15 @@
-secretariat documentation master file, created by
-sphinx-quickstart on Fri Oct 18 11:45:26 2019.
+Index Page Title
+================
+
+Subtitle
+********
+
+Content
+1.	List
+2.	List
+3.	List
+
+----
 
 .. toctree::
    :maxdepth: 1
