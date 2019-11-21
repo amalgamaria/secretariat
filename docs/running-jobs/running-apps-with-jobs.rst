@@ -1,5 +1,5 @@
-running-apps-with-jobs Page Title
-=================================
+Running applications with jobs
+==============================
 
 Subtitle
 ********
