@@ -1,5 +1,5 @@
-interactive-jobs Page Title
-===========================
+Interactive jobs
+================
 
 Subtitle
 ********
