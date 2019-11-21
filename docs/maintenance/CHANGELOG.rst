@@ -1,5 +1,5 @@
-CHANGELOG Page
-==============
+CHANGELOG
+=========
 
 Subtitle
 ********
