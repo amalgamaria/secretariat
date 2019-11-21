@@ -1,5 +1,5 @@
-job-resources Page Title
-========================
+Job resources
+=============
 
 Subtitle
 ********
