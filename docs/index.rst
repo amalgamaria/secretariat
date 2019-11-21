@@ -1,5 +1,7 @@
-Center for Human Genetics Research Computing User Guide
-=======================================================
+Secretariat User Guide
+======================
+Center for Human Genetics Research Computing
+--------------------------------------------
 
 Subtitle
 ********
