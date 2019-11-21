@@ -1,5 +1,5 @@
-parallel-programming-fundamentals Page Title
-============================================
+Parallel programming fundamentals
+=================================
 
 Subtitle
 ********
