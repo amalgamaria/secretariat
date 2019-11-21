@@ -1,5 +1,5 @@
-Modules Page Title
-==============
+modules Page Title
+==================
 
 Subtitle
 ********
