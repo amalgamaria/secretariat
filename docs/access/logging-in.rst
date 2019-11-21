@@ -1,5 +1,5 @@
-logging-in Page Title
-=====================
+Logging in
+==========
 
 Subtitle
 ********
