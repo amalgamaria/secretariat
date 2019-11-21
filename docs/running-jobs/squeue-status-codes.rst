@@ -1,5 +1,5 @@
-squeue-status-codes Page Title
-==============================
+Squeue status codes
+===================
 
 Subtitle
 ********
