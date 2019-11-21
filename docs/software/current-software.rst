@@ -1,5 +1,5 @@
-current-software Page Title
-===========================
+Current software
+================
 
 Subtitle
 ********
