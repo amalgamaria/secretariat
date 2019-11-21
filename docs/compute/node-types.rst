@@ -1,5 +1,5 @@
-node-types Page Title
-=====================
+Available computational nodes
+=============================
 
 Subtitle
 ********
