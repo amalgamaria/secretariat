@@ -17,20 +17,20 @@ Content
    faq
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Accessing Resources
 
    access/logging-in
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: The Compute Environment
 
    compute/node-types
    compute/modules
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Running Jobs
 
    running-jobs/running-apps-with-jobs
@@ -41,26 +41,26 @@ Content
    running-jobs/squeue-status-codes
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Software
 
    software/current-software
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Programming and Parallelization
 
    programming/coding-best-practices
    programming/parallel-programming-fundamentals
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Additional resources
 
    additional-resources/clemson-palmetto
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: maintenance
 
    maintenance/CHANGELOG
