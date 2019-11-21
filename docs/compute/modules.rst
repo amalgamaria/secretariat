@@ -1,5 +1,5 @@
-modules Page Title
-==================
+Accessing software using modules
+================================
 
 Subtitle
 ********
