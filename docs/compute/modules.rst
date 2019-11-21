@@ -1,5 +1,5 @@
-Accessing software using modules
-================================
+Software modularization on Secretariat
+======================================
 
 Subtitle
 ********
