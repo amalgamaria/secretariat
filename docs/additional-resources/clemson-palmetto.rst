@@ -1,5 +1,5 @@
-clemson-palmetto Page Title
-===========================
+Clemson Palmetto Cluster
+========================
 
 Subtitle
 ********
