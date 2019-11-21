@@ -1,4 +1,4 @@
-Node-types Page Title
+node-types Page Title
 =====================
 
 Subtitle
