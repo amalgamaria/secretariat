@@ -1,5 +1,5 @@
-batch-jobs Page Title
-=====================
+Batch jobs
+==========
 
 Subtitle
 ********
