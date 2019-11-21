@@ -1,5 +1,5 @@
-slurm-commands Page Title
-=========================
+Slurm commands
+==============
 
 Subtitle
 ********
