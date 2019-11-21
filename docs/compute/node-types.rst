@@ -1,5 +1,5 @@
-Available computational nodes
-=============================
+Computational nodes
+===================
 
 Subtitle
 ********
