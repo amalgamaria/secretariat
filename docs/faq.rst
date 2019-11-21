@@ -1,5 +1,5 @@
-FAQ Page Title
-==============
+FAQ
+===
 
 Subtitle
 ********
