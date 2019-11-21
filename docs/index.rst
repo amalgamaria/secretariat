@@ -1,5 +1,5 @@
-Research Computing Center for Human Genetics
-============================================
+Center for Human Genetics Research Computing User Guide
+=======================================================
 
 Subtitle
 ********
