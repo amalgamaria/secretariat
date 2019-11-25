@@ -2,7 +2,7 @@
 Logging in
 ==========
 
-Complete Parts 1 and 2 to login, set your password, and to prepare to access the computational nodes.
+Complete Parts 1 and 2 to login, set your password, and to access the computational nodes.
 
 Do not attempt the following steps until you have been contacted regarding your username.
 
