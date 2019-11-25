@@ -23,6 +23,7 @@ Content
    :caption: Accessing Resources
 
    access/logging-in
+   access/transferring-files
 
 .. toctree::
    :maxdepth: 1
