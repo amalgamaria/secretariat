@@ -4,12 +4,12 @@ Logging in
 
 Complete Parts 1 and 2 to login, set your password, and to access the computational nodes.
 
-Do not attempt the following steps until you have been contacted regarding your username.
+**Do not attempt the following steps until you have been contacted regarding your username.**
 
 ----
 
-**PART 1**: Login
-#################
+Part 1: Login
+#############
 
 For Linux / Mac
 ---------------
@@ -21,7 +21,7 @@ For Linux / Mac
 
 3. Type password on the command line; Press Enter. Your initial password will be **1234**.
 
-Login is complete!
+Login complete!
 
 For Windows
 -----------
@@ -36,12 +36,12 @@ For Windows
 
 6. Type password on the command line; Press Enter. Your initial password will be **1234**.
 
-Login is complete!
+Login complete!
 
 ----
 
-**PART 2**: Prepare work environment
-######################################
+Part 2: Prepare work environment
+################################
 
 For Linux / Mac / Windows
 -------------------------
@@ -57,6 +57,6 @@ For Linux / Mac / Windows
 3. Type ``cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys`` on the command line; Press Enter.
 4. Type ``exit`` on the command line.
 
-The session has ended!
+Session ended!
 
 .. _MobaXterm: https://mobaxterm.mobatek.net/
