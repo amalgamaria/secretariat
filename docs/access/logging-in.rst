@@ -48,7 +48,7 @@ For Linux / Mac / Windows
 
 1. Type ``passwd`` on the command line; Press Enter.
 
-	(You will be prompted to enter your current password and then your new password.)
+	*You will be prompted to enter your current password and then your new password.*
 
 2. Type ``ssh-keygen -t rsa`` on the command line; Continue pressing Enter until complete.
 
