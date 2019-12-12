@@ -1,10 +1,4 @@
 Clemson Palmetto Cluster
 ========================
 
-Subtitle
-********
-
-Content
-1.	List
-2.	List
-3.	List
+https://www.palmetto.clemson.edu/palmetto/
