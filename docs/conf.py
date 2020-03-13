@@ -18,7 +18,7 @@ release = '0.1.0'
 templates_path = ['_templates']
 exclude_patterns = ['_build']
 master_doc = 'index'
-source_suffix = ['.rst']
+source_suffix = ['.rst', '.md']
 extensions = [
 	'sphinx.ext.autodoc',
 	'sphinx_rtd_theme',
