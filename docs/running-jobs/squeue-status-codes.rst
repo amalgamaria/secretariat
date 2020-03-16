@@ -15,8 +15,7 @@ If you were to run the command `squeue` from the command line, a table similar t
 
 The status codes are found in the "ST" (status) column. Although the three above are the ones that you are likely to see the most often, there are others (please see `this document`_ for more details).
 
-Description of each code:
-*************************
+**Description of each code:**
 
 Job 1.	: `R`
 
