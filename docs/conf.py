@@ -19,18 +19,18 @@ templates_path = ['_templates']
 exclude_patterns = ['_build']
 master_doc = 'index'
 source_suffix = ['.rst', '.md']
-source_parsers = {
-       '.md': CommonMarkParser,
-}
+#source_parsers = {
+#       '.md': CommonMarkParser,
+#}
 extensions = [
 	'sphinx.ext.autodoc',
 	'sphinx_rtd_theme',
 	'sphinx_markdown_tables',
-	'recommonmark' 
+#	'recommonmark' 
 ]
 
 from sphinx.highlighting import lexers
-from recommonmark.parser import CommonMarkParser
+#from recommonmark.parser import CommonMarkParser
 from pygments.lexers.web import PhpLexer
 lexers['php'] = PhpLexer(startinline=True, linenos=1)
 lexers['php-annotations'] = PhpLexer(startinline=True, linenos=1)
