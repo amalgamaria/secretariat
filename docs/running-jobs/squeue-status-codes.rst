@@ -3,15 +3,15 @@ Squeue status codes
 
 If you were to run the command `squeue` from the command line, a table similar to the one below would be printed to your screen.
 
-+-------+-----------+-----------+----------+----+------------+-------+------------------+
-| JOBID | PARTITION | NAME      | USER     | ST | TIME       | NODES | NODELIST(REASON) |
-+-------+-----------+-----------+----------+----+------------+-------+------------------+
-| 1     | compute   | jobname_1 | username | R  | 5:42       | 1     | compute001       |
-+-------+-----------+-----------+----------+----+------------+-------+------------------+
-| 2     | compute   | jobname_2 | username | PD | 0:00       | 1     | compute001       |
-+-------+-----------+-----------+----------+----+------------+-------+------------------+
-| 3     | bigmem    | jobname_3 | username | CG | 1-12:18:03 | 1     | bigmem002        |
-+-------+-----------+-----------+----------+----+------------+-------+------------------+
++-----------+---------------+-----------+----------+--------+------------+-----------+----------------------+
+| **JOBID** | **PARTITION** | **NAME**  | **USER** | **ST** | **TIME**   | **NODES** | **NODELIST(REASON)** |
++-----------+---------------+-----------+----------+--------+------------+-----------+----------------------+
+| 1         | compute       | jobname_1 | username | R      | 5:42       | 1         | compute001           |
++-----------+---------------+-----------+----------+--------+------------+-----------+----------------------+
+| 2         | compute       | jobname_2 | username | PD     | 0:00       | 1         | compute001           |
++-----------+---------------+-----------+----------+--------+------------+-----------+----------------------+
+| 3         | bigmem        | jobname_3 | username | CG     | 1-12:18:03 | 1         | bigmem002            |
++-----------+---------------+-----------+----------+--------+------------+-----------+----------------------+
 
 The status codes are found in the "ST" (status) column. Although the three above are the ones that you are likely to see the most often, there are others (please see `this document`_ for more details).
 
