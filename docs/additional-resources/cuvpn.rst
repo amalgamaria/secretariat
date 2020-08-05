@@ -4,7 +4,6 @@ Clemson University VPN
 Any time that you are using an internet connection other than the Clemson network, you will need to connect to it remotely. CCIT has written `instructions`_ on how to connect to the Clemson University Virtual Private Network (CUVPN).
 
 The steps can be summarized in the following manner:
-----------------------------------------------------
 
 1. `Duo Enrollment`_: You will need to register for Duo two factor authentication if you have not already so that you can make a secure remote connection.
 
