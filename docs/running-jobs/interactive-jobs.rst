@@ -14,4 +14,4 @@ sinteractive
 srun
 ####
 
-.. _More information: 
+.. _More information: sinteractive_uchicago.html
