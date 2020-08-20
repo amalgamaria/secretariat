@@ -43,6 +43,8 @@ Content
    running-jobs/job-resources
    running-jobs/squeue-status-codes
 
+   :file: sinteractive_uchicago.html
+
 .. toctree::
    :maxdepth: 1
    :caption: Software
