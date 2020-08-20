@@ -9,9 +9,7 @@ Interactive jobs
 sinteractive
 ############
 
-`More information`_.
+More information: :doc:`running-jobs/sinteractive_uchicago.html`
 
 srun
 ####
-
-.. _More information: sinteractive_uchicago.html
