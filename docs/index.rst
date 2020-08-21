@@ -61,7 +61,7 @@ Content
    :caption: Additional resources
 
    additional-resources/clemson-palmetto
-   additional-resources/cuvpn
+   additional-resources/cu-vpn
 
 .. toctree::
    :maxdepth: 1
