@@ -24,68 +24,42 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
 
 - [``jobname``]: name that will be assigned to your job within Secretariat
 
-
 - [``cpus``]: maximum number (integer) of cores / CPUs to allocate to the job
 
-
 - [``node``]: name of node to which you will submit your job
-
 
 - [``time``]: maximum amount of time to allocate to the job
 
   - *minutes*
-
   - *minutes:seconds*
-
   - *hours:minutes:seconds*
-
   - *days-hours*
-
   - *days-hours:minutes*
-
   - *days-hours:minutes:seconds*
-
 
 - [``mem``]: maximum amount of memory (integer) to allocate to each node
 
   - kilobyes: *K*
-
   - megabyes: *M*
-
   - gigabytes: *G*
-
   - terabytes: *T*
 
-
 - [``/path/to/``][``jobname``]: parent directory and filename of which to print standard error and output
-
 
 - [``mailtype``]: events for which to send notifications via email
 
    - *NONE*
-
    - *BEGIN*
-
    - *END*
-
    - *FAIL*
-
    - *REQUEUE*
-
    - *ALL* (BEGIN, END, FAIL, REQUEUE, STAGE_OUT)
-
    - *STAGE_OUT*
-
    - *TIME_LIMIT*
-
    - *TIME_LIMIT_90*
-
    - *TIME_LIMIT_80*
-
    - *TIME_LIMIT_50*
-
    - *ARRAY_TASKS*
-
 
 - [``username``]: email address before the "@" to send the notifications specified in [``mailtype``]
 
@@ -123,8 +97,8 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`.
 
 This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **40 tasks** on **compute001** with up to **150 GB of memory** and no more than **100 hours of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
 
-A note on resource allocation 
------------------------------
+Jobs and nodes and tasks, oh my! 
+--------------------------------
 
 When allocating resources to jobs, particularly with respect to nodes and CPUs, there may be more than one way to accomplish the same result. This is due to the relationship between ``--nodes``, ``--ntasks-per-node``, ``--cpus-per-task``, and ``--ntasks``.
 
