@@ -130,7 +130,7 @@ When allocating resources to jobs, particularly with respect to nodes and CPUs, 
 
 Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 4 CPUs to a particular job. There are a variety of ways to request 4 CPUs, and depending on the job, one method might be preferable. Here are some examples.
 
-- ``--ntasks=4`: 4 independent processes
+- ``--ntasks=4``: 4 independent processes
 - ``--ntasks=4 --ntasks-per-node=1`` ; ``--ntasks=4 --nodes=4``: CPUs spread across distinct nodes
 - ``--ntasks=4 --ntasks-per-node=2``: 4 processes spread across 2 nodes
 - ``--ntasks=4 --ntasks-per-node=4``: 4 processes on the same node
