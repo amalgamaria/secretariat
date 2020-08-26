@@ -113,7 +113,7 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`.
 
 Explanation:
 
-This script sets up a job named *afterqc_ex* to execute the python script ``after.py``. This script allocates *40 tasks* on *compute001* with up to *150 GB of memory* and no more than *100 hours of runtime* to complete this job. Standard error and output will be outputted to separate files in */opt/ohpc/pub/workshop/tmp/logs* and the email address *madonay@clemson.edu* will receive notifications when the job *begins* and if it *ends*, *fails*, *requeues*, or *stages out*.
+This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **40 tasks** on **compute001** with up to **150 GB of memory** and no more than **100 hours of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
 
 A note on resource allocation 
 -----------------------------
