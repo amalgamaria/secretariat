@@ -30,53 +30,53 @@ Explanation:
 
 - [``time``]: maximum amount of time to allocate to the job
 
-  - _minutes_
+  - *minutes*
 
-  - _minutes:seconds_
+  - *minutes:seconds*
 
-  - _hours:minutes:seconds_
+  - *hours:minutes:seconds*
 
-  - _days-hours_
+  - *days-hours*
 
-  - _days-hours:minutes_
+  - *days-hours:minutes*
 
-  - _days-hours:minutes:seconds_
+  - *days-hours:minutes:seconds*
 
 - [``mem``]: maximum amount of memory (integer) to allocate to each node
-  
-  - kilobyes: _K_
 
-  - megabyes: _M_
+  - kilobyes: *K*
 
-  - gigabytes: _G_
+  - megabyes: *M*
 
-  - terabytes: _T_
+  - gigabytes: *G*
+
+  - terabytes: *T*
 
 - [``/path/to/``][``jobname``]: parent directory and filename of which to print standard error and output
 
 - [``mailtype``]: events for which to send notifications via email
-  
-   - _NONE_
 
-   - _BEGIN_
+   - *NONE*
 
-   - _END_
+   - *BEGIN*
 
-   - _FAIL_
+   - *END*
 
-   - _REQUEUE_
+   - *FAIL*
 
-   - _ALL_ (BEGIN, END, FAIL, REQUEUE, STAGE_OUT)
+   - *REQUEUE*
 
-   - _STAGE_OUT_
+   - *ALL* (BEGIN, END, FAIL, REQUEUE, STAGE_OUT)
 
-   - _TIME_LIMIT_
+   - *STAGE_OUT*
 
-   - _TIME_LIMIT_90_
+   - *TIME_LIMIT*
 
-   - _TIME_LIMIT_80_
+   - *TIME_LIMIT_90*
 
-   - _TIME_LIMIT_50_
+   - *TIME_LIMIT_80*
+
+   - *TIME_LIMIT_50*
 
    - *ARRAY_TASKS*
 
@@ -86,4 +86,4 @@ Example
 -------
 
 
-.. Slurm documentation: https://slurm.schedmd.com/sbatch.html
+.. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
