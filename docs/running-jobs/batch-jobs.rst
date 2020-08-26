@@ -4,7 +4,7 @@ Batch jobs
 Template
 --------
 
-Here is a template of how to declare Slurm parameters in the header of an ``sbatch`` script. This information should be placed at the top of the script that you will be submitting to Secretariat. Please see the `Slurm documentation`_ for a full list of possible `sbatch` header options.
+Here is a template of how to declare Slurm parameters in the header of an ``sbatch`` script. This information should be placed at the top of the script that you will be submitting to Secretariat. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
 
 .. code-block:: bash
 
@@ -20,13 +20,16 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #SBATCH --mail-type=[mailtype]
    #SBATCH --mail-user=[username]@clemson.edu
 
-Explanation:
+**Explanation**:
 
 - [``jobname``]: name that will be assigned to your job within Secretariat
 
+
 - [``cpus``]: maximum number (integer) of cores / CPUs to allocate to the job
 
+
 - [``node``]: name of node to which you will submit your job
+
 
 - [``time``]: maximum amount of time to allocate to the job
 
@@ -42,6 +45,7 @@ Explanation:
 
   - *days-hours:minutes:seconds*
 
+
 - [``mem``]: maximum amount of memory (integer) to allocate to each node
 
   - kilobyes: *K*
@@ -52,7 +56,9 @@ Explanation:
 
   - terabytes: *T*
 
+
 - [``/path/to/``][``jobname``]: parent directory and filename of which to print standard error and output
+
 
 - [``mailtype``]: events for which to send notifications via email
 
@@ -80,7 +86,9 @@ Explanation:
 
    - *ARRAY_TASKS*
 
+
 - [``username``]: email address before the "@" to send the notifications specified in [``mailtype``]
+
 
 Example
 -------
@@ -111,7 +119,7 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`.
       -b /opt/ohpc/pub/workshop/tmp/afterqc/fail \
       -r /opt/ohpc/pub/workshop/tmp/afterqc/QC
 
-Explanation:
+**Explanation**:
 
 This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **40 tasks** on **compute001** with up to **150 GB of memory** and no more than **100 hours of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
 
