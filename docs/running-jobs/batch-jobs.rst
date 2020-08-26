@@ -30,36 +30,55 @@ Explanation:
 
 - [``time``]: maximum amount of time to allocate to the job
 
-  - minutes
-  - minutes:seconds
-  - hours:minutes:seconds
-  - days-hours
-  - days-hours:minutes
-  - days-hours:minutes:seconds
+  - _minutes_
+
+  - _minutes:seconds_
+
+  - _hours:minutes:seconds_
+
+  - _days-hours_
+
+  - _days-hours:minutes_
+
+  - _days-hours:minutes:seconds_
 
 - [``mem``]: maximum amount of memory (integer) to allocate to each node
   
-  - kilobyes: K
-  - megabyes: M
-  - gigabytes: G
-  - terabytes: T
+  - kilobyes: _K_
+
+  - megabyes: _M_
+
+  - gigabytes: _G_
+
+  - terabytes: _T_
 
 - [``/path/to/``][``jobname``]: parent directory and filename of which to print standard error and output
 
 - [``mailtype``]: events for which to send notifications via email
   
-   - NONE
-   - BEGIN
-   - END
-   - FAIL
-   - REQUEUE
-   - ALL (BEGIN, END, FAIL, REQUEUE, STAGE_OUT)
-   - STAGE_OUT
-   - TIME_LIMIT
-   - TIME_LIMIT_90
-   - TIME_LIMIT_80
-   - TIME_LIMIT_50
-   - ARRAY_TASKS
+   - _NONE_
+
+   - _BEGIN_
+
+   - _END_
+
+   - _FAIL_
+
+   - _REQUEUE_
+
+   - _ALL_ (BEGIN, END, FAIL, REQUEUE, STAGE_OUT)
+
+   - _STAGE_OUT_
+
+   - _TIME_LIMIT_
+
+   - _TIME_LIMIT_90_
+
+   - _TIME_LIMIT_80_
+
+   - _TIME_LIMIT_50_
+
+   - *ARRAY_TASKS*
 
 - [``username``]: email address before the "@" to send the notifications specified in [``mailtype``]
 
