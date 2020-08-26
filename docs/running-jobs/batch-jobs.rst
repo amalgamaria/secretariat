@@ -1,7 +1,10 @@
 Batch jobs
 ==========
 
-Here is a template of how to declare Slurm parameters in the header of an `sbatch` script. This information should be placed at the top of the script that you will be submitting to Secretariat. Please see the `Slurm documentation`_ for a full list of possible `sbatch` header options.
+Template
+--------
+
+Here is a template of how to declare Slurm parameters in the header of an ``sbatch`` script. This information should be placed at the top of the script that you will be submitting to Secretariat. Please see the `Slurm documentation`_ for a full list of possible `sbatch` header options.
 
 .. code-block:: bash
 
@@ -19,14 +22,13 @@ Here is a template of how to declare Slurm parameters in the header of an `sbatc
 
 Explanation:
 
-- [`jobname`]: name that will be assigned to your job within Secretariat
+- [``jobname``]: name that will be assigned to your job within Secretariat
 
-- [`cpus`]: maximum number (integer) of cores / CPUs to allocate to the job
+- [``cpus``]: maximum number (integer) of cores / CPUs to allocate to the job
 
-- [`node`]: name of node to which you will submit your job
+- [``node``]: name of node to which you will submit your job
 
-- [`time`]: maximum amount of time to allocate to the job
-
+- [``time``]: maximum amount of time to allocate to the job
   - minutes
   - minutes:seconds
   - hours:minutes:seconds
@@ -34,17 +36,15 @@ Explanation:
   - days-hours:minutes
   - days-hours:minutes:seconds
 
-- [`mem`]: maximum amount of memory (integer) to allocate to each node
-
+- [``mem``]: maximum amount of memory (integer) to allocate to each node
   - kilobyes: K
   - megabyes: M
   - gigabytes: G
   - terabytes: T
 
-- [`/path/to/`][`jobname`]: parent directory and filename of which to print standard error and output
+- [``/path/to/``][``jobname``]: parent directory and filename of which to print standard error and output
 
-- [`mailtype`]: events for which to send notifications via email
-
+- [``mailtype``]: events for which to send notifications via email
    - NONE
    - BEGIN
    - END
@@ -58,8 +58,10 @@ Explanation:
    - TIME_LIMIT_50
    - ARRAY_TASKS
 
-- [`username`]: email address before the "@" to send the notifications specified in [`mailtype`]
+- [``username``]: email address before the "@" to send the notifications specified in [``mailtype``]
 
+Example
+-------
 
 
 .. Slurm documentation: https://slurm.schedmd.com/sbatch.html
