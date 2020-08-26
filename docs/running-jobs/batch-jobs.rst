@@ -85,5 +85,57 @@ Explanation:
 Example
 -------
 
+Here is an example of an `sbatch` header for a script to run `AfterQC`.
+
+.. code-block:: bash
+
+   #!/bin/bash
+   #
+   #SBATCH --job-name=afterqc_ex
+   #SBATCH --ntasks=40
+   #SBATCH --nodelist=compute001
+   #SBATCH --time=100:00:00
+   #SBATCH --mem=150G
+   #SBATCH --output=/opt/ohpc/pub/workshop/tmp/logs/afterqc_ex.%j.out
+   #SBATCH --error=/opt/ohpc/pub/workshop/tmp/logs/afterqc_ex.%j.err
+   #SBATCH --mail-type=all
+   #SBATCH --mail-user=madonay@clemson.edu
+   
+   module unload afterqc/0.9.7
+   
+   cd /opt/ohpc/pub/workshop/tmp
+   mkdir afterqc
+   
+   after.py \
+      -g /opt/ohpc/pub/workshop/tmp/afterqc/pass \
+      -b /opt/ohpc/pub/workshop/tmp/afterqc/fail \
+      -r /opt/ohpc/pub/workshop/tmp/afterqc/QC
+
+Explanation:
+
+This script sets up a job named *afterqc_ex* to execute the python script ``after.py``. This script allocates *40 tasks* on *compute001* with up to *150 GB of memory* and no more than *100 hours of runtime* to complete this job. Standard error and output will be outputted to separate files in */opt/ohpc/pub/workshop/tmp/logs* and the email address *madonay@clemson.edu* will receive notifications when the job *begins* and if it *ends*, *fails*, *requeues*, or *stages out*.
+
+A note on resource allocation 
+-----------------------------
+
+When allocating resources to jobs, particularly with respect to nodes and CPUs, there may be more than one way to accomplish the same result. This is due to the relationship between ``--nodes``, ``--ntasks-per-node``, ``--cpus-per-task``, and ``--ntasks``.
+
+- ``--nodes``: number of nodes to be allocated to a job
+
+- ``--ntasks-per-node``: number of tasks to be allocated per node
+
+- ``--cpus-per-task``: number of CPUs to allocate per task
+
+- ``--ntasks``: maximum number (integer) of cores / CPUs to allocate to the job
+
+Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 4 CPUs to a particular job. There are a variety of ways to request 4 CPUs, and depending on the job, one method might be preferable. Here are some examples.
+
+- ``--ntasks=4`: 4 independent processes
+- ``--ntasks=4 --ntasks-per-node=1`` ; ``--ntasks=4 --nodes=4``: CPUs spread across distinct nodes
+- ``--ntasks=4 --ntasks-per-node=2``: 4 processes spread across 2 nodes
+- ``--ntasks=4 --ntasks-per-node=4``: 4 processes on the same node
+- ``--ntasks=1 --cpus-per-task=4``: 1 process that can use up to 4 CPUs for multithreading
+- ``--ntasks=2 --cpus-per-task=2``: 2 processes that can use up to 2 CPUs for multithreading 
 
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
+.. _Slurm FAQ: https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html
