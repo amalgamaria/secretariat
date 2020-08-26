@@ -3,7 +3,8 @@ Computational nodes
 
 You may submit jobs to two types of partitions on Secretariat. 
 
-  Cluster		  Partition		  Node			  Compute cores (CPUs)	  Memory		
++-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+
+| Cluster		| Partition		| Node			| Compute cores (CPUs)	| Memory		|
 +-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+
 | Secretariat		| compute		| compute001		| 40			| 480 GB		|
 +			+			+-----------------------+-----------------------+-----------------------+
