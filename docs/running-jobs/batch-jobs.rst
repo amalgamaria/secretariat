@@ -29,6 +29,7 @@ Explanation:
 - [``node``]: name of node to which you will submit your job
 
 - [``time``]: maximum amount of time to allocate to the job
+
   - minutes
   - minutes:seconds
   - hours:minutes:seconds
@@ -37,6 +38,7 @@ Explanation:
   - days-hours:minutes:seconds
 
 - [``mem``]: maximum amount of memory (integer) to allocate to each node
+  
   - kilobyes: K
   - megabyes: M
   - gigabytes: G
@@ -45,6 +47,7 @@ Explanation:
 - [``/path/to/``][``jobname``]: parent directory and filename of which to print standard error and output
 
 - [``mailtype``]: events for which to send notifications via email
+  
    - NONE
    - BEGIN
    - END
