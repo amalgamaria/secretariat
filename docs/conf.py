@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'secretariat'
-copyright = '2020, '<a href="https://amalgamaria.com/">Maria E. Adonay</a>''
+copyright = '2020, Maria E. Adonay'
 author = 'Maria E. Adonay'
 release = '0.1.0'
 
