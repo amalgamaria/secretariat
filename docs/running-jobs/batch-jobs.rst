@@ -102,7 +102,7 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
 
 This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **2 CPUs** on one or two of the **compute** nodes with up to **2 GB of memory** and no more than **120 hours of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
 
-*Note*: To actually submit this script to Secretariat, please refer to :doc:`running-jobs/slurm-commands.html`.
+*Note*: To actually submit this script to Secretariat, please refer to the `Slurm commands`_ tab.
 
 Jobs and nodes and tasks, oh my! 
 --------------------------------
@@ -141,4 +141,5 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
 .. _AfterQC: https://github.com/OpenGene/AfterQC
+.. _Slurm commands: https://secretariat.readthedocs.io/en/latest/running-jobs/slurm-commands.html
 .. _Slurm FAQ: https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html
