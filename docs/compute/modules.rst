@@ -1,4 +1,4 @@
-Software modularization on Secretariat
-======================================
+Software modularization
+=======================
 
 [ Coming soon ]
