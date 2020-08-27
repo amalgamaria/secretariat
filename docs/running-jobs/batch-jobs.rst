@@ -33,19 +33,19 @@ Note: Only the highlighted lines are necessary. The last four options are option
 
 - [``time``]: maximum amount of time to allocate to a job
 
-  - *minutes*
-  - *minutes:seconds*
-  - *hours:minutes:seconds*
-  - *days-hours*
-  - *days-hours:minutes*
-  - *days-hours:minutes:seconds*
+   - *minutes*
+   - *minutes:seconds*
+   - *hours:minutes:seconds*
+   - *days-hours*
+   - *days-hours:minutes*
+   - *days-hours:minutes:seconds*
 
 - [``mem``]: maximum amount of memory (integer) to allocate to each node
 
-  - kilobyes: *K*
-  - megabyes: *M*
-  - gigabytes: *G*
-  - terabytes: *T*
+   - kilobyes: *K*
+   - megabyes: *M*
+   - gigabytes: *G*
+   - terabytes: *T*
 
 - [``/path/to/``][``jobname``]: parent directory and filename of which to print standard error and output
 
