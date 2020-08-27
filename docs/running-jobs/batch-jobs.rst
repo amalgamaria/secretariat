@@ -8,7 +8,7 @@ A common way of running an analysis on Secretariat is to run your command(s) / s
 Template
 --------
 
-Here is a template of how to declare Slurm parameters in the header of an ``sbatch`` script. This information should be placed at the top of the script that you will be submitting to Secretariat. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
+Here is a template of how to declare Slurm parameters in the header of an ``sbatch`` script. This information should be placed at the top of the script that you will be submitting to Secretariat. After creating this script, save it as ``[jobname].sh``.
 
 .. code-block:: bash
    :emphasize-lines: 1,2,3,4,5,6,7
@@ -25,7 +25,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #SBATCH --mail-type=[mailtype]
    #SBATCH --mail-user=[username]@clemson.edu
 
-*Note*: At the least, please set the parameters for the highlighted lines. The only line that is absolutely required is the first: ``#!/bin/bash``.  The unhighlighted options may be helpful for organizational purposes, but are optional.
+*Note*: At the least, please set the parameters for the highlighted lines. The only line that is absolutely required is the first: ``#!/bin/bash``.  The unhighlighted options may be helpful for organizational purposes, but are optional. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
 
 **Explanation**:
 
@@ -138,6 +138,8 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 +-----------------------------------------------------------------------+---------------------------------------------------------------+
 | ``--ntasks=2 --cpus-per-task=2``					| 2 processes with up to 2 CPUs for multithreading		|
 +-----------------------------------------------------------------------+---------------------------------------------------------------+
+
+*Note*: If you choose to request resources that allow for multithreading, make sure that the software within your script supports multiple CPU usage.
 
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
