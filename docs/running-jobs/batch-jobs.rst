@@ -11,7 +11,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #!/bin/bash
    #
    #SBATCH --job-name=[jobname]
-   #SBATCH --ntasks=[cpus]
+   #SBATCH --ntasks=[tasks]
    #SBATCH --nodelist=[node]
    #SBATCH --time=[time]
    #SBATCH --mem=[mem]
@@ -22,13 +22,13 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
 
 **Explanation**:
 
-- [``jobname``]: name that will be assigned to your job within Secretariat
+- [``jobname``]: name that will be assigned to a job within Secretariat
 
-- [``cpus``]: maximum number (integer) of cores / CPUs to allocate to the job
+- [``cpus``]: maximum number (integer) of tasks to allocate to a job
 
-- [``node``]: name of node to which you will submit your job
+- [``node``]: name of node to which job will be submitted
 
-- [``time``]: maximum amount of time to allocate to the job
+- [``time``]: maximum amount of time to allocate to a job
 
   - *minutes*
   - *minutes:seconds*
@@ -83,7 +83,7 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
    #SBATCH --mail-type=all
    #SBATCH --mail-user=madonay@clemson.edu
    
-   module unload afterqc/0.9.7
+   module load afterqc/0.9.7
    
    cd /opt/ohpc/pub/workshop/tmp
    mkdir afterqc
@@ -108,7 +108,7 @@ When allocating resources to jobs, particularly with respect to nodes and CPUs, 
 
 - ``--cpus-per-task``: number of CPUs to allocate per task
 
-- ``--ntasks``: maximum number (integer) of cores / CPUs to allocate to the job
+- ``--ntasks``: maximum number (integer) of tasks to allocate to a job
 
 Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 4 CPUs to a particular job. There are a variety of ways to request 4 CPUs, and depending on the job, one method might be preferable. Here are some examples.
 
