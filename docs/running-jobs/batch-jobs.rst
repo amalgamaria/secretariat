@@ -120,8 +120,7 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 +-----------------------------------------------+---------------------------------------------------------------------------------------+
 | ``--ntasks=4``				| 4 independent processes								|
 +-----------------------------------------------+---------------------------------------------------------------------------------------+
-| ``--ntasks=4 --ntasks-per-node=1``		| 4 processes that use 1 CPU / core each, spread across 4 distinct nodes		|
-| *or*						|											|
+| ``--ntasks=4 --ntasks-per-node=1`` **or**	| 4 processes that use 1 CPU / core each, spread across 4 distinct nodes		|
 | ``--ntasks=4 --nodes=4``			|											|
 +-----------------------------------------------+---------------------------------------------------------------------------------------+
 | ``--ntasks=4 --ntasks-per-node=2``		| 4 processes spread across 2 nodes							|
