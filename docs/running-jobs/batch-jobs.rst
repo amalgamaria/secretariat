@@ -141,6 +141,7 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
+.. _Slurm: https://slurm.schedmd.com/documentation.html
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
 .. _AfterQC: https://github.com/OpenGene/AfterQC
 .. _Slurm commands: https://secretariat.readthedocs.io/en/latest/running-jobs/slurm-commands.html
