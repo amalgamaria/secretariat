@@ -67,7 +67,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
 Example
 -------
 
-Here is an example of an `sbatch` header for a script to run ``AfterQC``_.
+Here is an example of an `sbatch` header for a script to run `AfterQC`_.
 
 .. code-block:: bash
 
