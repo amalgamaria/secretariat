@@ -92,8 +92,8 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
    
    module load afterqc/0.9.7
    
-   cd /opt/ohpc/pub/workshop/tmp
-   mkdir afterqc
+   mkdir -p /opt/ohpc/pub/workshop/tmp/afterqc
+   cd /opt/ohpc/pub/workshop/toysets/fastq
    
    after.py \
       -g /opt/ohpc/pub/workshop/tmp/afterqc/pass \
