@@ -79,7 +79,7 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
    #SBATCH --job-name=afterqc_ex
    #SBATCH --cpus-per-task=2
    #SBATCH --partition=compute
-   #SBATCH --time=100:00:00
+   #SBATCH --time=120:00:00
    #SBATCH --mem=2G
    #SBATCH --output=/opt/ohpc/pub/workshop/tmp/logs/afterqc_ex.%j.out
    #SBATCH --error=/opt/ohpc/pub/workshop/tmp/logs/afterqc_ex.%j.err
@@ -98,7 +98,7 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
 
 **Explanation**:
 
-This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **40 tasks** on **compute001** with up to **150 GB of memory** and no more than **100 hours of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
+This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **2 CPUs** on one or two of the **compute** nodes with up to **2 GB of memory** and no more than **120 hours of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
 
 Jobs and nodes and tasks, oh my! 
 --------------------------------
