@@ -3,6 +3,9 @@ Computational nodes
 
 You may submit jobs to two types of partitions on Secretariat. 
 
+Secretariat specs
+-----------------
+
 +-----------------------+-----------------------+-----------------------+-----------------------+---------------+
 | Cluster		| Partition		| Node			| Compute cores (CPUs)	| RAM		|
 +=======================+=======================+=======================+=======================+===============+
@@ -19,7 +22,10 @@ You may submit jobs to two types of partitions on Secretariat.
 |                       |			| bigmem002		| 44			| 1.54 TB	|
 +-----------------------+-----------------------+-----------------------+-----------------------+---------------+
 
-On converting bytes
+When looking at file sizes or assessing specs, it is good to bear in mind the equivalencies between the different units. Please see the table below for some example conversions.
+
+Byte conversion table
+---------------------
 
 +---------------+---------------+-------------------------------+-----------------------+---------------+
 | Name		| Symbol	| Measurement			| Bytes			| Equivalency	|
