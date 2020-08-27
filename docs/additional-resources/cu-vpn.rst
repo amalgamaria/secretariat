@@ -19,13 +19,13 @@ Use
 
 Especially for first-time users, some of the steps of using the VPN to make a remote connection may be unclear, particularly with respect to the two factor authentication step. We hope to clarify some of the common hangups below.
 
-* Make sure that your secondary device (e.g. cell phone) is near you when initiating your VPN connection. If you do not complete the authentication step in a timely manner, you will need to restart the VPN connection process.
+* Make sure that your secondary device (*e.g.* cell phone) is near you when initiating your VPN connection. If you do not complete the authentication step in a timely manner, you will need to restart the VPN connection process.
 
 * After launching the Cisco AnyConnect VPN Client, entering the appropriate address (cuvpn.clemson.edu), and clicking "connect," a login box will appear. Once you have typed in your username and password, you will also need to select one of the listed options for the "Duo Passcode" section.
 
-   * If you choose the first option (i.e. Type your One-Time Passcode), you will need to navigate to the Duo Mobile app on your secondary device, select the drop-down arrow beside "Clemson University," type the six digit numeric code that should be listed, and click "OK."
+   * If you choose the first option (*i.e.* Type your One-Time Passcode), you will need to navigate to the Duo Mobile app on your secondary device, select the drop-down arrow beside "Clemson University," type the six digit numeric code that should be listed, and click "OK."
 
-   * If you choose the second option (i.e. Type "push" to get a Duo Mobile app prompt), you will need to type the word "push" (no quotes) into the box and click "OK."
+   * If you choose the second option (*i.e.* Type "push" to get a Duo Mobile app prompt), you will need to type the word "push" (no quotes) into the box and click "OK."
 
 .. _instructions: https://hdkb.clemson.edu/phpkb/article.php?id=64
 .. _Duo Enrollment: https://ccit.clemson.edu/cybersecurity/how-to/duo-authentication/
