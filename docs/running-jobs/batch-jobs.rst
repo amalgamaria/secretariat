@@ -7,12 +7,13 @@ Template
 Here is a template of how to declare Slurm parameters in the header of an ``sbatch`` script. This information should be placed at the top of the script that you will be submitting to Secretariat. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
 
 .. code-block:: bash
+  :emphasize-lines: 1,2,3,4,5,6,7
 
    #!/bin/bash
    #
    #SBATCH --job-name=[jobname]
-   #SBATCH --ntasks=[tasks]
-   #SBATCH --nodelist=[node]
+   #SBATCH --cpus-per-task=[cpus]
+   #SBATCH --partition=[partition]
    #SBATCH --time=[time]
    #SBATCH --mem=[mem]
    #SBATCH --output=[/path/to/][jobname].%j.out
@@ -20,13 +21,15 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #SBATCH --mail-type=[mailtype]
    #SBATCH --mail-user=[username]@clemson.edu
 
+Note: Only the highlighted lines are necessary. The last four options are optional.
+
 **Explanation**:
 
 - [``jobname``]: name that will be assigned to a job within Secretariat
 
-- [``cpus``]: maximum number (integer) of tasks to allocate to a job
+- [``cpus``]: number (integer) of CPUs to allocate to a job
 
-- [``node``]: name of node to which job will be submitted
+- [``partition``]: name of partition to which job will be submitted
 
 - [``time``]: maximum amount of time to allocate to a job
 
@@ -74,10 +77,10 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
    #!/bin/bash
    #
    #SBATCH --job-name=afterqc_ex
-   #SBATCH --ntasks=40
-   #SBATCH --nodelist=compute001
+   #SBATCH --cpus-per-task=2
+   #SBATCH --partition=compute
    #SBATCH --time=100:00:00
-   #SBATCH --mem=150G
+   #SBATCH --mem=2G
    #SBATCH --output=/opt/ohpc/pub/workshop/tmp/logs/afterqc_ex.%j.out
    #SBATCH --error=/opt/ohpc/pub/workshop/tmp/logs/afterqc_ex.%j.err
    #SBATCH --mail-type=all
@@ -112,23 +115,23 @@ When allocating resources to jobs, particularly with respect to nodes and CPUs, 
 
 Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 4 CPUs to a particular job. There are a variety of ways to request 4 CPUs, and depending on the job, one method might be preferable. Here are some examples.
 
-+---------------------------------------+-------------------------------------------------------------------------------+
-| Slurm paramater combinations		| Interpretation								|
-+=======================================+===============================================================================+
-| ``--ntasks=4``			| 4 independent processes							|
-+---------------------------------------+-------------------------------------------------------------------------------+
-| ``--ntasks=4 --ntasks-per-node=1``	| 4 processes that use 1 CPU / core each, spread across 4 distinct nodes	|
-| **or**				|										|
-| ``--ntasks=4 --nodes=4``		|										|
-+---------------------------------------+-------------------------------------------------------------------------------+
-| ``--ntasks=4 --ntasks-per-node=2``	| 4 processes spread across 2 nodes						|
-+---------------------------------------+-------------------------------------------------------------------------------+
-| ``--ntasks=4 --ntasks-per-node=4``	| 4 processes on the same node							|
-+---------------------------------------+-------------------------------------------------------------------------------+
-| ``--ntasks=1 --cpus-per-task=4``	| 1 process that can use up to 4 CPUs for multithreading			|
-+---------------------------------------+-------------------------------------------------------------------------------+
-| ``--ntasks=2 --cpus-per-task=2``	| 2 processes that can use up to 2 CPUs for multithreading			|
-+---------------------------------------+-------------------------------------------------------------------------------+
++---------------------------------------+-----------------------------------------------------------------------------------------------+
+| Slurm paramater combinations			| Interpretation									|
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+| ``--ntasks=4``				| 4 independent processes								|
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+| ``--ntasks=4 --ntasks-per-node=1``		| 4 processes that use 1 CPU / core each, spread across 4 distinct nodes		|
+| **or**					|											|
+| ``--ntasks=4 --nodes=4``			|											|
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+| ``--ntasks=4 --ntasks-per-node=2``		| 4 processes spread across 2 nodes							|
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+| ``--ntasks=4 --ntasks-per-node=4``		| 4 processes on the same node								|
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+| ``--ntasks=1 --cpus-per-task=4``		| 1 process that can use up to 4 CPUs for multithreading				|
++-----------------------------------------------+---------------------------------------------------------------------------------------+
+| ``--ntasks=2 --cpus-per-task=2``		| 2 processes that can use up to 2 CPUs for multithreading				|
++-----------------------------------------------+---------------------------------------------------------------------------------------+
 
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
 .. _AfterQC: https://github.com/OpenGene/AfterQC
