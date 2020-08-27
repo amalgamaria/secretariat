@@ -21,7 +21,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #SBATCH --mail-type=[mailtype]
    #SBATCH --mail-user=[username]@clemson.edu
 
-Note: Only the highlighted lines are necessary. The last four options are optional.
+*Note*: Only the highlighted lines are necessary. The last four options are optional.
 
 **Explanation**:
 
@@ -111,7 +111,9 @@ When allocating resources to jobs, particularly with respect to nodes and CPUs, 
 
 - ``--cpus-per-task``: number of CPUs to allocate per task
 
-- ``--ntasks``: maximum number (integer) of tasks to allocate to a job
+- ``--ntasks``: maximum number of tasks to allocate to a job
+
+*Note*: All of these values must be integers.
 
 Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 4 CPUs to a particular job. There are a variety of ways to request 4 CPUs, and depending on the job, one method might be preferable. Here are some examples.
 
