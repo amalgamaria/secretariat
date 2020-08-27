@@ -139,7 +139,7 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 | ``--ntasks=2 --cpus-per-task=2``					| 2 processes with up to 2 CPUs for multithreading		|
 +-----------------------------------------------------------------------+---------------------------------------------------------------+
 
-*Note*: If you choose to request resources that allow for multithreading, make sure that the software within your script supports multiple CPU usage.
+*Note*: Know your software! Make sure that the software within your script supports multiple CPU usage before requesting resources that allow for multithreading.
 
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
