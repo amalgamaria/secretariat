@@ -1,6 +1,8 @@
 Batch jobs
 ==========
 
+It is important to be careful when requesting resources on Secretariat. If you request more than what you actually need, this could stall other users waiting for resources to become available. If you are unsure about how much you should allocate for your job, please consult with `Vijay`_ or `Maria`_.
+
 Template
 --------
 
@@ -100,6 +102,8 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
 
 This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **2 CPUs** on one or two of the **compute** nodes with up to **2 GB of memory** and no more than **120 hours of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
 
+*Note*: To actually submit this script to Secretariat, please refer to :doc:`running-jobs/slurm-commands.html`.
+
 Jobs and nodes and tasks, oh my! 
 --------------------------------
 
@@ -133,6 +137,8 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 | ``--ntasks=2 --cpus-per-task=2``					| 2 processes with up to 2 CPUs for multithreading		|
 +-----------------------------------------------------------------------+---------------------------------------------------------------+
 
+.. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
 .. _AfterQC: https://github.com/OpenGene/AfterQC
 .. _Slurm FAQ: https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html
