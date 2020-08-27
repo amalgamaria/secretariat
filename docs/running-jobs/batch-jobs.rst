@@ -67,7 +67,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
 Example
 -------
 
-Here is an example of an `sbatch` header for a script to run `AfterQC`.
+Here is an example of an `sbatch` header for a script to run ``AfterQC``_.
 
 .. code-block:: bash
 
@@ -120,4 +120,5 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 - ``--ntasks=2 --cpus-per-task=2``: 2 processes that can use up to 2 CPUs for multithreading 
 
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
+.. _AfterQC: https://github.com/OpenGene/AfterQC
 .. _Slurm FAQ: https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html
