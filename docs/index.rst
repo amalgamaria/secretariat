@@ -3,14 +3,6 @@ Secretariat User Guide
 Center for Human Genetics Research Computing
 --------------------------------------------
 
-Subtitle
-########
-
-Content
-1. List
-2. List
-3. List
-
 ----
 
 .. toctree::
