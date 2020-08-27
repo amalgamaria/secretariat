@@ -3,6 +3,8 @@ Batch jobs
 
 It is important to be careful when requesting resources on Secretariat. If you request more than what you actually need, this could stall other users waiting for resources to become available. If you are unsure about how much you should allocate for your job, please consult with `Vijay`_ or `Maria`_.
 
+A common way of running an analysis on Secretariat is to run your command(s) / script(s) from within an "sbatch script." This method allows the user to request specific resources from within the script rather than typing them out on the command line. Since Secretariat's resources are managed by `Slurm`_, resource requests must be denoted in what is called an ``sbatch`` header.
+
 Template
 --------
 
@@ -23,7 +25,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #SBATCH --mail-type=[mailtype]
    #SBATCH --mail-user=[username]@clemson.edu
 
-*Note*: Only the highlighted lines are necessary. The last four options are optional.
+*Note*: At the least, please set the parameters for the highlighted lines. The only line that is absolutely required is the first: ``#!/bin/bash``.  The unhighlighted options may be helpful for organizational purposes, but are optional.
 
 **Explanation**:
 
