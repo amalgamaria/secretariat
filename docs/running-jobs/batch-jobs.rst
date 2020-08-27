@@ -112,29 +112,22 @@ When allocating resources to jobs, particularly with respect to nodes and CPUs, 
 
 Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 4 CPUs to a particular job. There are a variety of ways to request 4 CPUs, and depending on the job, one method might be preferable. Here are some examples.
 
-- ``--ntasks=4``: 4 independent processes
-- ``--ntasks=4 --ntasks-per-node=1`` ; ``--ntasks=4 --nodes=4``: CPUs spread across distinct nodes
-- ``--ntasks=4 --ntasks-per-node=2``: 4 processes spread across 2 nodes
-- ``--ntasks=4 --ntasks-per-node=4``: 4 processes on the same node
-- ``--ntasks=1 --cpus-per-task=4``: 1 process that can use up to 4 CPUs for multithreading
-- ``--ntasks=2 --cpus-per-task=2``: 2 processes that can use up to 2 CPUs for multithreading 
-
 +-----------------------------------------------+-----------------------------------------------------------------------+
-| Slurm option and paramater combinations	| Interpretation							|
+| Slurm paramater combinations		| Interpretation								|
 +===============================================+=======================================================================+
-| ``--ntasks=4``				| 4 independent processes						|
+| ``--ntasks=4``			| 4 independent processes							|
 +-----------------------------------------------+-----------------------------------------------------------------------+
-| ``--ntasks=4 --ntasks-per-node=1``		| 4 processes that use 1 CPU / core each, spread across distinct nodes	|
-| OR						|									|
-| ``--ntasks=4 --nodes=4``			|									|
+| ``--ntasks=4 --ntasks-per-node=1``	| 4 processes that use 1 CPU / core each, spread across 4 distinct nodes	|
+| **or**				|										|
+| ``--ntasks=4 --nodes=4``		|										|
 +-----------------------------------------------+-----------------------------------------------------------------------+
-| ``--ntasks=4 --ntasks-per-node=2``		| 4 processes spread across 2 nodes					|
+| ``--ntasks=4 --ntasks-per-node=2``	| 4 processes spread across 2 nodes						|
 +-----------------------------------------------+-----------------------------------------------------------------------+
-| ``--ntasks=4 --ntasks-per-node=4``		| 4 processes on the same node						|
+| ``--ntasks=4 --ntasks-per-node=4``	| 4 processes on the same node							|
 +-----------------------------------------------+-----------------------------------------------------------------------+
-| ``--ntasks=1 --cpus-per-task=4``		| 1 process that can use up to 4 CPUs for multithreading		|
+| ``--ntasks=1 --cpus-per-task=4``	| 1 process that can use up to 4 CPUs for multithreading			|
 +-----------------------+-----------------------+-----------------------------------------------------------------------+
-| ``--ntasks=2 --cpus-per-task=2``              | 2 processes that can use up to 2 CPUs for multithreading		|
+| ``--ntasks=2 --cpus-per-task=2``	| 2 processes that can use up to 2 CPUs for multithreading			|
 +-----------------------+-----------------------+-----------------------------------------------------------------------+
 
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
