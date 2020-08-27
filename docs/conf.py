@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'secretariat'
-copyright = '2019, Maria E. Adonay'
+copyright = '2020, `Maria E. Adonay`_'
 author = 'Maria E. Adonay'
 release = '0.1.0'
 
@@ -43,3 +43,4 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_theme_path = ['_themes']
 
+.. _Maria E. Adonay: https://amalgamaria.com/
