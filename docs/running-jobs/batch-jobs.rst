@@ -81,7 +81,7 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
    #!/bin/bash
    #
    #SBATCH --job-name=afterqc_ex
-   #SBATCH --cpus-per-task=2
+   #SBATCH --cpus-per-task=1
    #SBATCH --partition=compute
    #SBATCH --time=00:30:00
    #SBATCH --mem=2G
