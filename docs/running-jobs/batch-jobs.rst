@@ -85,20 +85,20 @@ Here is an example of an `sbatch` header for a script to run `AfterQC`_.
    #SBATCH --partition=compute
    #SBATCH --time=00:30:00
    #SBATCH --mem=2G
-   #SBATCH --output=/opt/ohpc/pub/workshop/tmp/logs/afterqc_ex.%j.out
-   #SBATCH --error=/opt/ohpc/pub/workshop/tmp/logs/afterqc_ex.%j.err
+   #SBATCH --output=/opt/ohpc/pub/workshop/toyout/logs/afterqc_ex.%j.out
+   #SBATCH --error=/opt/ohpc/pub/workshop/toyout/logs/afterqc_ex.%j.err
    #SBATCH --mail-type=all
    #SBATCH --mail-user=madonay@clemson.edu
    
    module load afterqc/0.9.7
    
-   mkdir -p /opt/ohpc/pub/workshop/tmp/afterqc
+   mkdir -p /opt/ohpc/pub/workshop/toyout/afterqc
    cd /opt/ohpc/pub/workshop/toysets/fastq
    
    after.py \
-      -g /opt/ohpc/pub/workshop/tmp/afterqc/pass \
-      -b /opt/ohpc/pub/workshop/tmp/afterqc/fail \
-      -r /opt/ohpc/pub/workshop/tmp/afterqc/QC
+      -g /opt/ohpc/pub/workshop/toyout/afterqc/pass \
+      -b /opt/ohpc/pub/workshop/toyout/afterqc/fail \
+      -r /opt/ohpc/pub/workshop/toyout/afterqc/QC
 
 **Explanation**:
 
