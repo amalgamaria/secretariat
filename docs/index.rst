@@ -54,6 +54,7 @@ Center for Human Genetics Research Computing
 
    additional-resources/cu-palmetto
    additional-resources/cu-vpn
+   additional-resources/tickets
 
 .. toctree::
    :maxdepth: 1
