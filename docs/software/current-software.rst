@@ -1,7 +1,7 @@
 Current software
 ================
 
-Currently accessible software modules on Secretariat.
+Currently accessible software modules on Secretariat. This list is updated periodically. For full, current list, please log in to Secretariat and run the command ``module avail``.
 
 +-----------------------+-----------------------+---------------------------------------------------------------+
 | Software		| Version		| Description							|
