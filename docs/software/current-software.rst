@@ -194,7 +194,7 @@ Currently accessible software modules on Secretariat. This list is updated perio
 +-----------------------+-----------------------+---------------------------------------------------------------+
 | py3-scipy		| 1.1.0			|								|
 +-----------------------+-----------------------+---------------------------------------------------------------+
-| R			| 3.5.0, 3.6.1, 4.0.2	|								|
+| R			| 3.5.0, 3.6.1, 4.0.2*	|								|
 +-----------------------+-----------------------+---------------------------------------------------------------+
 | recon			| 1.0.8			|								|
 +-----------------------+-----------------------+---------------------------------------------------------------+
@@ -258,5 +258,7 @@ Currently accessible software modules on Secretariat. This list is updated perio
 +-----------------------+-----------------------+---------------------------------------------------------------+
 | vcftools		| 0.1.16		|								|
 +-----------------------+-----------------------+---------------------------------------------------------------+
+
+Note: Software versions with an ``*`` after their version number were compiled using `gcc/10.1.0` rather than `gnu8/8.2.0`. Before using these software, run the command `module swap gnu8 gcc/10.1.0`; After using these software, run the command `module swap gcc/10.1.0 gnu8`. This will ensure that all software modules function properly.
 
 List last updated: 6 October 2020.
