@@ -1,7 +1,9 @@
 Current software
 ================
 
-Currently accessible software modules on Secretariat. This list is updated periodically. For full, current list, please log in to Secretariat and run the command ``module avail``.
+This is a table of the currently accessible software modules on Secretariat. This list is updated periodically. For a full, current list, please log in to Secretariat and run the command ``module avail``.
+
+Note: Software versions with an ``*`` after their version number were compiled using ``gcc/10.1.0`` rather than ``gnu8/8.2.0``. Before using these software, run the command ``module swap gnu8 gcc/10.1.0``; After using these software, run the command ``module swap gcc/10.1.0 gnu8``. This will ensure that all software modules function properly.
 
 +-----------------------+-----------------------+---------------------------------------------------------------+
 | Software		| Version		| Description							|
@@ -258,7 +260,5 @@ Currently accessible software modules on Secretariat. This list is updated perio
 +-----------------------+-----------------------+---------------------------------------------------------------+
 | vcftools		| 0.1.16		|								|
 +-----------------------+-----------------------+---------------------------------------------------------------+
-
-Note: Software versions with an ``*`` after their version number were compiled using ``gcc/10.1.0`` rather than ``gnu8/8.2.0``. Before using these software, run the command ``module swap gnu8 gcc/10.1.0``; After using these software, run the command ``module swap gcc/10.1.0 gnu8``. This will ensure that all software modules function properly.
 
 List last updated: 6 October 2020.
