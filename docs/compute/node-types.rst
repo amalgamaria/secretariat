@@ -13,14 +13,16 @@ Secretariat specs
 +			+			+-----------------------+-----------------------+---------------+
 |			|			| compute002		| 40			| 192 GB	|
 +			+			+-----------------------+-----------------------+---------------+
-|			|			| compute003		| 40			| 192 GB	|
+|			|			| compute003 ``*``	| 40			| 192 GB	|
 +			+			+-----------------------+-----------------------+---------------+
-|			|			| compute004		| 40			| 192 GB	|
+|			|			| compute004 ``*``	| 40			| 192 GB	|
 +                       +-----------------------+-----------------------+-----------------------+---------------+
 |                       | bigmem		| bigmem001		| 40			| 1.54 TB	|
 +                       +			+-----------------------+-----------------------+---------------+
 |                       |			| bigmem002		| 40			| 1.54 TB	|
 +-----------------------+-----------------------+-----------------------+-----------------------+---------------+
+
+``*`` These compute nodes also belong to another partition called _PBC_ (_do __not__ submit jobs to this partition_). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the ``compute`` partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from ``compute003`` or ``compute004``; however, the timing of your process initiation will depend on if the nodes are currently in use by the PacBio Sequencer.
 
 When looking at file sizes or assessing specs, it is good to bear in mind the equivalencies between the different units. Please see the table below for some example conversions.
 
