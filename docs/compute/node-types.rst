@@ -10,16 +10,16 @@ Secretariat specs
 | Cluster	| Partition	| Node			| Compute cores (CPUs)	| RAM		|
 +===============+===============+=======================+=======================+===============+
 |		|		| compute001		| 40			| 192 GB	|
-+		+ compute	+-----------------------+-----------------------+---------------+
-|		|		| compute002		| 40			| 192 GB	|
++		+		+-----------------------+-----------------------+---------------+
+|		| compute	| compute002		| 40			| 192 GB	|
 +		+		+-----------------------+-----------------------+---------------+
 |		|		| compute003 ``*``	| 40			| 192 GB	|
 +		+		+-----------------------+-----------------------+---------------+
 |		|		| compute004 ``*``	| 40			| 192 GB	|
-+ Secretariat	+---------------+-----------------------+-----------------------+---------------+
-|		|		| bigmem001		| 40			| 1.54 TB	|
-+		+ bigmem	+-----------------------+-----------------------+---------------+
-|		|		| bigmem002		| 40			| 1.54 TB	|
++		+---------------+-----------------------+-----------------------+---------------+
+| Secretariat	|		| bigmem001		| 40			| 1.54 TB	|
++		+		+-----------------------+-----------------------+---------------+
+|		| bigmem	| bigmem002		| 40			| 1.54 TB	|
 +---------------+---------------+-----------------------+-----------------------+---------------+
 
 .. note:: ``*`` These compute nodes also belong to another partition called *PBC* (**do not** submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the ``compute`` partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from ``compute003`` and ``compute004``; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
