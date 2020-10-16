@@ -17,9 +17,9 @@ Secretariat specs
 +			+			+-----------------------+-----------------------+---------------+
 |			|			| compute004		| 40			| 192 GB	|
 +                       +-----------------------+-----------------------+-----------------------+---------------+
-|                       | bigmem		| bigmem001		| 44			| 1.54 TB	|
+|                       | bigmem		| bigmem001		| 40			| 1.54 TB	|
 +                       +			+-----------------------+-----------------------+---------------+
-|                       |			| bigmem002		| 44			| 1.54 TB	|
+|                       |			| bigmem002		| 40			| 1.54 TB	|
 +-----------------------+-----------------------+-----------------------+-----------------------+---------------+
 
 When looking at file sizes or assessing specs, it is good to bear in mind the equivalencies between the different units. Please see the table below for some example conversions.
