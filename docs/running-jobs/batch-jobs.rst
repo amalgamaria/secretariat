@@ -25,7 +25,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #SBATCH --mail-type=[mailtype]
    #SBATCH --mail-user=[username]@clemson.edu
 
-*Note*: At the least, please set the parameters for the highlighted lines. The only line that is absolutely required is the first: ``#!/bin/bash``.  The unhighlighted options may be helpful for organizational purposes, but are optional. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
+.. note:: At the least, please set the parameters for the highlighted lines. The only line that is absolutely required is the first: ``#!/bin/bash``.  The unhighlighted options may be helpful for organizational purposes, but are optional. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
 
 **Explanation**:
 
@@ -104,7 +104,7 @@ Here is an example of an ``sbatch`` header for a script to run `AfterQC`_.
 
 This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **2 CPUs** on one or two of the **compute** nodes with up to **2 GB of memory** and no more than **30 minutes of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
 
-*Note*: To actually submit this script to Secretariat, please refer to the `Slurm commands`_ tab.
+.. note:: To actually submit this script to Secretariat, please refer to the `Slurm commands`_ tab.
 
 Jobs and nodes and tasks, oh my! 
 --------------------------------
@@ -119,7 +119,7 @@ When allocating resources to jobs, particularly with respect to nodes and CPUs, 
 
 - ``--ntasks``: maximum number of tasks to allocate to a job
 
-*Note*: All of these values must be integers.
+.. note:: All of these values must be integers.
 
 Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 4 CPUs to a particular job. There are a variety of ways to request 4 CPUs, and depending on the job, one method might be preferable. Here are some examples.
 
@@ -139,7 +139,7 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 | ``--ntasks=2 --cpus-per-task=2``					| 2 processes with up to 2 CPUs for multithreading		|
 +-----------------------------------------------------------------------+---------------------------------------------------------------+
 
-*Note*: Know your software! Make sure that the software within your script supports multiple CPU usage before requesting resources that allow for multithreading.
+.. note:: Know your software! Make sure that the software within your script supports multiple CPU usage before requesting resources that allow for multithreading.
 
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
