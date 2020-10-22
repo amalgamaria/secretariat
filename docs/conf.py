@@ -42,3 +42,4 @@ htmlhelp_basename = 'secretariatdoc'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_theme_path = ['_themes']
+html_css_files = ['_static/custom.css']
