@@ -3,7 +3,7 @@ Current software
 
 This is a table of the modularized software on Secretariat.
 
-.. note::
+.. attention::
    
    - This list is updated only periodically. For a full, current list, log in to Secretariat and run the command ``module avail``.
 

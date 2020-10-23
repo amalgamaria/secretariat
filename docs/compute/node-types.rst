@@ -22,7 +22,7 @@ Secretariat specs
 |		| bigmem	| bigmem002		| 40			| 1.54 TB	|
 +---------------+---------------+-----------------------+-----------------------+---------------+
 
-.. note:: ``*`` These compute nodes also belong to another partition called *PBC* (**do not** submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the ``compute`` partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from ``compute003`` and ``compute004``; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
+.. attention:: ``*`` These compute nodes also belong to another partition called *PBC* (**do not** submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the ``compute`` partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from ``compute003`` and ``compute004``; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
 
 When looking at file sizes or assessing specs, it is good to bear in mind the equivalencies between the different units. Please see the table below for some example conversions.
 
