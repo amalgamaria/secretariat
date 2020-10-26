@@ -25,7 +25,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #SBATCH --mail-type=[mailtype]
    #SBATCH --mail-user=[username]@clemson.edu
 
-.. attention:: At the least, please set the parameters for the highlighted lines. The only line that is absolutely required is the first: ``#!/bin/bash``.  The unhighlighted options may be helpful for organizational purposes, but are optional. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
+.. attention:: At the least, please set the parameters for lines 1-7. The only line that is absolutely required is the first: ``#!/bin/bash``.  The unhighlighted options may be helpful for organizational purposes, but are optional. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
 
 **Explanation**:
 
@@ -77,6 +77,7 @@ Example
 Here is an example of an ``sbatch`` header for a script to run `AfterQC`_.
 
 .. code-block:: bash
+   :linenos:
 
    #!/bin/bash
    #
