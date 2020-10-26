@@ -4,15 +4,15 @@
   <style>
     /* Sidebar header (and topbar for mobile) */
     .wy-side-nav-search, .wy-nav-top {
-      background: #bc74ee;
+      background: #900C3F;
     }
     /* Sidebar */
     .wy-nav-side {
-      background: #551383;
+      background: #581845;
     }
     /* Sidebar text */
     .wy-menu > .caption > span.caption-text {
-      color: #210336;
+      color: #f0b37e;
     }
     /* Sidebar unvisited links */
     .sidebar a:link {
@@ -39,9 +39,10 @@
     code {
      color: #ff4500;
     }
-    .hll { 
-     background-color: ##ffedcc; 
-    }
+    code .hll, pre.code .hll { background-color: #ffedcc }
+    code, pre.code  { background: #272822; color: #ffedcc }
+    code .c, pre.code .c { color: #75715e } /* Comment */
+    code .err, pre.code .err { color: #960050; background-color: #ffedcc } /* Error */
   </style>
 
 {% endblock %}
