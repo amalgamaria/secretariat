@@ -11,7 +11,7 @@ Template
 Here is a template of how to declare Slurm parameters in the header of an ``sbatch`` script. This information should be placed at the top of the script that you will be submitting to Secretariat. After creating this script, save it as ``[jobname].sh``.
 
 .. code-block:: bash
-   :emphasize-lines: 1,2,3,4,5,6,7
+   :linenos:
 
    #!/bin/bash
    #
