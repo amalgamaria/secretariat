@@ -25,7 +25,7 @@ Part 1: Connect
 	b. Set 'Protocol' as 'SFTP - SSH File Transfer Protocol' in the dropdown list.
 	c. Type **secretariat-master.clemson.edu** in the 'Host' box. 
 	d. Set 'Logon Type' as 'Ask for password' in the dropdown list.
-	e. Type your username in the 'User` box.
+	e. Type your `username` in the 'User` box.
 	f. Click 'OK' at the bottom of the window.
 
 5. Reopen the 'Site manager' and select 'Secretariat' in the list of sites in the left window.
@@ -35,14 +35,16 @@ Part 1: Connect
 .. code-block:: bash
 
    The server's host key is unknown. You have no guarantee that the server is the computer you think it is. 
+   
    [...] 
+   
    Trust this host and carry on connecting?
 
 8. Output should print to the 'Message log'.
 
-	*This is thhe pannel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
+	*This is the pannel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
 
-   When output similar to the following appears in the 'Message log' and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
+   When output similar to the following appears and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
 
 .. code-block:: rst
 
