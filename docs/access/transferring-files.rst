@@ -34,8 +34,11 @@ Part 1: Connect
 
 .. code-block:: bash
 
-   The server's host key is unknown. You have no guarantee that the server is the computer you think it is. [...] Trust this host and carry on connecting?
+   The server's host key is unknown. You have no guarantee that the server is the computer you think it is. 
+   [...] 
+   Trust this host and carry on connecting?
 
+   
    Click 'OK'.
 
 
