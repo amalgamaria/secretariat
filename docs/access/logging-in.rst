@@ -2,9 +2,9 @@
 Logging in
 ==========
 
-Complete Parts 1 and 2 to login, set your password, and to access the computational nodes.
+Sequentially complete **both** Parts 1 and 2 to login, set your password, and to access the computational nodes. For Part 1, complete the instructions appropriate for your machine.
 
-**Do not attempt the following steps until you have been contacted regarding your username.**
+.. attention:: Do not attempt the following steps until you have been contacted regarding your username.
 
 ----
 
@@ -26,7 +26,7 @@ Login complete!
 For Windows
 -----------
 
-1. Download `MobaXterm`_. (The 'Installer Edition' is fine.)
+1. Download `MobaXterm`_. (Either edition is fine.)
 2. After installing, launch MobaXterm and click the 'Session' button. Select 'SSH'.
 3. Type **secretariat-master.clemson.edu** in the 'Remote host' box.
 4. Check the 'Specify username' box and type your aforementioned username.
@@ -38,6 +38,8 @@ For Windows
 
 Login complete!
 
+.. attention:: Remain logged in to complete Part 2.
+
 ----
 
 Part 2: Prepare work environment
@@ -46,7 +48,7 @@ Part 2: Prepare work environment
 For Linux / Mac / Windows
 -------------------------
 
-1. Type ``passwd`` on the command line; Press Enter.
+1. While logged in to Secretariat, Type ``passwd`` on the command line; Press Enter.
 
 	*You will be prompted to enter your current password and then your new password.*
 
