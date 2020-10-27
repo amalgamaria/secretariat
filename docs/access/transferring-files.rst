@@ -3,13 +3,15 @@ Transferring files
 
 When transferring files between external sources and Secretariat, you have a few options.
 
-If you have a small number of small files, and you are not very comfortable working from the command line, **FileZilla** may be a good option for you. FileZilla facilitates file transfers within a graphical user interface (GUI) that may feel more familiar to novice programmers. For larger files and larger numbers of files, you should use **scp** and **rsync**. Please find instructions on how to use each of the methods, below.
+If you have a small number of small files and you are not very comfortable working from the command line, **FileZilla** may be a good option for you. FileZilla facilitates file transfers within a graphical user interface (GUI) that may feel more familiar to novice programmers. For larger files or larger numbers of files, you should use **scp** and **rsync**. 
+
+Please find instructions on how to use each of the methods, below.
 
 FileZilla
 ---------
 
-Establish the connection
-^^^^^^^^^^^^^^^^^^^^^^^^
+Part 1: Connect
+^^^^^^^^^^^^^^^
 
 1. Download and install the `FileZilla client`_.
 2. Launch the client.
@@ -43,17 +45,17 @@ Establish the connection
 
    When output similar to the following appears in the 'Message log' and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
 
-.. code-block:: bash
+.. code-block::
 
    Status:	Connected to secretariat-master.clemson.edu
    Status:	Retrieving directory listing...
-   Status:	Listing directory /home/madonay
-   Status:	Directory listing of "/home/madonay" successful
+   Status:	Listing directory /home/[`username`]
+   Status:	Directory listing of "/home/[`username`]" successful
 
 Connection established!
 
-Transfer the files
-^^^^^^^^^^^^^^^^^^
+Part 2: Transfer
+^^^^^^^^^^^^^^^^
 
 
 
