@@ -13,7 +13,10 @@ Establish the connection
 
 1. Download and install the `FileZilla client`_.
 2. Launch the client.
-3. Open the 'Site manager' -- this is usually the upper left icon on the 'Toolbar' (it resembles a cluster of three rectangular machines).
+3. Open the 'Site manager' -- this is usually the upper left icon on the 'Toolbar'.
+
+	*It resembles a cluster of three rectangular machines.*
+
 4. Create a new site: 
 
 	a. Click 'New Site' and name it **Secretariat**.
@@ -23,15 +26,22 @@ Establish the connection
 	e. Type your username in the 'User` box.
 	f. Click 'OK' at the bottom of the window.
 
-5. Reopen the 'Site manager' and select 'Secretariat' in the list of sites in the left window. Click 'Connect.'
-6. Enter your password.
-7. Trust the host: An 'Unknown host key' window may pop up at this stage. It may present a message similar to the one below:
+5. Reopen the 'Site manager' and select 'Secretariat' in the list of sites in the left window.
+6. Click 'Connect' and enter your password.
+7. Trust the host: An 'Unknown host key' window may appear with a message similar to the one below:
 
-	*The server's host key is unknown. You have no guarantee that the server is the computer you think it is. [...] Trust this host and carry on connecting?*
+.. code-block:: bash
+
+   The server's host key is unknown. You have no guarantee that the server is the computer you think it is. [...] Trust this host and carry on connecting?
 
    Click 'OK'.
 
-8. Output should print to the 'Message log' (the pannel below the 'Toolbar' and 'Quickconnect' sections at the top of the window). When output similar to the following appears and files / directories appear for both the 'Local site' and the 'Remote site', the connection has been successfully established.
+
+8. Output should print to the 'Message log'.
+
+	*This is thhe pannel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
+
+   When output similar to the following appears in the 'Message log' and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
 
 .. code-block:: bash
 
