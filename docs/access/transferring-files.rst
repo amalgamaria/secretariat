@@ -30,17 +30,13 @@ Part 1: Connect
 
 5. Reopen the 'Site manager' and select 'Secretariat' in the list of sites in the left window.
 6. Click 'Connect' and enter your password.
-7. Trust the host: An 'Unknown host key' window may appear with a message similar to the one below:
+7. Trust the host: An 'Unknown host key' window may appear with a message similar to the one below. Click 'OK'.
 
 .. code-block:: bash
 
    The server's host key is unknown. You have no guarantee that the server is the computer you think it is. 
    [...] 
    Trust this host and carry on connecting?
-
-   
-   Click 'OK'.
-
 
 8. Output should print to the 'Message log'.
 
