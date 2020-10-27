@@ -48,7 +48,7 @@ Part 1: Connect
 
    When output similar to the following appears in the 'Message log' and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
 
-.. code-block::
+.. code-block:: rst
 
    Status:	Connected to secretariat-master.clemson.edu
    Status:	Retrieving directory listing...
