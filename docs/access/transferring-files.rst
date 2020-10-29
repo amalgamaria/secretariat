@@ -25,7 +25,7 @@ Part 1: Connect
 	b. Set 'Protocol' as 'SFTP - SSH File Transfer Protocol' in the dropdown list.
 	c. Type **secretariat-master.clemson.edu** in the 'Host' box. 
 	d. Set 'Logon Type' as 'Ask for password' in the dropdown list.
-	e. Type your `username` in the 'User` box.
+	e. Type your ``username`` in the 'User' box.
 	f. Click 'OK' at the bottom of the window.
 
 5. Reopen the 'Site manager' and select 'Secretariat' in the list of sites in the left window.
@@ -58,27 +58,59 @@ Connection established!
 Part 2: Transfer
 ^^^^^^^^^^^^^^^^
 
+Once you have established a connection, you may initiate uploads and downloads between the two sites.
+
+A. **Upload: Local-to-remote**
+
+	1. Locate the file(s) / folder(s) to upload.
+
+		*Within the 'Local site' window, select the file(s) / folder(s).*
+
+	2. Locate the destination folder.
+
+		*Within the 'Remote site' window, select the destination folder.*
+	
+	3. Right click the file(s) / folder(s) to upload. Select 'Upload' in the drop down list that appears.
+		d. The transfer should initiate. You may track your progress in the 'Transfer queue'.
+
+			*This is the panel at the bottom of the window.*
+
+		e. Once the files appear in the 'Successful transfers' tab of the 'Transfer queue', the file has been successfully transferred from the local site to the remote site.
+
+	Transfer complete!
+
+B. **Download: Remote-to-local**
+
 
 
 scp
 ---
 
-**Local to remote**
+Part 1: ___
+^^^^^^^^^^^
+
+``scp`` is already installed on Secretariat. Please see the use-cases, below.
+
+Part 2: Transfer
+^^^^^^^^^^^^^^^^
+
+A. **Local to remote**
 
 
 
-**Remote to local**
+B. **Remote to local**
 
 
 
-**Remote to remote**
+C. Additional option: **Remote to remote**
 
+[ Coming soon -- E.g. Palmetto to Secretariat ]
 
 
 rsync
 -----
 
-
+[ Coming soon ]
 
 
 .. _FileZilla client: https://filezilla-project.org/
