@@ -103,7 +103,7 @@ Once you have established a connection, you may initiate uploads and downloads b
 scp
 ---
 
-``scp`` is already installed on Secretariat. Please see the use-cases, below.
+``scp`` is a function used to securely copy files and is already installed on Secretariat. Please see the use-cases, below.
 
 1. **Local to remote**
 
