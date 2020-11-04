@@ -107,7 +107,7 @@ scp
 
 1. **Local to remote**
 
-	scp ``file.txt`` ``username``@secretariat-master.clemson.edu:``/remote/directory/``
+	``scp file.txt username@secretariat-master.clemson.edu:/remote/directory/``
 
 	where
 		- ``file.txt``: file to upload to Secretariat
@@ -116,7 +116,7 @@ scp
 
 2. **Remote to local**
 
-	scp ``username``@secretariat-master.clemson.edu:``file.txt`` ``/local/directory/``
+	``scp username@secretariat-master.clemson.edu:file.txt /local/directory/``
 
 	where
 
