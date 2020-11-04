@@ -60,57 +60,68 @@ Part 2: Transfer
 
 Once you have established a connection, you may initiate uploads and downloads between the two sites.
 
-A. **Upload: Local-to-remote**
+1. **Upload: Local-to-remote**
 
-	1. Locate the file(s) / folder(s) to upload.
+	a. Locate the file(s) / folder(s) to upload.
 
 		*Within the 'Local site' window, select the file(s) / folder(s).*
 
-	2. Locate the destination folder.
+	b. Locate the destination folder.
 
 		*Within the 'Remote site' window, select the destination folder.*
 	
-	3. Right click the file(s) / folder(s) to upload. Select 'Upload' in the drop down list that appears.
-		d. The transfer should initiate. You may track your progress in the 'Transfer queue'.
+	c. Right click the file(s) / folder(s) to upload. Select 'Upload' in the drop down list that appears.
+		
+		i. The transfer should initiate. You may track your progress in the 'Transfer queue'.
 
 			*This is the panel at the bottom of the window.*
 
-		e. Once the files appear in the 'Successful transfers' tab of the 'Transfer queue', the file has been successfully transferred from the local site to the remote site.
+		ii. Once the files appear in the 'Successful transfers' tab of the 'Transfer queue', the file has been successfully transferred from the local site to the remote site.
 
 	Transfer complete!
 
-B. **Download: Remote-to-local**
+2. **Download: Remote-to-local**
 
+	a. Locate the file(s) / folder(s) to download.
 
+		*Within the 'Remote site' window, select the file(s) / folder(s).*
+
+	b. Locate the destination folder.
+
+		*Within the 'Local site' window, select the destination folder.*
+	
+	c. Right click the file(s) / folder(s) to download. Select 'Download' in the drop down list that appears.
+		
+		i. The transfer should initiate. You may track your progress in the 'Transfer queue'.
+
+			*This is the panel at the bottom of the window.*
+
+		ii. Once the files appear in the 'Successful transfers' tab of the 'Transfer queue', the file has been successfully transferred from the remote site to the local site.
+
+	Transfer complete!
 
 scp
 ---
 
-Part 1: ___
-^^^^^^^^^^^
-
 ``scp`` is already installed on Secretariat. Please see the use-cases, below.
 
-Part 2: Transfer
-^^^^^^^^^^^^^^^^
+1. **Local to remote**
 
-A. **Local to remote**
+	scp ``file.txt`` ``username``@secretariat-master.clemson.edu:``/remote/directory/``
 
+	where
+		- ``file.txt``: file to upload to Secretariat
+		- ``username``: your username to log in to Secretariat
+		- ``/remote/directory/``: where to upload file on Secretariat
 
+2. **Remote to local**
 
-B. **Remote to local**
+	scp ``username``@secretariat-master.clemson.edu:``file.txt`` ``/local/directory/``
 
+	where
 
-
-C. Additional option: **Remote to remote**
-
-[ Coming soon -- E.g. Palmetto to Secretariat ]
-
-
-rsync
------
-
-[ Coming soon ]
-
+             	- ``file.txt``: file to download from Secretariat
+                - ``username``: your username to log in	to Secretariat
+                - ``/remote/directory/``: where	to download file on local machine
 
 .. _FileZilla client: https://filezilla-project.org/
