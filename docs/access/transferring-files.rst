@@ -110,6 +110,7 @@ scp
 	``scp file.txt username@secretariat-master.clemson.edu:/remote/directory/``
 
 	where
+
 		- ``file.txt``: file to upload to Secretariat
 		- ``username``: your username to log in to Secretariat
 		- ``/remote/directory/``: where to upload file on Secretariat
@@ -122,6 +123,6 @@ scp
 
              	- ``file.txt``: file to download from Secretariat
                 - ``username``: your username to log in	to Secretariat
-                - ``/remote/directory/``: where	to download file on local machine
+                - ``/local/directory/``: where	to download file on local machine
 
 .. _FileZilla client: https://filezilla-project.org/
