@@ -57,8 +57,13 @@ For Linux / Mac / Windows
 	*The process will be complete when the command line prompt returns to the* ``[username]@secretariat-master ~]$`` *format.*
 
 3. Type ``cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys`` on the command line; Press Enter.
-4. Type ``exit`` on the command line.
+
+4. Type ``chmod -R 700 ~/.ssh`` on the command line; Press Enter.
+
+5. Type ``exit`` on the command line; Press Enter.
 
 Session ended!
+
+.. attention:: Immediately after completing Part 2, inform Vijay or Maria so that they may finalize the status of your newly created account on Secretariat!
 
 .. _MobaXterm: https://mobaxterm.mobatek.net/
