@@ -107,22 +107,22 @@ scp
 
 1. **Local to remote**
 
-	``scp file.txt username@secretariat-master.clemson.edu:/remote/directory/``
+	``scp /path/to/file.txt username@secretariat-master.clemson.edu:/remote/directory/``
 
 	where
 
-		- ``file.txt``: file to upload to Secretariat
+		- ``/path/to/file.txt``: file (including full path) to upload to Secretariat
 		- ``username``: your username to log in to Secretariat
 		- ``/remote/directory/``: where to upload file on Secretariat
 
 2. **Remote to local**
 
-	``scp username@secretariat-master.clemson.edu:file.txt /local/directory/``
+	``scp username@secretariat-master.clemson.edu:/path/to/file.txt /local/directory/``
 
 	where
 
-             	- ``file.txt``: file to download from Secretariat
+             	- ``/path/to/file.txt``: file (including full path) to download from Secretariat
                 - ``username``: your username to log in	to Secretariat
-                - ``/local/directory/``: where	to download file on local machine
+                - ``/local/directory/``: where to download file on local machine
 
 .. _FileZilla client: https://filezilla-project.org/
