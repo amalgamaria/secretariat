@@ -6,7 +6,7 @@ Any time that you are using an internet connection other than the Clemson networ
 Setup
 -----
 
-CCIT has written `instructions`_ on how to connect to the Clemson University Virtual Private Network (CUVPN). The steps can be summarized in the following manner:
+`Clemson Computing & Information Technology (CCIT)`_ has written `instructions`_ on how to connect to the Clemson University Virtual Private Network (CUVPN). The steps can be summarized in the following manner:
 
 1. `Duo Enrollment`_: You will need to register for Duo two factor authentication if you have not already so that you can make a secure remote connection.
 
@@ -27,6 +27,7 @@ Especially for first-time users, some of the steps of using the VPN to make a re
 
    * If you choose the second option (*i.e.* Type "push" to get a Duo Mobile app prompt), you will need to type the word "push" (no quotes) into the box and click "OK."
 
+.. _Clemson Computing & Information Technology (CCIT): https://ccit.clemson.edu/
 .. _instructions: https://hdkb.clemson.edu/phpkb/article.php?id=64
 .. _Duo Enrollment: https://ccit.clemson.edu/cybersecurity/how-to/duo-authentication/
 .. _Cisco AnyConnect VPN Client: https://cuvpn.clemson.edu/+CSCOE+/logon.html#form_title_text
