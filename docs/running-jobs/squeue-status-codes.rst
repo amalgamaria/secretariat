@@ -23,7 +23,7 @@ Job 1.	: *R*
 
 Job 2.	: *PD*
 
-	The job is **P**\ en\ **D**\ ing / waiting on sufficient resources to run. "Sufficient resources" are determined by the user at the submission of the job. If the user does not make any specifications at job submission, the default resource settings are used. Once sufficient resources are available, the status will change the *R*.
+	The job is **P**\ en\ **D**\ ing. This means that it is waiting on sufficient resources to run. "Sufficient resources" are determined by the user at the submission of the job. If the user does not make any specifications at job submission, the default resource settings are used. Once sufficient resources are available, the status will change the *R*.
 
 Job 3.	: *CG*
 
