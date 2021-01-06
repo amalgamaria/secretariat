@@ -17,17 +17,17 @@ The status codes are found in the "ST" (status) column. Although the three above
 
 **Description of each code:**
 
-Job 1.	: `R`
+Job 1.	: *R*
 
-	The job is ``r``unning.
+	The job is **R**\ unning.
 
-Job 2.	: `PD`
+Job 2.	: *PD*
 
-	The job is ``p``en``d``ing / waiting on sufficient resources to run. "Sufficient resources" are determined by the user at the submission of the job. If the user does not make any specifications at job submission, the default resource settings are used.
+	The job is **P**\ en\ **D**\ ing / waiting on sufficient resources to run. "Sufficient resources" are determined by the user at the submission of the job. If the user does not make any specifications at job submission, the default resource settings are used. Once sufficient resources are available, the status will change the *R*.
 
-Job 3.	: `CG`
+Job 3.	: *CG*
 
-	The job is in the process of ``c``ompletin``g``. The job should finish shortly and disappear from the ``squeue`` table.
+	The job is **C**\ ompletin\ **G**. The job should finish shortly and disappear from the ``squeue`` table.
 
 
 .. _this document: https://curc.readthedocs.io/en/latest/running-jobs/squeue-status-codes.html
