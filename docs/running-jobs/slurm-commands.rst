@@ -1,6 +1,8 @@
 Slurm commands
 ==============
 
+.. attention:: For a full list of commands, see the `Slurm documentation`_.
+
 sbatch
 ------
 
@@ -102,5 +104,6 @@ where [``username``] is your username.
 
 .. attention:: Do not include the brackets ("[" and "]") when substituting your ``job_id_number`` and ``username``.
 
+.. _Slurm documentation: https://slurm.schedmd.com/man_index.html
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
 .. _Squeue status codes: https://secretariat.readthedocs.io/en/latest/running-jobs/squeue-status-codes.html#squeue-status-codes
