@@ -74,36 +74,51 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
 Example
 -------
 
-Here is an example of an ``sbatch`` header for a script to run `AfterQC`_.
+Here is an example of an ``sbatch`` header for a script to run `fastp`_.
 
 .. code-block:: bash
    :linenos:
 
    #!/bin/bash
    #
-   #SBATCH --job-name=afterqc_ex
+   #SBATCH --job-name=fastp_ex
    #SBATCH --cpus-per-task=1
    #SBATCH --partition=compute
    #SBATCH --time=00:30:00
    #SBATCH --mem=2G
-   #SBATCH --output=/opt/ohpc/pub/workshop/toyout/logs/afterqc_ex.%j.out
-   #SBATCH --error=/opt/ohpc/pub/workshop/toyout/logs/afterqc_ex.%j.err
+   #SBATCH --output=/opt/ohpc/pub/workshop/toyout/logs/fastp_ex.%j.out
+   #SBATCH --error=/opt/ohpc/pub/workshop/toyout/logs/fastp_ex.%j.err
    #SBATCH --mail-type=all
    #SBATCH --mail-user=madonay@clemson.edu
+
+   # Load software   
+   module load fastp/0.21.0
    
-   module load afterqc/0.9.7
+   # Save directories as variables
+   export dir_in="/opt/ohpc/pub/workshop/toysets/fastq/dnaseq"
+   export dir_out="/opt/ohpc/pub/workshop/toyout/fastp"
+
+   # Prepare directories
+   mkdir -p ${dir_out}
+   cd ${dir_in}
    
-   mkdir -p /opt/ohpc/pub/workshop/toyout/afterqc
-   cd /opt/ohpc/pub/workshop/toysets/fastq
+   # Execute function for each fastq file
+   # Note: This example is for single-end data
+   for f in *.fq.gz
+   do
+      prefix=$(echo ${f} | cut -f1-3 -d'_')
+
+      fastp \
+         -i ${dir_in}/${f} \
+         -o ${dir_out}/${prefix}.out
+   done
    
-   after.py \
-      -g /opt/ohpc/pub/workshop/toyout/afterqc/pass \
-      -b /opt/ohpc/pub/workshop/toyout/afterqc/fail \
-      -r /opt/ohpc/pub/workshop/toyout/afterqc/QC
+   # Unload software
+   module unload fastp/0.21.0
 
 **Explanation**:
 
-This script sets up a job named **afterqc_ex** to execute the python script **after.py**. This script allocates **2 CPUs** on one or two of the **compute** nodes with up to **2 GB of memory** and no more than **30 minutes of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
+This script sets up a job named **fastp_ex** to execute the function **fastp**. This script allocates **1 CPU** on a **compute** node (compute[001-004]) with up to **2 GB of memory** and no more than **30 minutes of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
 
 .. attention:: To actually submit this script to Secretariat, please refer to the `Slurm commands`_ tab.
 
@@ -146,6 +161,6 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _Slurm: https://slurm.schedmd.com/documentation.html
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
-.. _AfterQC: https://github.com/OpenGene/AfterQC
+.. _fastp: https://github.com/OpenGene/fastp
 .. _Slurm commands: https://secretariat.readthedocs.io/en/latest/running-jobs/slurm-commands.html
 .. _Slurm FAQ: https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html
