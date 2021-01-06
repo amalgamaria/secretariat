@@ -5,6 +5,9 @@ Software on Secretariat are accessed via a module system. Most of the software i
 
 To see what modules are available, run ``module avail`` from the command line. This command returns a list of loadable software in the form [``software_name``]/[``version_number``].
 
+Load / unload
+-------------
+
 To load software, run the following from the command line:
 
 .. code-block:: bash
@@ -19,9 +22,12 @@ To unload software, run the following from the command line:
 
    module unload [software_name]/[version_number]
 
-.. attention:: Do not include the brackets (“[” and “]”) when substituting your ``software_name`` and ``version_number``..
+.. attention:: Do not include the brackets (“[” and “]”) when substituting your ``software_name`` and ``version_number``.
 
 To see which software are currently loaded, run ``module list`` from the command line. This command returns a list of software that are currently loaded in the user's environment.
+
+Within scripts
+--------------
 
 .. attention:: Software must be loaded within scripts, regardless of whether the software is currently loaded in a user's environment.
 
