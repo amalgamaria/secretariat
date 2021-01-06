@@ -26,6 +26,8 @@ To unload software, run the following from the command line:
 
 To see which software are currently loaded, run ``module list`` from the command line. This command returns a list of software that are currently loaded in the user's environment.
 
+For more information about additional sub-commands, run ``module help`` from the command line. This will return a help message with detailed information about more use-cases of ``module``. To learn more about this module system, read the `Lmod documentation`_.
+
 Within scripts
 --------------
 
@@ -46,4 +48,5 @@ If the lines above were not included in the script and the user had run the foll
    module load fastp/0.21.0
    sbatch fastp_ex.sh
 
+.. _Lmod documentation: http://lmod.readthedocs.org
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
