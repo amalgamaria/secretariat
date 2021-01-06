@@ -19,15 +19,15 @@ The status codes are found in the "ST" (status) column. Although the three above
 
 Job 1.	: `R`
 
-	The job is running.
+	The job is ``r``unning.
 
 Job 2.	: `PD`
 
-	The job is waiting on sufficient resources to run. "Sufficient resources" are determined by the user at the submission of the job. If the user does not make any specifications at job submission, the default resource settings are used.
+	The job is ``p``en``d``ing / waiting on sufficient resources to run. "Sufficient resources" are determined by the user at the submission of the job. If the user does not make any specifications at job submission, the default resource settings are used.
 
 Job 3.	: `CG`
 
-	The job is in the process of finishing. The status should change to `R` shortly.
+	The job is in the process of ``c``ompletin``g``. The job should finish shortly and disappear from the ``squeue`` table.
 
 
 .. _this document: https://curc.readthedocs.io/en/latest/running-jobs/squeue-status-codes.html
