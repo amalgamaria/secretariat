@@ -78,7 +78,7 @@ where
 	- ``PARTITION``: partition to which job has been assigned
 	- ``NAME``: name of job specified in ``sbatch`` header with ``--job-name``
 	- ``USER``: username of the user who submitted the job
-	- ``ST``: status of job (for more information, see `Squeue status codes`_ page)
+	- ``ST``: status of job (for more information, see the `Squeue status codes`_ page)
 	- ``TIME``: amount of time the job has been running
 	- ``NODES``: number of unique nodes that the job is assigned to
 	- ``NODELIST(REASON)``: node(s) the job is assigned to
@@ -86,13 +86,13 @@ where
 scancel
 -------
 
-If you need to terminate a specific job before it has completed, run the following commands from the command line:
+If you need to terminate a specific job before it has completed, run the following from the command line:
 
 .. code-block:: bash
 
    scancel [job_id_number]
 
-If you need to terminate all of your currently submitted jobs, run the following command from the command line:
+If you need to terminate all of your currently submitted jobs, run the following from the command line:
 
 .. code-block:: bash
 
@@ -100,7 +100,7 @@ If you need to terminate all of your currently submitted jobs, run the following
 
 where [``username``] is your username.
 
-.. attention:: Do not include the brackets "[" and "]" when substituting your ``job_id_number`` and ``username``.
+.. attention:: Do not include the brackets ("[" and "]") when substituting your ``job_id_number`` and ``username``.
 
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
 .. _Squeue status codes: https://secretariat.readthedocs.io/en/latest/running-jobs/squeue-status-codes.html#squeue-status-codes
