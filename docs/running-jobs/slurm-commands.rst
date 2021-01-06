@@ -94,7 +94,7 @@ If you need to terminate a specific job before it has completed, run the followi
 
    scancel [job_id_number]
 
-If you need to terminate all of your currently submitted jobs, run the following from the command line:
+If you need to terminate **all** of your currently submitted jobs, run the following from the command line:
 
 .. code-block:: bash
 
