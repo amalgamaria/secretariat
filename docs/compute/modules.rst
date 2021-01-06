@@ -40,3 +40,4 @@ If the lines above were not included in the script and the user had run the foll
    module load fastp/0.21.0
    sbatch fastp_ex.sh
 
+.. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
