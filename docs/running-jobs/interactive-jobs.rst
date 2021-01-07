@@ -9,7 +9,7 @@ When you follow the instructions on the `Logging in`_ page, you are connecting t
 srun
 ----
 
-To create an ``interactive session`` on Secretariat, use ``srun`. 
+To create an ``interactive session`` on Secretariat, use ``srun``. 
 
 .. attention:: You should use ``srun`` only to *test* your code. Once your code works, you should transfer it to a script. For more information on this, see the `Batch jobs`_ page.
 
@@ -30,7 +30,7 @@ Consider the ``sbatch`` header in the example script from the `Batch jobs`_ page
    #SBATCH --mail-type=all
    #SBATCH --mail-user=madonay@clemson.edu
    
-When initiating your session, you must specify your resource requests in your command. Make sure that you specify parameters for the options in lines 4-7, at least:
+When initiating your session, you should specify your resource requests in your command. Make sure that you specify parameters for the options in lines 4-7, at least:
 
 .. code-block:: bash
 
