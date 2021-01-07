@@ -28,11 +28,9 @@ Center for Human Genetics Research Computing
    :maxdepth: 1
    :caption: Running Jobs
 
-   running-jobs/running-apps-with-jobs
    running-jobs/batch-jobs
    running-jobs/interactive-jobs
    running-jobs/slurm-commands
-   running-jobs/job-resources
    running-jobs/squeue-status-codes
 
 .. toctree::
@@ -40,13 +38,6 @@ Center for Human Genetics Research Computing
    :caption: Software
 
    software/current-software
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Programming and Parallelization
-
-   programming/coding-best-practices
-   programming/parallel-programming-fundamentals
 
 .. toctree::
    :maxdepth: 1
