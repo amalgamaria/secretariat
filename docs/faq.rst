@@ -1,7 +1,7 @@
 FAQ
 ===
 
-For command line beginners, `An Introduction to Linux and Lubuntu 16.04`_ is a great place to start. (Written by M. Stonebank and modified by R. Whetten.)
+For command line beginners, we recommend following a few tutorials to get comfortable. Here is an example of a `UNIX Tutorial for Beginners`_ (Written by M. Stonebank, University of Surrey; Modified by C. Tothill, University of Bristol).
 
-.. _An Introduction to Linux and Lubuntu 16.04: https://drive.google.com/file/d/1QaIBdueKkIVbIzt5Zwjop4t$
+.. _UNIX Tutorial for Beginners: https://www.chm.bris.ac.uk/compres/unix/
 
