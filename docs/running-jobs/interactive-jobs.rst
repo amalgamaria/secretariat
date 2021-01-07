@@ -2,9 +2,9 @@
 Interactive jobs
 ================
 
-.. attention:: When testing code on Secretariat, it is important that you **not** run your commands on the head node (secretariat-master). 
+.. attention:: When testing code on Secretariat, it is important that you **not** run your commands on the head node (``secretariat-master``).
 
-When you follow the instructions on the `Logging in`_ page, you are connecting to the head node. To make sure that you are testing your code correctly, please use one of the following options.
+When you follow the instructions on the `Logging in`_ page, you are connecting to the head node. To make sure that you are testing your code appropriately, please use one of the following options.
 
 srun
 ----
@@ -48,6 +48,6 @@ Say that you have written all of your commands inside a script named ``fastp_ex.
 
 .. attention:: If you choose this method, make sure to specify all of the necessary parameters in your ``sbatch`` header. For more information, see the `Batch jobs`_ page.
 
-.. _Logging in:: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#logging-in
+.. _Logging in: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#logging-in
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#batch-jobs
