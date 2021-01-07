@@ -1,4 +1,0 @@
-Job resources
-=============
-
-[ Coming soon ]
