@@ -9,7 +9,7 @@ When you follow the instructions on the `Logging in`_ page, you are connecting t
 srun
 ----
 
-To create an ``interactive session`` on Secretariat, run ``srun`` from the command line. 
+To create an ``interactive session`` on Secretariat, use ``srun`. 
 
 Consider the ``sbatch`` header in the example script from the `Batch jobs`_ page:
 
