@@ -4,12 +4,14 @@ Interactive jobs
 
 .. attention:: When testing code on Secretariat, it is important that you **not** run your commands on the head node (``secretariat-master``).
 
-When you follow the instructions on the `Logging in`_ page, you are connecting to the head node. To make sure that you are testing your code appropriately, please use one of the following options.
+When you follow the instructions on the `Logging in`_ page, you are connecting to the head node. To make sure that you are testing your code appropriately, please read the following.
 
 srun
 ----
 
 To create an ``interactive session`` on Secretariat, use ``srun`. 
+
+.. attention:: You should use ``srun`` only to *test* your code. Once your code works, you should transfer it to a script. For more information on this, see the `Batch jobs`_ page.
 
 Consider the ``sbatch`` header in the example script from the `Batch jobs`_ page:
 
@@ -41,13 +43,8 @@ where
 
 Every option that you could include in your ``sbatch`` header should be possible to include in an ``srun`` command. Please see the `Slurm documentation`_ for more details.
 
-sbatch
-------
-
-Say that you have written all of your commands inside a script named ``fastp_ex.sh``. When you submit the script via the command ``sbatch fastp_ex.sh``, you are submitting the script to a particular partition of Secretariat (either ``bigmem`` or ``compute``), given by the ``--partition`` option in the ``sbatch`` header of your script.
-
-.. attention:: If you choose this method, make sure to specify all of the necessary parameters in your ``sbatch`` header. For more information, see the `Batch jobs`_ page.
 
 .. _Logging in: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#logging-in
-.. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#batch-jobs
+.. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
+
