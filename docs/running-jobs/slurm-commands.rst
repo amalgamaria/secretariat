@@ -35,14 +35,19 @@ Consider the example script from the `Batch jobs`_ page:
    cd ${dir_in}
 
    # Execute function for each fastq file
-   # Note: This example is for single-end data
-   for f in *.fq.gz
+   # Note: This example is for paired-end data
+   for r1 in *_R1_001.fastq.gz
    do
-      prefix=$(echo ${f} | cut -f1-3 -d'_')
+      r2="$(echo ${r1} | sed -e 's/R1/R2/')"
+      prefix="$(echo ${r1} | cut -f1-3 -d'_')"
 
       fastp \
-         -i ${dir_in}/${f} \
-         -o ${dir_out}/${prefix}.out
+         -in1 ${dir_in}/${r1} \
+         -in2 ${dir_in}/${r2} \
+         -out1 ${dir_out}/${prefix}_R1.out \
+         -out2 ${dir_out}/${prefix}_R2.out \
+         --json ${dir_out}/${prefix}.json \
+         --html ${dir_out}/${prefix}.html
    done
 
    # Unload software
