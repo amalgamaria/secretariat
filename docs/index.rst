@@ -9,6 +9,7 @@ Center for Human Genetics Research Computing
    :maxdepth: 1
 
    faq
+   tickets
 
 .. toctree::
    :maxdepth: 1
@@ -45,7 +46,6 @@ Center for Human Genetics Research Computing
 
    additional-resources/cu-palmetto
    additional-resources/cu-vpn
-   additional-resources/tickets
    additional-resources/chg
 
 .. toctree::
