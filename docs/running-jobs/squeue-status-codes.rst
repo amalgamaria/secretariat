@@ -1,7 +1,7 @@
 Squeue status codes
 ===================
 
-If you were to run the command `squeue` from the command line, a table similar to the one below would be printed to your screen.
+If you were to run the command ``squeue`` from the command line, a table similar to the one below would be printed to your screen.
 
 +-----------+---------------+-----------+----------+--------+------------+-----------+----------------------+
 | **JOBID** | **PARTITION** | **NAME**  | **USER** | **ST** | **TIME**   | **NODES** | **NODELIST(REASON)** |
