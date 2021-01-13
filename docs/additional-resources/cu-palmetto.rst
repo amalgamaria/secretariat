@@ -29,6 +29,8 @@ To see some equivalencies between ``#PBS`` and ``#SBATCH`` script formatting, se
 .. _website: https://www.palmetto.clemson.edu/palmetto/`
 .. _instructions: https://www.palmetto.clemson.edu/palmetto/basic/new/
 .. _request an account: https://www.palmetto.clemson.edu/palmetto/basic/new/
+.. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _TORQUE: https://adaptivecomputing.com/cherry-services/torque-resource-manager/
 .. _Slurm: https://slurm.schedmd.com/overview.html
 .. _this documentation: https://arc-ts.umich.edu/migrating-from-torque-to-slurm/
