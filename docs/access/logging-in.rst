@@ -64,6 +64,10 @@ For Linux / Mac / Windows
 
 Session ended!
 
-.. attention:: Immediately after completing Part 2, inform Vijay or Maria so that they may finalize the status of your newly created account on Secretariat!
+.. attention:: Immediately after completing Part 2, inform `Vijay`_ or `Maria`_ via the `Ticket Request Form`_ so that they may finalize the status of your newly created account on Secretariat!
+
 
 .. _MobaXterm: https://mobaxterm.mobatek.net/
+.. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
+.. _Ticket Request Form: https://secretariat.readthedocs.io/en/latest/tickets.html#ticket-requests
