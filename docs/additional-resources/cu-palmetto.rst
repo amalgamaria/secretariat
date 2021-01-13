@@ -16,7 +16,7 @@ All members of the Center for Human Genetics (CHG) may request to use our CHG-de
 | Palmetto      | 80                    | 1.54 TB       |
 +---------------+-----------------------+---------------+
 
-If you would like to use this resource, you need to `request an account`_. After this, please contact `Vijay`_ or `Maria`_ about becoming a part of our user group on Palmetto.
+If you would like to use this resource, you need to `request an account`_. After this, please contact `Vijay`_ or `Maria`_ via the `Ticket Request Form`_ about becoming a part of our user group on Palmetto.
 
 TORQUE vs Slurm
 ---------------
@@ -31,6 +31,7 @@ To see some equivalencies between ``#PBS`` and ``#SBATCH`` script formatting, se
 .. _request an account: https://www.palmetto.clemson.edu/palmetto/basic/new/
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
+.. _Ticket Request Form: https://secretariat.readthedocs.io/en/latest/tickets.html#ticket-requests
 .. _TORQUE: https://adaptivecomputing.com/cherry-services/torque-resource-manager/
 .. _Slurm: https://slurm.schedmd.com/overview.html
 .. _this documentation: https://arc-ts.umich.edu/migrating-from-torque-to-slurm/
