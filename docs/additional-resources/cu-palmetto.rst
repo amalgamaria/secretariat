@@ -18,7 +18,7 @@ All members of the Center for Human Genetics (CHG) may request to use our CHG-de
 
 If you would like to use this resource, you need to `request an account`_. After this, please contact `Vijay`_ or `Maria`_ about becoming a part of our user group on Palmetto.
 
-Torque vs Slurm
+TORQUE vs Slurm
 ---------------
 
 .. attention:: Palmetto is managed by `TORQUE`_, which means that you must submit job scripts in the ``#PBS`` format. This is different than Secretariat, which is managed by `Slurm`_ and processes job scripts written in the ``#SBATCH`` format.
