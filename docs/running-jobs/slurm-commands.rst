@@ -95,6 +95,8 @@ scancel
 
 If you need to terminate a specific job before it has completed, run the following from the command line:
 
+.. attention:: The command ``scancel`` is final and cannot be undone. Use with caution.
+
 .. code-block:: bash
 
    scancel [job_id_number]
