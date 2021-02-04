@@ -125,4 +125,43 @@ scp
                 - ``username``: your username to log in	to Secretariat
                 - ``/local/directory/``: where to download file on local machine
 
+MobaXterm scp
+-------------
+
+If are a Windows user and followed the instructions for installing and using `MobaXterm`_ on the `Logging in`_ page, then you also have the option of using MobaXterm's built in ``scp``.
+
+.. attention:: Note: This process is similar to using `FileZilla`_ (`above`_).
+
+Part 1: Connect
+^^^^^^^^^^^^^^^
+
+1. Click "Session"
+2. Click "SSH"
+3. Click "Advanced SSH settings"
+4. Select "SCP (normal speed)" as the SSH browser type
+5. Enter ``secretariat-master.clemson.edu` in the "Remote host" box
+6. Check the box beside "Specify username" and type your ``username``
+7. Click "OK"
+8. Enter password, if prompted
+
+Connection established!
+
+Part 2: Transfer
+^^^^^^^^^^^^^^^^
+
+.. attention:: All of the following steps take place in the left sidebar.
+
+1. Select the "Scp" tab
+2. Enter ``/path/to/directory/`` in the search bar
+3. Right-click the file(s) in the file list that you would like to download
+4. Click "Download"
+5. Select the local directory to receive the file(s)
+6. Click "OK"
+
+.. attention:: Another option within MobaXterm is to initiate a local session and use the `previously described`_ ``scp`` commands. To do this, either select "Start local session" after launching MobaXterm or open a new tab by clicking on the "+" icon. This second option should start a local session by default.
+
 .. _FileZilla client: https://filezilla-project.org/
+.. _above: https://secretariat.readthedocs.io/en/latest/access/transferring-files.html#filezilla
+.. _MobaXterm: https://mobaxterm.mobatek.net/
+.. _Logging in: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#for-windows
+.. _previously described: https://secretariat.readthedocs.io/en/latest/access/transferring-files.html#scp
