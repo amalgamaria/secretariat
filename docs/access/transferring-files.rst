@@ -154,7 +154,7 @@ Part 2: Transfer
 1. Select the "Scp" tab
 2. Enter ``/path/to/directory/`` in the search bar
 
-	*Where you enter the specific directory to your file(s) of interest in place of */path/to/directory/** 
+	*Where you enter the specific directory to your file(s) of interest in place of /path/to/directory/* 
 
 3. Right-click the file(s) in the file list that you would like to download
 4. Click "Download"
