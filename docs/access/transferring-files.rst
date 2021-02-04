@@ -139,7 +139,7 @@ Part 1: Connect
 2. Click "SSH"
 3. Click "Advanced SSH settings"
 4. Select "SCP (normal speed)" as the SSH browser type
-5. Enter ``secretariat-master.clemson.edu` in the "Remote host" box
+5. Enter ``secretariat-master.clemson.edu`` in the "Remote host" box
 6. Check the box beside "Specify username" and type your ``username``
 7. Click "OK"
 8. Enter password, if prompted
@@ -153,10 +153,15 @@ Part 2: Transfer
 
 1. Select the "Scp" tab
 2. Enter ``/path/to/directory/`` in the search bar
+
+	*Where you enter the specific directory to your file(s) of interest in place of ``/path/to/directory/``* 
+
 3. Right-click the file(s) in the file list that you would like to download
 4. Click "Download"
-5. Select the local directory to receive the file(s)
+5. Select / create the local directory to receive the file(s)
 6. Click "OK"
+
+Transfer complete!
 
 .. attention:: Another option within MobaXterm is to initiate a local session and use the `previously described`_ ``scp`` commands. To do this, either select "Start local session" after launching MobaXterm or open a new tab by clicking on the "+" icon. This second option should start a local session by default.
 
