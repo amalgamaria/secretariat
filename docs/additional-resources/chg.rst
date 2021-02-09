@@ -1,9 +1,7 @@
 CHG
 ###
 
-To learn more about the CHG, please visit our `website`_.:
-
-Here are some other links that might be useful!
+To learn more about the CHG, please visit our `website`_. Here are some additional links that might be useful:
 
 - CHG Bioinformatics and Statistcial Lab `GitHub page`_
 
@@ -16,7 +14,7 @@ Labs at the CHG
 - `Morgante Lab`_
 
 
-.. _Alexandrov Lab`: https://www.alexandrovlab.com/
+.. _Alexandrov Lab: https://www.alexandrovlab.com/
 .. _Duren Lab: https://durenlab.com/
 .. _Lackey Lab: https://researchingrna.com/
 .. _Mackay-Anholt Lab: https://scienceweb.clemson.edu/chg/mackay-anholt-lab/
