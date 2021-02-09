@@ -5,7 +5,7 @@ To learn more about the CHG, please visit our `website`_. Here are some addition
 
 - CHG Bioinformatics and Statistcial Lab `GitHub page`_
 
-Labs (physically located) at the CHG
+Labs (physically located) at the CHG:
 
 - `Alexandrov Lab`_
 - `Duren Lab`_
@@ -13,7 +13,7 @@ Labs (physically located) at the CHG
 - `Mackay-Anholt Lab`_
 - `Morgante Lab`_
 
-For more information about other people working with the CHG, see the `"People" tab`_ of our `website`_ 
+For more information about other people working with the CHG, see the `"People" tab`_ of our `website`_.
 
 
 .. _Alexandrov Lab: https://www.alexandrovlab.com/
