@@ -5,13 +5,15 @@ To learn more about the CHG, please visit our `website`_. Here are some addition
 
 - CHG Bioinformatics and Statistcial Lab `GitHub page`_
 
-Labs at the CHG
+Labs (physically located) at the CHG
 
 - `Alexandrov Lab`_
 - `Duren Lab`_
 - `Lackey Lab`_
 - `Mackay-Anholt Lab`_
 - `Morgante Lab`_
+
+For more information about other people working with the CHG, see the `"People" tab`_ of our `website`_ 
 
 
 .. _Alexandrov Lab: https://www.alexandrovlab.com/
@@ -21,3 +23,4 @@ Labs at the CHG
 .. _Morgante Lab: https://morgantelab.com/
 .. _website: https://scienceweb.clemson.edu/chg/
 .. _GitHub page: https://github.com/chg-bsl
+.. _"People" tab: https://scienceweb.clemson.edu/chg/people/
