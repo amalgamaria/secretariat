@@ -41,14 +41,6 @@ Consider these lines from the example script from the `Batch jobs`_ page:
    # Load software
    module load fastp/0.21.0
 
-If the lines above were not included in the script and the user had run the following commands, the job would not have completed successfully:
-
-.. code-block:: bash
-
-   module load fastp/0.21.0
-   sbatch fastp_ex.sh
-   
-   module unload fastp/0.21.0
 
 .. _Lmod documentation: http://lmod.readthedocs.org
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
