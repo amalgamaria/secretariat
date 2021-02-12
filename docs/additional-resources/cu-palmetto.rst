@@ -21,9 +21,9 @@ If you would like to use this resource, you need to `request an account`_. After
 TORQUE vs Slurm
 ---------------
 
-.. attention:: Palmetto is managed by `TORQUE`_, which means that you must submit job scripts in the ``#PBS`` format. This is different than Secretariat, which is managed by `Slurm`_ and processes job scripts written in the ``#SBATCH`` format.
+.. attention:: Palmetto is managed by `TORQUE`_, which means that you must submit job scripts in the *#PBS* format. This is different than Secretariat, which is managed by `Slurm`_ and processes job scripts written in the *#SBATCH* format.
 
-To see some equivalencies between ``#PBS`` and ``#SBATCH`` script formatting, see `this documentation`_ from the `University of Michigan Information and Technology Services`_.
+To see some equivalencies between *#PBS* and *#SBATCH* script formatting, see `this documentation`_ from the `University of Michigan Information and Technology Services`_.
 
 
 .. _website: https://www.palmetto.clemson.edu/palmetto/`
