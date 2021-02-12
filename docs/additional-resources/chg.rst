@@ -17,15 +17,15 @@ For more information about other people working with the CHG, see the `"People" 
 
 
 .. |image1| image:: _static/lab_alexandrov.png
-   :scale: 30%
+   :width: 30%
 .. |image2| image:: _static/lab_duren.png
-   :scale: 30%
+   :width: 30%
 .. |image3| image:: _static/lab_lackey.png
-   :scale: 30%
+   :width: 30%
 .. |image4| image:: _static/lab_mackay-anholt.png
-   :scale: 30%
+   :width: 30%
 .. |image5| image:: _static/lab_morgante.png
-   :scale: 30%
+   :width: 30%
 
 .. _|image1|: https://www.alexandrovlab.com/
 .. _|image2|: https://durenlab.com/
