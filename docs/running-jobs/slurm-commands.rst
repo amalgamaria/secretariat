@@ -53,14 +53,14 @@ Consider the example script from the `Batch jobs`_ page:
    # Unload software
    module unload fastp/0.21.0
 
-Say that we saved this code to a file named ``fastp_ex.sh``. We would then submit the script by running the following commands from the command line:
+Say that we saved this code to a file named *fastp_ex.sh*. We would then submit the script by running the following commands from the command line:
 
 .. code-block:: bash
 
    cd /path/to/fastp_ex.sh
    sbatch fastp_ex.sh
 
-The ``sbatch`` command submits the script to Slurm, which allocates the appropriate resources (specified in the ``sbatch`` header of the script) from Secretariat to complete the job. Once successfully submitted, the job is assigned a job ID.
+The ``sbatch`` command submits the script to Slurm, which allocates the appropriate resources (specified in the *sbatch* header of the script) from Secretariat to complete the job. Once successfully submitted, the job is assigned a job ID.
 
 The following message should print to the terminal window:
 
@@ -68,7 +68,7 @@ The following message should print to the terminal window:
 
    Submitted batch job [job_id_number]
 
-where [``job_id_number``] is a number greater than or equal to 1.
+where [*job_id_number*] is a number greater than or equal to 1.
 
 squeue
 ------
@@ -81,14 +81,14 @@ To review all of the currently submitted jobs, their IDs, and other information,
 
 where
 
-	- ``JOBID``: ID number assigned to job
-	- ``PARTITION``: partition to which job has been assigned
-	- ``NAME``: name of job specified in ``sbatch`` header with ``--job-name``
-	- ``USER``: username of the user who submitted the job
-	- ``ST``: status of job (for more information, see the `Squeue status codes`_ page)
-	- ``TIME``: amount of time the job has been running
-	- ``NODES``: number of unique nodes that the job is assigned to
-	- ``NODELIST(REASON)``: node(s) the job is assigned to
+	- **JOBID**: ID number assigned to job
+	- **PARTITION**: partition to which job has been assigned
+	- **NAME**: name of job specified in ``sbatch`` header with ``--job-name``
+	- **USER**: username of the user who submitted the job
+	- **ST**: status of job (for more information, see the `Squeue status codes`_ page)
+	- **TIME**: amount of time the job has been running
+	- **NODES**: number of unique nodes that the job is assigned to
+	- **NODELIST(REASON)**: node(s) the job is assigned to
 
 scancel
 -------
@@ -107,9 +107,10 @@ If you need to terminate **all** of your currently submitted jobs, run the follo
 
    scancel -u [username]
 
-where [``username``] is your username.
+where [*username*] is your username.
 
-.. attention:: Do not include the brackets ("[" and "]") when substituting your ``job_id_number`` and ``username``.
+.. attention:: Do not include the brackets ("[" and "]") when substituting your *job_id_number* and *username*.
+
 
 .. _Slurm documentation: https://slurm.schedmd.com/man_index.html
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
