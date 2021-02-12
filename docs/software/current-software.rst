@@ -7,7 +7,7 @@ This is a table of the modularized software on Secretariat.
    
    - This list is updated only periodically. For a full, current list, log in to Secretariat and run the command ``module avail``. For more information on software modularization, see the `Software modularization`_ page.
 
-   - Software versions with an ``*`` after their version number were compiled using ``gcc/10.1.0`` rather than ``gnu8/8.2.0``. Before using these software, run the command ``module swap gnu8 gcc/10.1.0``; After using these software, run the command ``module swap gcc/10.1.0 gnu8``. This will ensure that all software modules function properly.
+   - Software versions with an ``*`` after their version number were compiled using *gcc/10.1.0* rather than *gnu8/8.2.0*. Before using these software, run the command ``module swap gnu8 gcc/10.1.0``; After using these software, run the command ``module swap gcc/10.1.0 gnu8``. This will ensure that all software modules function properly.
 
 ----
 
