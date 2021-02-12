@@ -5,13 +5,6 @@ A common way of running an analysis on Secretariat is to run your command(s) / s
 
 .. attention:: It is important to be careful when requesting resources on Secretariat. If you request more than what you actually need, this could stall other users waiting for resources to become available. If you are unsure about how much you should allocate for your job, please consult with `Vijay`_ or `Maria`_.
 
-Text editors
-------------
-
-We recommend using a text editor like `nano`_ or `vim`_ for quickly editing file content on Secretariat. Please follow the links for cheatsheets of useful commands for each.
-
-You may also run the command ``touch [filename].sh`` if you would like to create an empty file called ``[filename].sh`` in your current directory. After this, you may use your text editor of choice to add / amend the content of the file.
-
 Template
 --------
 
@@ -169,8 +162,7 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 
 .. attention:: Know your software! Make sure that the software within your script supports multiple CPU usage before requesting resources that allow for multithreading.
 
-.. _nano: https://www.nano-editor.org/dist/latest/cheatsheet.html
-.. _vim: https://vim.rtorr.com/
+
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _Slurm: https://slurm.schedmd.com/documentation.html
