@@ -13,24 +13,24 @@ FileZilla
 Part 1: Connect
 ^^^^^^^^^^^^^^^
 
-1. Download and install the `FileZilla client`_.
-2. Launch the client.
-3. Open the 'Site manager' -- this is usually the upper left icon on the 'Toolbar'.
+1. Download and install the `FileZilla client`_
+2. Launch the client
+3. Open the "Site manager" -- this is usually the upper left icon on the *Toolbar*
 
-	*It resembles a cluster of three rectangular machines.*
+	*It resembles a cluster of three rectangular machines*
 
 4. Create a new site: 
 
-	a. Click 'New Site' and name it **Secretariat**.
-	b. Set 'Protocol' as 'SFTP - SSH File Transfer Protocol' in the dropdown list.
-	c. Type **secretariat-master.clemson.edu** in the 'Host' box. 
-	d. Set 'Logon Type' as 'Ask for password' in the dropdown list.
-	e. Type your ``username`` in the 'User' box.
-	f. Click 'OK' at the bottom of the window.
+	a. Click "New Site" and name it **Secretariat**
+	b. Set "Protocol" as "SFTP - SSH File Transfer Protocol" in the dropdown list
+	c. Type ``secretariat-master.clemson.edu`` in the "Host" box
+	d. Set "Logon Type" as "Ask for password" in the dropdown list
+	e. Type your ``username`` in the "User" box
+	f. Click "OK" at the bottom of the window
 
-5. Reopen the 'Site manager' and select 'Secretariat' in the list of sites in the left window.
-6. Click 'Connect' and enter your password.
-7. Trust the host: An 'Unknown host key' window may appear with a message similar to the one below. Click 'OK'.
+5. Reopen the "Site manager" and select "**Secretariat**" in the list of sites in the left window
+6. Click "Connect" and enter your password
+7. Trust the host: An "Unknown host key" window may appear with a message similar to the one below; Click "OK"
 
 .. code-block:: bash
 
@@ -40,7 +40,7 @@ Part 1: Connect
    
    Trust this host and carry on connecting?
 
-8. Output should print to the 'Message log'.
+8. Output should print to the 'Message log'
 
 	*This is the pannel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
 
@@ -62,41 +62,41 @@ Once you have established a connection, you may initiate uploads and downloads b
 
 1. **Upload: Local-to-remote**
 
-	a. Locate the file(s) / folder(s) to upload.
+	a. Locate the file(s) / folder(s) to upload
 
-		*Within the 'Local site' window, select the file(s) / folder(s).*
+		*Within the 'Local site' window, select the file(s) / folder(s)*
 
-	b. Locate the destination folder.
+	b. Locate the destination folder
 
-		*Within the 'Remote site' window, select the destination folder.*
+		*Within the 'Remote site' window, select the destination folder*
 	
-	c. Right click the file(s) / folder(s) to upload. Select 'Upload' in the drop down list that appears.
+	c. Right click the file(s) / folder(s) to upload; Select "Upload" in the drop down list that appears
 		
-		i. The transfer should initiate. You may track your progress in the 'Transfer queue'.
+		i. The transfer should initiate; You may track your progress in the "Transfer queue"
 
-			*This is the panel at the bottom of the window.*
+			*This is the panel at the bottom of the window*
 
-		ii. Once the files appear in the 'Successful transfers' tab of the 'Transfer queue', the file has been successfully transferred from the local site to the remote site.
+		ii. Once the files appear in the "Successful transfers" tab of the "Transfer queue", the file has been successfully transferred from the local site to the remote site
 
 	Transfer complete!
 
 2. **Download: Remote-to-local**
 
-	a. Locate the file(s) / folder(s) to download.
+	a. Locate the file(s) / folder(s) to download
 
-		*Within the 'Remote site' window, select the file(s) / folder(s).*
+		*Within the 'Remote site' window, select the file(s) / folder(s)*
 
-	b. Locate the destination folder.
+	b. Locate the destination folder
 
-		*Within the 'Local site' window, select the destination folder.*
+		*Within the 'Local site' window, select the destination folder*
 	
-	c. Right click the file(s) / folder(s) to download. Select 'Download' in the drop down list that appears.
+	c. Right click the file(s) / folder(s) to download; Select "Download" in the drop down list that appears
 		
-		i. The transfer should initiate. You may track your progress in the 'Transfer queue'.
+		i. The transfer should initiate; You may track your progress in the "Transfer queue"
 
-			*This is the panel at the bottom of the window.*
+			*This is the panel at the bottom of the window*
 
-		ii. Once the files appear in the 'Successful transfers' tab of the 'Transfer queue', the file has been successfully transferred from the remote site to the local site.
+		ii. Once the files appear in the "Successful transfers" tab of the "Transfer queue", the file has been successfully transferred from the remote site to the local site
 
 	Transfer complete!
 
@@ -164,6 +164,7 @@ Part 2: Transfer
 Transfer complete!
 
 .. attention:: Another option within MobaXterm is to initiate a local session and use the `previously described`_ ``scp`` commands. To do this, either select "Start local session" after launching MobaXterm or open a new tab by clicking on the "+" icon. This second option should start a local session by default.
+
 
 .. _FileZilla client: https://filezilla-project.org/
 .. _above: https://secretariat.readthedocs.io/en/latest/access/transferring-files.html#filezilla
