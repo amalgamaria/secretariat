@@ -1,14 +1,14 @@
 Batch jobs
 ==========
 
-A common way of running an analysis on Secretariat is to run your command(s) / script(s) from within an "``sbatch`` script." This method allows the user to request specific resources from within the script rather than typing them out on the command line. Since Secretariat's resources are managed by `Slurm`_, resource requests must be denoted in what is called an ``sbatch`` header.
+A common way of running an analysis on Secretariat is to run your command(s) / script(s) from within an "*sbatch* script." This method allows the user to request specific resources from within the script rather than typing them out on the command line. Since Secretariat's resources are managed by `Slurm`_, resource requests must be denoted in what is called an *sbatch* header.
 
 .. attention:: It is important to be careful when requesting resources on Secretariat. If you request more than what you actually need, this could stall other users waiting for resources to become available. If you are unsure about how much you should allocate for your job, please consult with `Vijay`_ or `Maria`_.
 
 Template
 --------
 
-Here is a template of how to declare Slurm parameters in the header of an ``sbatch`` script. This information should be placed at the top of the script that you will be submitting to Secretariat. After creating this script, save it as ``[jobname].sh``.
+Here is a template of how to declare Slurm parameters in the header of an *sbatch* script. This information should be placed at the top of the script that you will be submitting to Secretariat. After creating this script, save it as *[jobname].sh*.
 
 .. code-block:: bash
    :linenos:
@@ -25,7 +25,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
    #SBATCH --mail-type=[mailtype]
    #SBATCH --mail-user=[username]@clemson.edu
 
-.. attention:: At the least, please set the parameters for lines 1-7. The only line that is absolutely required is the first: ``#!/bin/bash``.  Lines 8-11 may be helpful for organizational purposes, but are optional. Please see the `Slurm documentation`_ for a full list of possible ``sbatch`` header options.
+.. attention:: At the least, please set the parameters for lines 1-7. The only line that is absolutely required is the first: ``#!/bin/bash``.  Lines 8-11 may be helpful for organizational purposes, but are optional. Please see the `Slurm documentation`_ for a full list of possible *sbatch* header options.
 
 **Explanation**:
 
@@ -74,7 +74,7 @@ Here is a template of how to declare Slurm parameters in the header of an ``sbat
 Example
 -------
 
-Here is an example of an ``sbatch`` header for a script to run `fastp`_.
+Here is an example of an *sbatch* header for a script to run `fastp`_.
 
 .. code-block:: bash
    :linenos:
