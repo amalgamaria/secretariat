@@ -16,22 +16,26 @@ Labs (physically located) at the CHG:
 For more information about other people working with the CHG, see the `"People" tab`_ of our `website`_.
 
 
-.. |image1| image:: _static/lab_alexandrov.png
-   :width: 30%
-.. |image2| image:: _static/lab_duren.png
-   :width: 30%
-.. |image3| image:: _static/lab_lackey.png
-   :width: 30%
-.. |image4| image:: _static/lab_mackay-anholt.png
-   :width: 30%
-.. |image5| image:: _static/lab_morgante.png
-   :width: 30%
-
-.. _|image1|: https://www.alexandrovlab.com/
-.. _|image2|: https://durenlab.com/
-.. _|image3|: https://researchingrna.com/
-.. _|image4|: https://scienceweb.clemson.edu/chg/mackay-anholt-lab/
-.. _|image5|: https://morgantelab.com/
+.. |image_1| image:: _static/lab_alexandrov.png
+   :scale: 30%
+   :alt: Alexandrov Lab Figure
+   :target: https://www.alexandrovlab.com/
+.. |image_2| image:: _static/lab_duren.png
+   :scale: 30%
+   :alt: Duren Lab Figure
+   :target: https://durenlab.com/
+.. |image_3| image:: _static/lab_lackey.png
+   :scale: 30%
+   :alt: Lackey Lab Figure
+   :target: https://researchingrna.com/
+.. |image_4| image:: _static/lab_mackay-anholt.png
+   :scale: 30%
+   :alt: Mackay-Anholt Lab Figure
+   :target: https://scienceweb.clemson.edu/chg/mackay-anholt-lab/
+.. |image_5| image:: _static/lab_morgante.png
+   :scale: 30%
+   :alt: Morgante Lab Figure
+   :target: https://morgantelab.com/
 
 .. _website: https://scienceweb.clemson.edu/chg/
 .. _GitHub page: https://github.com/chg-bsl
