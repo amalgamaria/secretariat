@@ -2,18 +2,18 @@
 Interactive jobs
 ================
 
-.. attention:: When testing code on Secretariat, it is important that you **not** run your commands on the head node (``secretariat-master``).
+.. attention:: When testing code on Secretariat, it is important that you **not** run your commands on the head node (*secretariat-master*).
 
 When you follow the instructions on the `Logging in`_ page, you are connecting to the head node. To make sure that you are testing your code appropriately, please read the following.
 
 srun
 ----
 
-To create an ``interactive session`` on Secretariat, use ``srun``. 
+To create an *interactive session* on Secretariat, use ``srun``. 
 
 .. attention:: You should use ``srun`` only to *test* your code. Once your code works, you should transfer it to a script. For more information on this, see the `Batch jobs`_ page.
 
-Consider the ``sbatch`` header in the example script from the `Batch jobs`_ page:
+Consider the *sbatch* header in the example script from the `Batch jobs`_ page:
 
 .. code-block:: bash
    :linenos:
@@ -41,7 +41,7 @@ where
 	- ``--pty``: instructs ``srun`` to run in "pseudo terminal mode"
 	- ``bash``: creates an "interactive bash shell"\
 
-Every option that you could include in your ``sbatch`` header should be possible to include in an ``srun`` command. Please see the `Slurm documentation`_ for more details.
+Every option that you could include in your *sbatch* header should be possible to include in an ``srun`` command. Please see the `Slurm documentation`_ for more details.
 
 
 .. _Logging in: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#logging-in
