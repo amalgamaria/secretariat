@@ -8,11 +8,11 @@ To learn more about the CHG, please visit our `website`_. Here are some addition
 
 Labs (physically located) at the CHG:
 
-+---------+---------+---------+
-| |png1|_ | |png2|_ | |png3|_ |
-+---------+---------+---------+
-| |png4|_ | |png5|_ |         |
-+---------+---------+---------+
++--------+--------+--------+
+| |png1| | |png2| | |png3| |
++--------+--------+--------+
+| |png4| | |png5| |        |
++--------+--------+--------+
 
 .. |png1| figure:: ../_static/lab_alexandrov.png
    :width: 2465 px
