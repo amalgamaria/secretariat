@@ -8,12 +8,6 @@ To learn more about the CHG, please visit our `website`_. Here are some addition
 
 Labs (physically located) at the CHG:
 
-+--------+--------+--------+
-| |png1| | |png2| | |png3| |
-+--------+--------+--------+
-| |png4| | |png5| |        |
-+--------+--------+--------+
-
 .. |png1| figure:: ../_static/lab_alexandrov.png
    :width: 2465 px
    :height: 2465 px
@@ -58,7 +52,6 @@ Labs (physically located) at the CHG:
    :target: https://morgantelab.com/
 
    Morgante Lab
-
 
 For more information about other people working with the CHG, see the `"People" tab`_ of our `website`_.
 
