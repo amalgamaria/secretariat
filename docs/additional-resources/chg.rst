@@ -9,8 +9,8 @@ To learn more about the CHG, please visit our `website`_. Here are some addition
 Labs (physically located) at the CHG:
 
 .. |png1| figure:: ../_static/lab_alexandrov.png
-   :width: 2465 px
-   :height: 2465 px
+   :width: 2945 px
+   :height: 2945 px
    :scale: 5%
    :alt: Alexandrov Lab Figure
    :target: https://www.alexandrovlab.com/
@@ -18,8 +18,8 @@ Labs (physically located) at the CHG:
    Alexandrov Lab
    
 .. |png2| figure:: ../_static/lab_duren.png
-   :width: 2465	px
-   :height: 2465 px
+   :width: 2945	px
+   :height: 2945 px
    :scale: 5%
    :alt: Duren Lab Figure
    :target: https://durenlab.com/
@@ -27,8 +27,8 @@ Labs (physically located) at the CHG:
    Duren Lab
 
 .. |png3| figure:: ../_static/lab_lackey.png
-   :width: 2465	px
-   :height: 2465 px
+   :width: 2945	px
+   :height: 2945 px
    :scale: 5%
    :alt: Lackey Lab Figure
    :target: https://researchingrna.com/
@@ -36,8 +36,8 @@ Labs (physically located) at the CHG:
    Lackey Lab
 
 .. |png4| figure:: ../_static/lab_mackay-anholt.png
-   :width: 2465	px
-   :height: 2465 px
+   :width: 2945	px
+   :height: 2945 px
    :scale: 5%
    :alt: Mackay-Anholt Lab Figure
    :target: https://scienceweb.clemson.edu/chg/mackay-anholt-lab/
@@ -45,8 +45,8 @@ Labs (physically located) at the CHG:
    Mackay-Anholt Lab
 
 .. |png5| figure:: ../_static/lab_morgante.png
-   :width: 2465	px
-   :height: 2465 px
+   :width: 2945	px
+   :height: 2945 px
    :scale: 5%
    :alt: Morgante Lab Figure
    :target: https://morgantelab.com/
