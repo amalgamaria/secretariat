@@ -8,7 +8,13 @@ To learn more about the CHG, please visit our `website`_. Here are some addition
 
 Labs (physically located) at the CHG:
 
-.. figure:: ../_static/lab_alexandrov.png
++---------+---------+---------+
+| |png1|_ | |png2|_ | |png3|_ |
++---------+---------+---------+
+| |png4|_ | |png5|_ |         |
++---------+---------+---------+
+
+.. |png1| figure:: ../_static/lab_alexandrov.png
    :width: 2465 px
    :height: 2465 px
    :scale: 5%
@@ -17,7 +23,7 @@ Labs (physically located) at the CHG:
    
    Alexandrov Lab
    
-.. figure:: ../_static/lab_duren.png
+.. |png2| figure:: ../_static/lab_duren.png
    :width: 2465	px
    :height: 2465 px
    :scale: 5%
@@ -26,7 +32,7 @@ Labs (physically located) at the CHG:
 
    Duren Lab
 
-.. figure:: ../_static/lab_lackey.png
+.. |png3| figure:: ../_static/lab_lackey.png
    :width: 2465	px
    :height: 2465 px
    :scale: 5%
@@ -35,7 +41,7 @@ Labs (physically located) at the CHG:
 
    Lackey Lab
 
-.. figure:: ../_static/lab_mackay-anholt.png
+.. |png4| figure:: ../_static/lab_mackay-anholt.png
    :width: 2465	px
    :height: 2465 px
    :scale: 5%
@@ -44,7 +50,7 @@ Labs (physically located) at the CHG:
 
    Mackay-Anholt Lab
 
-.. figure:: ../_static/lab_morgante.png
+.. |png5| figure:: ../_static/lab_morgante.png
    :width: 2465	px
    :height: 2465 px
    :scale: 5%
@@ -52,6 +58,7 @@ Labs (physically located) at the CHG:
    :target: https://morgantelab.com/
 
    Morgante Lab
+
 
 For more information about other people working with the CHG, see the `"People" tab`_ of our `website`_.
 
