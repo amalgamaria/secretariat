@@ -13,7 +13,7 @@ Labs (physically located) at the CHG:
    :height: 2945 px
    :scale: 4.25%
    :alt: Alexandrov Lab Figure
-   :target: https://www.alexandrovlab.com/
+   :target: https://alexandrovlab.com/
    
 .. image:: ../_static/lab_duren.png
    :width: 2945	px
