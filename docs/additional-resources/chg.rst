@@ -8,7 +8,7 @@ To learn more about the CHG, please visit our `website`_. Here are some addition
 
 Labs (physically located) at the CHG:
 
-.. image:: _static/lab_alexandrov.png
+.. image:: lab_alexandrov.png
    :scale: 30%
    :alt: Alexandrov Lab Figure
    :target: https://www.alexandrovlab.com/
