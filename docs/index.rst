@@ -7,6 +7,7 @@ Center for Human Genetics Research Computing
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    faq
    tickets
