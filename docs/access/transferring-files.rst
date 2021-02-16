@@ -7,6 +7,8 @@ If you have a small number of small files and you are not very comfortable worki
 
 Please find instructions on how to use each of the methods, below.
 
+----
+
 FileZilla
 ---------
 
@@ -100,6 +102,8 @@ Once you have established a connection, you may initiate uploads and downloads b
 
 	Transfer complete!
 
+----
+
 scp
 ---
 
@@ -124,6 +128,8 @@ scp
              	- ``/path/to/file.txt``: file (including full path) to download from Secretariat
                 - ``username``: your username to log in	to Secretariat
                 - ``/local/directory/``: where to download file on local machine
+
+----
 
 MobaXterm scp
 -------------
