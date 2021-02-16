@@ -6,6 +6,8 @@ Sequentially complete **both** Parts 1 and 2 to login, set your password, and to
 
 .. attention:: Do not attempt the following steps until you have been contacted regarding your username.
 
+   If you would like an account on Secretariat, please let us know via the `Ticket Request Form`_.
+
 ----
 
 Part 1: Login
