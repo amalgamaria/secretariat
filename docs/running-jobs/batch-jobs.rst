@@ -10,6 +10,8 @@ Template
 
 Here is a template of how to declare Slurm parameters in the header of an *sbatch* script. This information should be placed at the top of the script that you will be submitting to Secretariat. After creating this script, save it as *[jobname].sh*.
 
+*Note*: Please see the `FAQ`_ page for information on creating / editing files on Secretariat.
+
 .. code-block:: bash
    :linenos:
 
@@ -165,6 +167,7 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
+.. _FAQ: https://secretariat.readthedocs.io/en/latest/faq.html#how-do-i-create-edit-files-on-secretariat
 .. _Slurm: https://slurm.schedmd.com/documentation.html
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
 .. _fastp: https://github.com/OpenGene/fastp
