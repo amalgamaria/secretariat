@@ -3,13 +3,15 @@ FAQ
 
 ----
 
-**I am not comfortable with the command line. What do you recommend?**
+I am not comfortable with the command line. What do you recommend?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For command line beginners, we recommend following a few tutorials to get comfortable. Here is an example of a `UNIX Tutorial for Beginners`_ (Written by M. Stonebank, University of Surrey; Modified by C. Tothill, University of Bristol).
 
 ----
 
-**How do I create / edit files on Secretariat?**
+How do I create / edit files on Secretariat?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We recommend using a text editor like `nano`_ or `vim`_ for quickly editing file content on Secretariat. Please follow the links for cheatsheets of useful commands for each.
 
