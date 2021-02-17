@@ -26,7 +26,7 @@ TORQUE vs Slurm
 To see some equivalencies between *#PBS* and *#SBATCH* script formatting, see `this documentation`_ from the `University of Michigan Information and Technology Services`_.
 
 
-.. _website: https://www.palmetto.clemson.edu/palmetto/`
+.. _website: https://www.palmetto.clemson.edu/palmetto/
 .. _instructions: https://www.palmetto.clemson.edu/palmetto/basic/new/
 .. _request an account: https://www.palmetto.clemson.edu/palmetto/basic/new/
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
