@@ -41,7 +41,7 @@ Consider these lines from the example script from the `Batch jobs`_ page:
    # Load software
    module load fastp/0.21.0
 
-The pertinent software must be loaded in this manner before it / they can be used. A good place to do this is immediately after the *#SBATCH* header. Please refer to the full `example` to see software loading in context.
+The pertinent software must be loaded in this manner before it / they can be used. A good place to do this is immediately after the *#SBATCH* header. Please refer to the full `example`_ to see software loading in context.
 
 .. _Lmod documentation: http://lmod.readthedocs.org
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
