@@ -25,3 +25,29 @@ You will find the CHG Bioinformatics and Statistics Laboratory (BSL) calendar be
     <?
    }
    ?>
+   
+   .responsive-iframe-container-normal iframe,   
+   .vresponsive-iframe-container-normal object,  
+   .vresponsive-iframe-container-normal embed {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   .responsive-iframe-container {
+       position: relative;
+       padding-bottom: 56.25%;
+       padding-top: 30px;
+       height: 400px;
+       overflow: hidden;
+   }
+   .responsive-iframe-container iframe,   
+   .vresponsive-iframe-container object,  
+   .vresponsive-iframe-container embed {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
