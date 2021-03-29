@@ -45,10 +45,10 @@ Center for Human Genetics Research Computing
    :maxdepth: 1
    :caption: Additional resources
 
-   additional-resources/calendar
-   additional-resources/cu-palmetto
-   additional-resources/cu-vpn
    additional-resources/chg
+   additional-resources/calendar
+   additional-resources/cu-vpn
+   additional-resources/cu-palmetto
 
 .. toctree::
    :maxdepth: 1
