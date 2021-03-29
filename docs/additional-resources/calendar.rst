@@ -1,5 +1,5 @@
-Calendar
-#######
+CHG-BSL calendar
+################
 
 You will find the CHG Bioinformatics and Statistics Laboratory (BSL) calendar below. It includes periodic reminders of good data management practices as well as our scheduled workshops.
 

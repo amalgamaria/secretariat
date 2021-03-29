@@ -1,5 +1,5 @@
-VPN
-###
+Clemson VPN
+###########
 
 Any time that you are using an internet connection other than the Clemson network, you will need to connect to it remotely to access resources such as Secretariat or university-licensed journals.
 

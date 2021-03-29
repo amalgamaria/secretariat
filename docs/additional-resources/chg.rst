@@ -1,5 +1,5 @@
-CHG
-###
+CHG links
+#########
 
 To learn more about the CHG, please visit our `website`_. Here are some additional links that might be useful:
 
