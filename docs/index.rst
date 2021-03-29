@@ -16,30 +16,30 @@ Center for Human Genetics Research Computing
    :maxdepth: 1
    :caption: Accessing Resources
 
-   access/logging-in
-   access/transferring-files
+   access/login
+   access/transfer
 
 .. toctree::
    :maxdepth: 1
    :caption: The Compute Environment
 
-   compute/node-types
+   compute/nodes
    compute/modules
 
 .. toctree::
    :maxdepth: 1
    :caption: Running Jobs
 
-   running-jobs/batch-jobs
-   running-jobs/interactive-jobs
-   running-jobs/slurm-commands
-   running-jobs/squeue-status-codes
+   running-jobs/batch
+   running-jobs/interactive
+   running-jobs/slurm
+   running-jobs/status
 
 .. toctree::
    :maxdepth: 1
    :caption: Software
 
-   software/current-software
+   software/software
 
 .. toctree::
    :maxdepth: 1
@@ -47,8 +47,8 @@ Center for Human Genetics Research Computing
 
    additional-resources/chg
    additional-resources/calendar
-   additional-resources/cu-vpn
-   additional-resources/cu-palmetto
+   additional-resources/vpn
+   additional-resources/palmetto
 
 .. toctree::
    :maxdepth: 1
