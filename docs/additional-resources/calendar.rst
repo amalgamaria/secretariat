@@ -11,4 +11,4 @@ You will find the CHG Bioinformatics and Statistics Laboratory (BSL) calendar be
 
 ----
 
-.. _add it: https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DAndroid&hl=en
+.. _add it: https://support.google.com/calendar/answer/37100
