@@ -5,9 +5,10 @@ You will find the CHG Bioinformatics and Statistics Laboratory (BSL) calendar be
 
 .. attention:: This is a public calendar. Feel free to subscribe so that you don't miss anything!
    
-   - `Google ICS link`_ | "|How_1|_"
-   
-   - `Outlook ICS link`_ | "|How_2|_"
+   - `Google ICS link`_ | |How_1|_   
+   - `Outlook ICS link`_ | |How_2|_
+
+----
 
 .. raw:: html
 
