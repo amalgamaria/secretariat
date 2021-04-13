@@ -30,6 +30,8 @@ Part 1: Connect
 	e. Type your ``username`` in the "User" box
 	f. Click "OK" at the bottom of the window
 
+	*You will only need to create a new site the first time: After this, start from Step 5*
+
 5. Reopen the "Site manager" and select "**Secretariat**" in the list of sites in the left window
 6. Click "Connect" and enter your password
 7. Trust the host: An "Unknown host key" window may appear with a message similar to the one below; Click "OK"
