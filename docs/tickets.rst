@@ -12,7 +12,11 @@ If you would like to request that `Vijay`_ and / or `Maria`_ complete a task, pl
 Forms
 ^^^^^
 
-.. attention:: **CHG Faculty**: To request that accounts be added on Secretariat or if you would like to request that specific, center-supplied hardware / software be prepared in advance of a new student arriving, please fill out this form and submit above.
+.. attention:: **CHG Faculty**: If you would like to request any of the following, please fill out this form and submit above:
+   
+   - That an account be added on Secretariat.
+   
+   - That specific, center-supplied hardware / software be prepared in advance of a new student arriving.
 
 `CHG-BSL Request Form`_
 
