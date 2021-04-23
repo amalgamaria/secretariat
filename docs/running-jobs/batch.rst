@@ -33,7 +33,7 @@ Here is a template of how to declare Slurm parameters in the header of an *sbatc
 
 - [``jobname``]: name that will be assigned to a job within Secretariat
 
-- [``cpus``]: number (integer) of CPUs to allocate to a job
+- [``cpus``]: number (positive `integer`_) of CPUs to allocate to a job
 
 - [``partition``]: name of partition to which job will be submitted
 
@@ -46,7 +46,7 @@ Here is a template of how to declare Slurm parameters in the header of an *sbatc
    - *days-hours:minutes*
    - *days-hours:minutes:seconds*
 
-- [``mem``]: maximum amount of memory (integer) to allocate to each node
+- [``mem``]: maximum amount of memory (positive `integer`_) to allocate to each node
 
    - kilobyes: *K*
    - megabyes: *M*
@@ -142,7 +142,7 @@ When allocating resources to jobs, particularly with respect to nodes and CPUs, 
 
 - ``--ntasks``: maximum number of tasks to allocate to a job
 
-.. attention:: All of these values must be integers.
+.. attention:: All of these values must be positive `integers`_.
 
 Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 4 CPUs to a particular job. There are a variety of ways to request 4 CPUs, and depending on the job, one method might be preferable. Here are some examples.
 
@@ -170,6 +170,8 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 .. _FAQ: https://secretariat.readthedocs.io/en/latest/faq.html#how-do-i-create-edit-files-on-secretariat
 .. _Slurm: https://slurm.schedmd.com/documentation.html
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
+.. _integer: https://en.wikipedia.org/wiki/Integer
 .. _fastp: https://github.com/OpenGene/fastp
 .. _Slurm commands: https://secretariat.readthedocs.io/en/latest/running-jobs/slurm-commands.html
+.. _integers: https://en.wikipedia.org/wiki/Integer
 .. _Slurm FAQ: https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html
