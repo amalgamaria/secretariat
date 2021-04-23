@@ -12,7 +12,7 @@ If you would like to request that `Vijay`_ and / or `Maria`_ complete a task, pl
 Forms
 ^^^^^
 
-.. attention:: **CHG Faculty**: If you would like to request any of the following, please fill out this form and submit above:
+.. attention:: **CHG Faculty**: If you would like to request any of the following, please fill out the following form:
    
    - That an account be added on Secretariat.
    
@@ -24,4 +24,4 @@ Forms
 
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
-.. _CHG-BSL Request Form: _static/docs/form_chgbslrequest_20210415.pdf
+.. _CHG-BSL Request Form: https://forms.office.com/r/5ra6fusVsK
