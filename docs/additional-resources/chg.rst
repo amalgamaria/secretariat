@@ -49,7 +49,7 @@ For more information about other people working with the CHG, see the `"People" 
 
 .. raw:: html
 
-   <a href="https://twitter.com/ClemsonCHG?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @ClemsonCHG</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   <a href="https://twitter.com/ClemsonCHG?ref_src=twsrc%5Etfw" class="twitter-follow-button tw-align-center" data-lang="en" data-show-count="false">Follow @ClemsonCHG</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 .. raw:: html
    
