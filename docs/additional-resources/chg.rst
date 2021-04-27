@@ -51,6 +51,10 @@ For more information about other people working with the CHG, see the `"People" 
    
    <a class="twitter-timeline tw-align-center" data-lang="en" data-width="400" data-height="800" data-theme="light" href="https://twitter.com/ClemsonCHG?ref_src=twsrc%5Etfw">Tweets by ClemsonCHG</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+.. raw: html
+   
+   <a href="https://twitter.com/ClemsonCHG?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @ClemsonCHG</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ----
 
 
