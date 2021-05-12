@@ -16,7 +16,7 @@ Forms
    
    - That an account be added on Secretariat.
    
-   - That specific, center-supplied hardware / software be prepared in advance of a new student arriving.
+   - That specific, center-supplied hardware / software be prepared in advance of new students / postdocs / staff arriving.
 
 `CHG-BSL Request Form`_
 
