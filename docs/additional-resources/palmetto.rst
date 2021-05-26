@@ -23,7 +23,7 @@ TORQUE vs Slurm
 
 .. attention:: Palmetto is managed by `TORQUE`_, which means that you must submit job scripts in the *#PBS* format. This is different than Secretariat, which is managed by `Slurm`_ and processes job scripts written in the *#SBATCH* format.
 
-To see some equivalencies between *#PBS* and *#SBATCH* script formatting, see `this documentation`_ from the `University of Michigan Information and Technology Services`_.
+To see some equivalencies between *#PBS* and *#SBATCH* script formatting, see `this documentation`_ from the `Georgia Advanced Computing Resource Center`_.
 
 
 .. _website: https://www.palmetto.clemson.edu/palmetto/
@@ -34,5 +34,10 @@ To see some equivalencies between *#PBS* and *#SBATCH* script formatting, see `t
 .. _Ticket Request Form: https://secretariat.readthedocs.io/en/latest/tickets.html#ticket-requests
 .. _TORQUE: https://adaptivecomputing.com/cherry-services/torque-resource-manager/
 .. _Slurm: https://slurm.schedmd.com/overview.html
-.. _this documentation: https://arc-ts.umich.edu/migrating-from-torque-to-slurm/
-.. _University of Michigan Information and Technology Services: https://its.umich.edu/
+.. _this documentation: https://wiki.gacrc.uga.edu/wiki/Migrating_from_Torque_to_Slurm
+.. _Georgia Advanced Computing Resource Center: https://wiki.gacrc.uga.edu/wiki/Georgia_Advanced_Computing_Resource_Center
+
+..
+   old links:
+   this documentation: https://arc-ts.umich.edu/migrating-from-torque-to-slurm/
+   University of Michigan Information and Technology Services: https://its.umich.edu/
