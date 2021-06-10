@@ -1,6 +1,8 @@
 Batch jobs
 ==========
 
+{insert line}
+
 A common way of running an analysis on Secretariat is to run your command(s) / script(s) from within an "*sbatch* script." This method allows the user to request specific resources from within the script rather than typing them out on the command line. Since Secretariat's resources are managed by `Slurm`_, resource requests must be denoted in what is called an *sbatch* header.
 
 .. attention:: It is important to be careful when requesting resources on Secretariat. If you request more than what you actually need, this could stall other users waiting for resources to become available. If you are unsure about how much you should allocate for your job, please consult with `Vijay`_ or `Maria`_.
