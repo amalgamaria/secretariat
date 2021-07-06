@@ -16,6 +16,32 @@ You will find the CHG Bioinformatics and Statistics Laboratory (BSL) calendar be
 
 ----
 
+CHG room reservation calendars
+------------------------------
+
+113
+^^^
+
+.. raw:: html
+
+   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="990" height="600">Your browser does not support iframes. Please go to<a href="URL">CHG Room 113 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
+
+114
+^^^
+
+.. raw:: html
+
+   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="990" height="600">Your browser does not support iframes. Please go to<a href="URL">CHG Room 114 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
+
+115
+^^^
+
+.. raw:: html
+
+   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="990" height="600">Your browser does not support iframes. Please go to<a href="URL">CHG Room 115 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
+
+----
+
 .. _Google ICS link: https://calendar.google.com/calendar/ical/c_beafh89lsihmqbe2bsvo8dt0ks%40group.calendar.google.com/public/basic.ics
 .. _Outlook ICS link: https://outlook.office365.com/owa/calendar/b4d49d066edc43ac9b74413427a824ca@clemson.edu/01d3e4cd24944360b6811b43a54027e53290938824980956883/calendar.ics
 .. |How_1| replace:: Instructions
