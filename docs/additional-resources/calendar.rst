@@ -31,14 +31,14 @@ CHG room reservation calendars
 
 .. raw:: html
 
-   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="700" height="525">Your browser does not support iframes. Please go to<a href="URL">CHG Room 114 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
+   <p></p><div style="text-align: center;"><p><iframe src="https://outlook.office365.com/owa/calendar/b4820ecbce224c57935ca0b34ec7f85c@clemson.edu/f324fb6dde4f45a7a64d5af7c31fcafa12831558812680804282/calendar.html" <p="" width="700" height="525">Your browser does not support iframes. Please go to<a href="https://outlook.office365.com/owa/calendar/b4820ecbce224c57935ca0b34ec7f85c@clemson.edu/f324fb6dde4f45a7a64d5af7c31fcafa12831558812680804282/calendar.html">CHG Room 114 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
 
 115
 ^^^
 
 .. raw:: html
 
-   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="700" height="525">Your browser does not support iframes. Please go to<a href="URL">CHG Room 115 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
+   <p></p><div style="text-align: center;"><p><iframe src="https://outlook.office365.com/owa/calendar/bb94a8a0d8914f6e999bf155fec636a8@clemson.edu/8836b71e95ad44fe999450913fea0e7b7573785577894975098/calendar.html" <p="" width="700" height="525">Your browser does not support iframes. Please go to<a href="https://outlook.office365.com/owa/calendar/bb94a8a0d8914f6e999bf155fec636a8@clemson.edu/8836b71e95ad44fe999450913fea0e7b7573785577894975098/calendar.html">CHG Room 115 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
 
 ----
 
@@ -48,5 +48,4 @@ CHG room reservation calendars
 .. _How_1: https://support.google.com/calendar/answer/37100
 .. |How_2| replace:: Instructions
 .. _How_2: https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df
-
 
