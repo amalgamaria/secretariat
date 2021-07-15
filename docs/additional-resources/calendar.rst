@@ -24,21 +24,21 @@ CHG room reservation calendars
 
 .. raw:: html
 
-   <p></p><div style="text-align: center;"><p><iframe src="https://outlook.office365.com/owa/calendar/8c493ff1fe3d4350b9dd919850dc492c@clemson.edu/cb35249c62864a14bb3bce88ddd69e0b18318854425695824691/calendar.html" <p="" width="990" height="600">Your browser does not support iframes. Please go to<a href="https://outlook.office365.com/owa/calendar/8c493ff1fe3d4350b9dd919850dc492c@clemson.edu/cb35249c62864a14bb3bce88ddd69e0b18318854425695824691/calendar.html">CHG Room 113 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
+   <p></p><div style="text-align: center;"><p><iframe src="https://outlook.office365.com/owa/calendar/8c493ff1fe3d4350b9dd919850dc492c@clemson.edu/cb35249c62864a14bb3bce88ddd69e0b18318854425695824691/calendar.html" <p="" width="7000" height="525">Your browser does not support iframes. Please go to<a href="https://outlook.office365.com/owa/calendar/8c493ff1fe3d4350b9dd919850dc492c@clemson.edu/cb35249c62864a14bb3bce88ddd69e0b18318854425695824691/calendar.html">CHG Room 113 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
 
 114
 ^^^
 
 .. raw:: html
 
-   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="990" height="600">Your browser does not support iframes. Please go to<a href="URL">CHG Room 114 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
+   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="700" height="525">Your browser does not support iframes. Please go to<a href="URL">CHG Room 114 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
 
 115
 ^^^
 
 .. raw:: html
 
-   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="990" height="600">Your browser does not support iframes. Please go to<a href="URL">CHG Room 115 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
+   <p></p><div style="text-align: center;"><p><iframe src="XXX" <p="" width="700" height="525">Your browser does not support iframes. Please go to<a href="URL">CHG Room 115 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
 
 ----
 
