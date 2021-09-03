@@ -68,7 +68,7 @@ For Linux / Mac / Windows
 
 Session ended!
 
-.. attention:: Immediately after completing Part 2, inform `Vijay`_ or `Maria`_ via the `Ticket Request Form`_ so that they may finalize the status of your newly created account on Secretariat!
+.. attention:: Immediately after completing Part 2, inform `Vijay`_ or `Maria`_ so that they may finalize the status of your newly created account on Secretariat!
 
 
 .. _MobaXterm: https://mobaxterm.mobatek.net/
