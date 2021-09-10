@@ -54,7 +54,7 @@ For Linux / Mac / Windows
 
 1. While logged in to Secretariat, Type ``passwd`` on the command line; Press Enter.
 
-	*You will be prompted to enter your current password and then your new password.*
+	*You will be prompted to enter your current password and then your new password. When you type your password, it will not appear as you type. This is for security reasons. Press Enter after you have typed each password.*
 
 2. Type ``ssh-keygen -t rsa`` on the command line; Continue pressing Enter until complete.
 
