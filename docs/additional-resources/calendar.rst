@@ -16,32 +16,6 @@ You will find the CHG Bioinformatics and Statistics Laboratory (BSL) calendar be
 
 ----
 
-CHG room reservation calendars
-------------------------------
-
-113
-^^^
-
-.. raw:: html
-
-   <p></p><div style="text-align: center;"><p><iframe src="https://outlook.office365.com/owa/calendar/8f4d998a15054511b8ac76c8a0000760@clemson.edu/0ca3da63c193427cb6e66ad502ea4f153561801957362836601/calendar.html" <p="" width="560" height="350" frameborder="0">Your browser does not support iframes. Please go to<a href="https://outlook.office365.com/owa/calendar/8f4d998a15054511b8ac76c8a0000760@clemson.edu/0ca3da63c193427cb6e66ad502ea4f153561801957362836601/calendar.html">CHG Room 113 Reservations</a> to view this calendar.</p></iframe></p></div><p></p>
-
-114
-^^^
-
-.. raw:: html
-
-   <p></p><div style="text-align: center;"><p><iframe src="https://outlook.office365.com/owa/calendar/b4820ecbce224c57935ca0b34ec7f85c@clemson.edu/f324fb6dde4f45a7a64d5af7c31fcafa12831558812680804282/calendar.html" <p="" width="700" height="525">Your browser does not support iframes. Please go to<a href="https://outlook.office365.com/owa/calendar/b4820ecbce224c57935ca0b34ec7f85c@clemson.edu/f324fb6dde4f45a7a64d5af7c31fcafa12831558812680804282/calendar.html">CHG Room 114 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
-
-115
-^^^
-
-.. raw:: html
-
-   <p></p><div style="text-align: center;"><p><iframe src="https://outlook.office365.com/owa/calendar/bb94a8a0d8914f6e999bf155fec636a8@clemson.edu/8836b71e95ad44fe999450913fea0e7b7573785577894975098/calendar.html" <p="" width="700" height="525">Your browser does not support iframes. Please go to<a href="https://outlook.office365.com/owa/calendar/bb94a8a0d8914f6e999bf155fec636a8@clemson.edu/8836b71e95ad44fe999450913fea0e7b7573785577894975098/calendar.html">CHG Room 115 Reservations</a> to View this Calendar</p></iframe></p></div><p></p>
-
-----
-
 .. _Google ICS link: https://calendar.google.com/calendar/ical/c_beafh89lsihmqbe2bsvo8dt0ks%40group.calendar.google.com/public/basic.ics
 .. _Outlook ICS link: https://outlook.office365.com/owa/calendar/b4d49d066edc43ac9b74413427a824ca@clemson.edu/01d3e4cd24944360b6811b43a54027e53290938824980956883/calendar.ics
 .. |How_1| replace:: Instructions
