@@ -30,7 +30,7 @@ For Windows
 -----------
 
 1. Contact `Vijay`_ or `Maria`_ for information about your intial password.
-2. Download `MobaXterm`_. (The "installer" edition is fine.)
+2. Download `MobaXterm`_. (The "installer" edition is fine. If this does not work, the "portabld" edition is also fine.)
 3. After installing, launch MobaXterm and click the 'Session' button. Select 'SSH'.
 4. Type **secretariat-master.clemson.edu** in the 'Remote host' box.
 5. Check the 'Specify username' box and type your aforementioned username.
