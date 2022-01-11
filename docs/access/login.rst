@@ -24,6 +24,8 @@ For Linux / Mac
 
 4. Type initial password (obtained from `Vijay`_ or `Maria`_ in Step 1) on the command line; Press Enter.
 
+        *Note: As you type the password, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
+
 Login complete!
 
 For Windows
