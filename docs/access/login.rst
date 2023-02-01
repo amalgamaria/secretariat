@@ -18,7 +18,7 @@ For Linux / Mac
 
 1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
 2. Open a Terminal window.
-3. Type ``ssh -X [username]@secretariat-master.clemson.edu`` on the command line; Press Enter.
+3. Type ``ssh -X [username]@130.127.173.228`` on the command line; Press Enter.
 
 	*Insert your own username in the place of [username] -- you do not need the brackets.*
 
@@ -34,7 +34,7 @@ For Windows
 1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
 2. Download `MobaXterm`_. (The "installer" edition is fine. If this does not work, the "portabld" edition is also fine.)
 3. After installing, launch MobaXterm and click the 'Session' button. Select 'SSH'.
-4. Type **secretariat-master.clemson.edu** in the 'Remote host' box.
+4. Type **130.127.173.228** in the 'Remote host' box.
 5. Check the 'Specify username' box and type your aforementioned username.
 6. Click 'OK'.
 
