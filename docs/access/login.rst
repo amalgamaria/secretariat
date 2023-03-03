@@ -16,13 +16,13 @@ Part 1: Login
 For Linux / Mac
 ---------------
 
-1. Contact `Vijay`_ or `Maria`_	for information	about your intial password.
+1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
 2. Open a Terminal window.
-3. Type ``ssh -X [username]@secretariat-master.clemson.edu`` on the command line; Press Enter.
+3. Type ``ssh -X [username]@130.127.173.228`` on the command line; Press Enter.
 
 	*Insert your own username in the place of [username] -- you do not need the brackets.*
 
-4. Type initial password (obtained from `Vijay`_ or `Maria`_ in Step 1) on the command line; Press Enter.
+4. Type initial password (obtained from `Vijay`_, `John`_, or `Maria`_ in Step 1) on the command line; Press Enter.
 
         *Note: As you type the password, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
 
@@ -31,16 +31,16 @@ Login complete!
 For Windows
 -----------
 
-1. Contact `Vijay`_ or `Maria`_ for information about your intial password.
+1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
 2. Download `MobaXterm`_. (The "installer" edition is fine. If this does not work, the "portabld" edition is also fine.)
 3. After installing, launch MobaXterm and click the 'Session' button. Select 'SSH'.
-4. Type **secretariat-master.clemson.edu** in the 'Remote host' box.
+4. Type **130.127.173.228** in the 'Remote host' box.
 5. Check the 'Specify username' box and type your aforementioned username.
 6. Click 'OK'.
 
 	*After the box closes, a new tab should appear and you will be prompted to enter your password.*
 
-7. Type initial password (obtained from `Vijay`_ or `Maria`_ in Step 1) on the command line; Press Enter.
+7. Type initial password (obtained from `Vijay`_, `John`_, or `Maria`_ in Step 1) on the command line; Press Enter.
 
 Login complete!
 
@@ -70,10 +70,11 @@ For Linux / Mac / Windows
 
 Session ended!
 
-.. attention:: Immediately after completing Part 2, inform `Vijay`_ or `Maria`_ so that they may finalize the status of your newly created account on Secretariat!
+.. attention:: Immediately after completing Part 2, inform `Vijay`_, `John`_, or `Maria`_ so that they may finalize the status of your newly created account on Secretariat!
 
 
 .. _MobaXterm: https://mobaxterm.mobatek.net/
 .. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John: https://scienceweb.clemson.edu/chg/dr-john-poole/
 .. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _Ticket Request Form: https://secretariat.readthedocs.io/en/latest/tickets.html#ticket-requests
