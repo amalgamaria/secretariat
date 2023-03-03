@@ -5,11 +5,13 @@ You may submit jobs to a variety of partitions and nodes on Secretariat.
 
 .. attention:: bigmem[003-007] and compute[005-008] are under two different queues / partitions. One set of queues (Lab only) have priority over the other (all user general queues). These nodes were purchased by PIs at CHG and their group members get priority over the general queues for their respective nodes’ usage. Please be aware that when placing jobs on the “gen-” queues they may get terminated with the message below when node-owner group members place their jobs on their priority queues.
 
+The following tables include CPU and RAM information. This is with respect to each node.
+
 General purpose
 ---------------
 
 +------------------+-----------------------+----------------------+--------------+
-| Partition        | Node                  | Compute cores (CPUs) | RAM ``*``    |
+| Partition        | Node                  | Compute cores (CPUs) | RAM          |
 +==================+=======================+======================+==============+
 | compute          | compute[001-004]      | 40                   | 192 G        |
 +------------------+-----------------------+----------------------+--------------+
@@ -24,20 +26,16 @@ General purpose
 | gen-fm-bigmem-3  | bigmem[005]           | 40                   | 2 T (optane) |
 +------------------+-----------------------+----------------------+--------------+
 
-``*`` Per node
-
 Upcoming: **dgx** partition, **northern-dancer** gpu node with 128 CPU, 2 T (system) RAM.
 
 PacBio sequencer
 ----------------
 
 +------------------+-----------------------+-----------------------+---------------+
-| Partition        | Node                  | Compute cores (CPUs)  | RAM ``*``     |
+| Partition        | Node                  | Compute cores (CPUs)  | RAM           |
 +==================+=======================+=======================+===============+
 | PBC              | compute[003-004]      | 40                    | 192 G         |
 +------------------+-----------------------+-----------------------+---------------+
-
-``*`` Per node
 
 .. attention:: compute[003-004] also belong to another partition called PBC (do not submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the compute partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from compute003 and compute004; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
 
@@ -45,7 +43,7 @@ Lab only
 --------
 
 +------------------+-----------------------+-----------------------+---------------+----------+
-| Partition        | Node                  | Compute cores (CPUs)  | RAM ``*``     | Lab      |
+| Partition        | Node                  | Compute cores (CPUs)  | RAM           | Lab      |
 +==================+=======================+=======================+===============+==========+
 | gen-mk-compute-1 | compute[005-008]      | 40                    | 256 G         | Konkel   |
 +------------------+-----------------------+-----------------------+---------------+----------+
@@ -55,8 +53,6 @@ Lab only
 +------------------+-----------------------+-----------------------+---------------+----------+
 | gen-fm-bigmem-3  | bigmem[005]           | 40                    | 2 T (optane)  | Morgante |
 +------------------+-----------------------+-----------------------+---------------+----------+
-
-``*`` Per node
 
 __________
 
