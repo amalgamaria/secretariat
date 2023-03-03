@@ -3,7 +3,7 @@ Computational nodes
 
 You may submit jobs to a variety of partitions and nodes on Secretariat.
 
-Note: bigmem[003-007] and compute[005-008] are under two different queues / partitions. One set of queues (Lab only) have priority over the other (all user general queues). These nodes were purchased by PIs at CHG and their group members get priority over the general queues for their respective nodes’ usage. Please be aware that when placing jobs on the “gen-” queues they may get terminated with the message below when
+.. attention:: bigmem[003-007] and compute[005-008] are under two different queues / partitions. One set of queues (Lab only) have priority over the other (all user general queues). These nodes were purchased by PIs at CHG and their group members get priority over the general queues for their respective nodes’ usage. Please be aware that when placing jobs on the “gen-” queues they may get terminated with the message below when
 node-owner group members place their jobs on their priority queues.
 
 General purpose
@@ -40,7 +40,7 @@ PacBio Sequencer
 
 ``*`` Per each CPU
 
-Note: compute[003-004] also belong to another partition called PBC (do not submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the compute partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from compute003 and compute004; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
+.. attention:: compute[003-004] also belong to another partition called PBC (do not submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the compute partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from compute003 and compute004; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
 
 Lab only
 --------
@@ -59,11 +59,10 @@ Lab only
 
 ``*`` Per each CPU
 
-When looking at file sizes or assessing specs, it is good to bear in mind the equivalencies between the different units. Please see the table below for some example conversions.
-
-
 Byte conversion table
 ---------------------
+
+When looking at file sizes or assessing specs, it is good to bear in mind the equivalencies between the different units. Please see the table below for some example conversions.
 
 +---------------+---------------+-------------------------------+-----------------------+---------------+
 | Name		| Symbol	| Measurement			| Bytes			| Equivalency	|
