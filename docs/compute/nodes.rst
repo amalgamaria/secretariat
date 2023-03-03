@@ -3,7 +3,7 @@ Computational nodes
 
 You may submit jobs to a variety of partitions and nodes on Secretariat.
 
-.. attention:: bigmem[003-007] and compute[005-008] are under two different queues / partitions. One set of queues (Lab only) have priority over the other (all user general queues). These nodes were purchased by PIs at CHG and their group members get priority over the general queues for their respective nodes’ usage. Please be aware that when placing jobs on the “gen-” queues they may get terminated with the message below when node-owner group members place their jobs on their priority queues.
+.. attention:: bigmem[003-007] and compute[005-008] are under two different queues / partitions. One set of queues (Lab only) have priority over the other (all user general queues). These nodes were purchased by CHG Principal Investigators and their group members get priority over the general queues for their respective nodes’ usage. Please be aware that when placing jobs on the “gen-” queues they may get terminated with the message below when node-owner group members place their jobs on their priority queues.
 
 The following tables include CPU and RAM information. This is with respect to each node.
 
@@ -45,13 +45,13 @@ Lab only
 +------------------+-----------------------+-----------------------+---------------+----------+
 | Partition        | Node                  | Compute cores (CPUs)  | RAM           | Lab      |
 +==================+=======================+=======================+===============+==========+
-| gen-mk-compute-1 | compute[005-008]      | 40                    | 256 G         | Konkel   |
+| mk-compute-1     | compute[005-008]      | 40                    | 256 G         | Konkel   |
 +------------------+-----------------------+-----------------------+---------------+----------+
-| gen-fm-bigmem-1  | bigmem[003-004]       | 40                    | 1.54 T        | Morgante |
+| fm-bigmem-1      | bigmem[003-004]       | 40                    | 1.54 T        | Morgante |
 +------------------+-----------------------+-----------------------+---------------+----------+
-| gen-fm-bigmem-2  | bigmem[006-007]       | 40                    | 2 T           | Morgante |
+| fm-bigmem-2      | bigmem[006-007]       | 40                    | 2 T           | Morgante |
 +------------------+-----------------------+-----------------------+---------------+----------+
-| gen-fm-bigmem-3  | bigmem[005]           | 40                    | 2 T (optane)  | Morgante |
+| fm-bigmem-3      | bigmem[005]           | 40                    | 2 T (optane)  | Morgante |
 +------------------+-----------------------+-----------------------+---------------+----------+
 
 __________
