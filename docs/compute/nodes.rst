@@ -1,30 +1,66 @@
 Computational nodes
 ===================
 
-You may submit jobs to two types of partitions on Secretariat. 
+You may submit jobs to a variety of partitions and nodes on Secretariat.
 
-Secretariat specs
------------------
+Note: bigmem[003-007] and compute[005-008] are under two different queues / partitions. One set of queues (Lab only) have priority over the other (all user general queues). These nodes were purchased by PIs at CHG and their group members get priority over the general queues for their respective nodes’ usage. Please be aware that when placing jobs on the “gen-” queues they may get terminated with the message below when
+node-owner group members place their jobs on their priority queues.
 
-+---------------+---------------+-----------------------+-----------------------+---------------+
-| Cluster	| Partition	| Node			| Compute cores (CPUs)	| RAM		|
-+===============+===============+=======================+=======================+===============+
-|		|		| compute001		| 40			| 192 GB	|
-+		+		+-----------------------+-----------------------+---------------+
-|		| compute	| compute002		| 40			| 192 GB	|
-+		+		+-----------------------+-----------------------+---------------+
-|		|		| compute003 ``*``	| 40			| 192 GB	|
-+		+		+-----------------------+-----------------------+---------------+
-|		|		| compute004 ``*``	| 40			| 192 GB	|
-+		+---------------+-----------------------+-----------------------+---------------+
-| Secretariat	|		| bigmem001		| 40			| 1.54 TB	|
-+		+		+-----------------------+-----------------------+---------------+
-|		| bigmem	| bigmem002		| 40			| 1.54 TB	|
-+---------------+---------------+-----------------------+-----------------------+---------------+
+General purpose
+---------------
 
-.. attention:: ``*`` These compute nodes also belong to another partition called *PBC* (**do not** submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the ``compute`` partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from ``compute003`` and ``compute004``; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
++---------------+------------------+-----------------------+----------------------+--------------+
+| Cluster	| Partition        | Node                  | Compute cores (CPUs) | RAM ``*`     |
++===============+==================+=======================+======================+==============+
+|               | compute          | compute[001-004]      | 40                   | 192 G        |
++               +------------------+-----------------------+----------------------+--------------+
+|               | gen-mk-compute-1 | compute[005-008]      | 40                   | 256 G        |
++               +------------------+-----------------------+----------------------+--------------+
+|               | bigmem           | bigmem[001-002]       | 40                   | 1.54 T       |
++               +------------------+-----------------------+----------------------+--------------+
+| Secretariat   | gen-fm-bigmem-1  | bigmem[003-004]       | 40                   | 1.54 T       |
++               +------------------+-----------------------+----------------------+--------------+
+|               | gen-fm-bigmem-2  | bigmem[006-007]       | 40                   | 2 T          |
++               +------------------+-----------------------+----------------------+--------------+
+|               | gen-fm-bigmem-3  | bigmem[005]           | 40                   | 2 T (optane) |
++---------------+------------------+-----------------------+----------------------+--------------+
+
+``*`` Per each CPU
+
+Upcoming: **dgx** partition, **northern-dancer** gpu node with 128 CPU, 2 T (system) RAM.
+
+PacBio Sequencer
+----------------
+
++---------------+------------------+-----------------------+-----------------------+---------------+
+| Cluster	| Partition        | Node                  | Compute cores (CPUs)  | RAM ``*``     |
++===============+==================+=======================+=======================+===============+
+| Secretariat    | PBC             | compute[003-004]      | 40                    | 192 G         |
++---------------+------------------+-----------------------+-----------------------+---------------+
+
+``*`` Per each CPU
+
+Note: compute[003-004] also belong to another partition called PBC (do not submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the compute partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from compute003 and compute004; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
+
+Lab only
+--------
+
++---------------+------------------+-----------------------+-----------------------+---------------+----------+
+| Cluster	| Partition        | Node                  | Compute cores (CPUs)  | RAM ``*``      | Lab      |
++===============+==================+=======================+=======================+===============+==========+
+|               | gen-mk-compute-1 | compute[005-008]      | 40                    | 256 G         | Konkel   |
++               +------------------+-----------------------+-----------------------+---------------+----------+
+|               | gen-fm-bigmem-1  | bigmem[003-004]       | 40                    | 1.54 T        | Morgante |
++               +------------------+-----------------------+-----------------------+---------------+----------+
+| Secretariat   | gen-fm-bigmem-2  | bigmem[006-007]       | 40                    | 2 T           | Morgante |
++               +------------------+-----------------------+-----------------------+---------------+----------+
+|               | gen-fm-bigmem-3  | bigmem[005]           | 40                    | 2 T (optane)  | Morgante |
++---------------+------------------+-----------------------+-----------------------+---------------+----------+
+
+``*`` Per each CPU
 
 When looking at file sizes or assessing specs, it is good to bear in mind the equivalencies between the different units. Please see the table below for some example conversions.
+
 
 Byte conversion table
 ---------------------
