@@ -24,7 +24,7 @@ General purpose
 | gen-fm-bigmem-3  | bigmem[005]           | 40                   | 2 T (optane) |
 +------------------+-----------------------+----------------------+--------------+
 
-``*`` Per each CPU
+``*`` Per node
 
 Upcoming: **dgx** partition, **northern-dancer** gpu node with 128 CPU, 2 T (system) RAM.
 
@@ -37,7 +37,7 @@ PacBio sequencer
 | PBC              | compute[003-004]      | 40                    | 192 G         |
 +------------------+-----------------------+-----------------------+---------------+
 
-``*`` Per each CPU
+``*`` Per node
 
 .. attention:: compute[003-004] also belong to another partition called PBC (do not submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the compute partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from compute003 and compute004; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
 
@@ -56,7 +56,7 @@ Lab only
 | gen-fm-bigmem-3  | bigmem[005]           | 40                    | 2 T (optane)  | Morgante |
 +------------------+-----------------------+-----------------------+---------------+----------+
 
-``*`` Per each CPU
+``*`` Per node
 
 __________
 
