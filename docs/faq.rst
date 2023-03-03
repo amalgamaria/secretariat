@@ -20,6 +20,6 @@ You may also run the command ``touch [filename].sh`` if you would like to create
 ----
 
 
-.. _UNIX Tutorial for Beginners: http://www.chm.bris.ac.uk/
+.. _UNIX Tutorial for Beginners: http://www.chm.bris.ac.uk/unix
 .. _nano: https://www.nano-editor.org/dist/latest/cheatsheet.html
 .. _vim: https://vim.rtorr.com/
