@@ -33,28 +33,28 @@ General purpose
 PacBio sequencer
 ----------------
 
-+------------------+-----------------------+-----------------------+---------------+
-| Partition        | Node                  | Compute cores (CPUs)  | RAM           |
-+==================+=======================+=======================+===============+
-| PBC              | compute[003-004]      | 40                    | 192 G         |
-+------------------+-----------------------+-----------------------+---------------+
++------------------+-----------------------+-------+---------------+
+| Partition        | Node                  | CPUs  | RAM           |
++==================+=======================+=======+===============+
+| PBC              | compute[003-004]      | 40    | 192 G         |
++------------------+-----------------------+-------+---------------+
 
 .. attention:: compute[003-004] also belong to another partition called PBC (do not submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the compute partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from compute003 and compute004; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
 
 Lab only
 --------
 
-+------------------+-----------------------+-----------------------+---------------+-------------+
-| Partition        | Node                  | Compute cores (CPUs)  | RAM           | Lab         |
-+==================+=======================+=======================+===============+=============+
-| mk-compute-1     | compute[005-008]      | 40                    | 256 G         | `Konkel`_   |
-+------------------+-----------------------+-----------------------+---------------+-------------+
-| fm-bigmem-1      | bigmem[003-004]       | 40                    | 1.54 T        | `Morgante`_ |
-+------------------+-----------------------+-----------------------+---------------+-------------+
-| fm-bigmem-2      | bigmem[006-007]       | 40                    | 2 T           | `Morgante`_ |
-+------------------+-----------------------+-----------------------+---------------+-------------+
-| fm-bigmem-3      | bigmem[005]           | 40                    | 2 T (optane)  | `Morgante`_ |
-+------------------+-----------------------+-----------------------+---------------+-------------+
++------------------+-----------------------+-------+---------------+-------------+
+| Partition        | Node                  | CPUs  | RAM           | Lab         |
++==================+=======================+=======+===============+=============+
+| mk-compute-1     | compute[005-008]      | 40    | 256 G         | `Konkel`_   |
++------------------+-----------------------+-------+---------------+-------------+
+| fm-bigmem-1      | bigmem[003-004]       | 40    | 1.54 T        | `Morgante`_ |
++------------------+-----------------------+-------+---------------+-------------+
+| fm-bigmem-2      | bigmem[006-007]       | 40    | 2 T           | `Morgante`_ |
++------------------+-----------------------+-------+---------------+-------------+
+| fm-bigmem-3      | bigmem[005]           | 40    | 2 T (optane)  | `Morgante`_ |
++------------------+-----------------------+-------+---------------+-------------+
 
 __________
 
