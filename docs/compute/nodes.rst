@@ -13,21 +13,21 @@ General purpose
 +------------------+-----------------------+------------+---------+--------------+
 | Partition        | Node                  | CPUs       | GPUs    | RAM          |
 +==================+=======================+============+=========+==============+
-| compute          | compute[001-004]      | 40         | 0       | 192 G        |
+| compute          | compute[001-004]      | 40         | 0       | 188 G        |
 +------------------+-----------------------+------------+---------+--------------+
-| gen-mk-compute-1 | compute[005-008]      | 40         | 0       | 256 G        |
+| gen-mk-compute-1 | compute[005-008]      | 40         | 0       | 248 G        |
 +------------------+-----------------------+------------+---------+--------------+
-| bigmem           | bigmem[001-002]       | 40         | 0       | 1.54 T       |
+| bigmem           | bigmem[001-002]       | 40         | 0       | 1.5 T        |
 +------------------+-----------------------+------------+---------+--------------+
-| gen-fm-bigmem-1  | bigmem[003-004]       | 40         | 0       | 1.54 T       |
+| gen-fm-bigmem-1  | bigmem[003-004]       | 40         | 0       | 1.5 T        |
 +------------------+-----------------------+------------+---------+--------------+
 | gen-fm-bigmem-2  | bigmem[006-007]       | 40         | 0       | 2 T          |
 +------------------+-----------------------+------------+---------+--------------+
 | gen-fm-bigmem-3  | bigmem[005]           | 40         | 0       | 2 T (optane) |
 +------------------+-----------------------+------------+---------+--------------+
-| interactive      | interactive[001-006]  | 56 or 72   | 0       | 128 or 256 G |
+| interactive      | interactive[001-006]  | 56 or 72   | 0       | 118 or 244 G |
 +------------------+-----------------------+------------+---------+--------------+
-| dgx              | northern-dancer       | 128        | ?       | 2 T          |
+| dgx              | northern-dancer       | 128        | 8       | 2 T          |
 +------------------+-----------------------+------------+---------+--------------+
 
 PacBio sequencer
@@ -36,7 +36,7 @@ PacBio sequencer
 +------------------+-----------------------+-------+---------------+
 | Partition        | Node                  | CPUs  | RAM           |
 +==================+=======================+=======+===============+
-| PBC              | compute[003-004]      | 40    | 192 G         |
+| PBC              | compute[003-004]      | 40    | 188 G         |
 +------------------+-----------------------+-------+---------------+
 
 .. attention:: compute[003-004] also belong to another partition called PBC (do not submit jobs to this partition). Periodic, automatic data transfers from the PacBio Sequencer will be given priority and will use resources on these two compute nodes, only. Secretariat may assign jobs to these nodes when resources are requested of the compute partition, but this will only occur when they are not being used to transfer data. Likewise, you may request resources directly from compute003 and compute004; however, when your process initiates will depend on if the nodes are currently in use by the PacBio Sequencer.
@@ -47,9 +47,9 @@ Lab only
 +------------------+-----------------------+-------+---------------+-------------+
 | Partition        | Node                  | CPUs  | RAM           | Lab         |
 +==================+=======================+=======+===============+=============+
-| mk-compute-1     | compute[005-008]      | 40    | 256 G         | `Konkel`_   |
+| mk-compute-1     | compute[005-008]      | 40    | 248 G         | `Konkel`_   |
 +------------------+-----------------------+-------+---------------+-------------+
-| fm-bigmem-1      | bigmem[003-004]       | 40    | 1.54 T        | `Morgante`_ |
+| fm-bigmem-1      | bigmem[003-004]       | 40    | 1.5 T         | `Morgante`_ |
 +------------------+-----------------------+-------+---------------+-------------+
 | fm-bigmem-2      | bigmem[006-007]       | 40    | 2 T           | `Morgante`_ |
 +------------------+-----------------------+-------+---------------+-------------+
