@@ -6,8 +6,8 @@ version: 2
 
 # Set the OS, Python version and other tools you might need
 build:
-  os: "Rocky Linux 8.5"
-  #os: ubuntu-22.04
+  #os: "Rocky Linux 8.5"
+  os: ubuntu-22.04
   tools:
     python: "2.7"
     #python: "3.11"
