@@ -9,7 +9,8 @@ build:
   os: ubuntu-22.04
   #os: "Rocky Linux 8.5"
   tools:
-    python: "2.7"
+    python: "3.6"
+    #python: "2.7"
     #python: "3.11"
     # You can also specify other tool versions:
     # nodejs: "20"
