@@ -37,7 +37,7 @@ The Git & GitHub Workshop is divided into 2 parts, so participants must attend a
 
 **Basic Worflow**: Users will configure Git and learn the basic steps for local version control. This section covers required and common configuration options and the routine commands to add, manipulate, retrieve, and monitor the status of a local Git repository.
 
-**GitHub**: Instructors will explain the relationship between GitHub and Git, how to link local and remote repos, and the role of collaboration and backup. This section gives an overview of the features provided by the GitHub web portal for open source projects. Approaches to starting new projects and version control existing projects.
+**GitHub**: Instructors will explain the relationship between GitHub and Git, how to link local and remote repos, and the role of collaboration and backup. This section gives an overview of the features provided by the GitHub web portal for open source projects as well as approaches to starting new projects and version controlling existing projects.
 
 **History**: Instructors will demonstrate how Git can be used to search an annotated history of the project to identify what changes were made and retrieve previous versions of code exactly as they were saved.
 
