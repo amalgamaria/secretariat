@@ -6,7 +6,7 @@ You will find information about currently-offered CHG Bioinformatics and Statist
 HPCC Basics Workshop
 --------------------
 
-**Frequency**: Fall (~September) and Spring (~February) semesters.
+**Frequency**: Fall (~September) and Spring (~February).
 
 **Location**: CHG, Greenwood, SC (remote option possible).
 
@@ -20,14 +20,14 @@ The HPCC Basics workshop is divided into 3 parts, so you must attend all 3 sessi
 
 **Day 3**: Instructors will give recommendations on how to organize a project directory before beginning an analysis. Instructors will explain how Slurm handles job submissions, walk users through the general layout of an SBATCH script, and demonstrate several Slurm commands (squeue, sbatch, srun, sinfo, scontrol, scancel). Users will learn how to create interactive sessions and instructors will demonstrate how to estimate cluster resources needed for a job by scaling down the analysis, and monitoring it in real time and / or afterwards, and looking at stats that Slurm collects. Instructors will demonstrate how to connect to Secretariat via Open OnDemand (https://secretariat-master) and give a tour of the interface.
 
-Tags: Cluster resources, Login, Workspace navigation, Permissions, Data transfer, Software accession, Software installation, Job submission, Cluster etiquette
+**Tags**: Cluster resources, Login, Workspace navigation, Permissions, Data transfer, Software accession, Software installation, Job submission, Cluster etiquette
 
 Git & GitHub Workshop
 ---------------------
 
-**Frequency**: Fall (~October) and Spring (~March) semesters
+**Frequency**: Fall (~October) and Spring (~March).
 
-**Location**: CHG, Greenwood, SC (remote option possible)
+**Location**: CHG, Greenwood, SC (remote option possible).
 
 **Pre-course**: Note that the CHG-BSL HPCC Basics Workshop is currently treated as a pre-requisite for the Git & GitHub Workshop. Before the workshop, users will need to install and test the Git software client, create a GitHub account, and set up SSH keys for authentication. Instructors will provide instructions for these tasks to attendees.
 
