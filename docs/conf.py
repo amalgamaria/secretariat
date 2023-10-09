@@ -29,9 +29,9 @@ extensions = [
 #	'recommonmark' 
 ]
 
-from sphinx.highlighting import lexers
+#from sphinx.highlighting import lexers
 #from recommonmark.parser import CommonMarkParser
-from pygments.lexers.web import PhpLexer
+#from pygments.lexers.web import PhpLexer
 lexers['php'] = PhpLexer(startinline=True, linenos=1)
 lexers['php-annotations'] = PhpLexer(startinline=True, linenos=1)
 primary_domain = 'php'
