@@ -49,6 +49,7 @@ Center for Human Genetics Research Computing
    additional-resources/calendar
    additional-resources/vpn
    additional-resources/palmetto
+   additional-resources/workshops
 
 .. toctree::
    :maxdepth: 1
