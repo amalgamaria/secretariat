@@ -6,8 +6,8 @@ version: 2
 
 # Set the OS, Python version and other tools you might need
 build:
-  #os: "Rocky Linux 8.5"
   os: ubuntu-22.04
+  #os: "Rocky Linux 8.5"
   tools:
     python: "2.7"
     #python: "3.11"
@@ -32,6 +32,6 @@ sphinx:
 # Optional but recommended, declare the Python requirements required
 # to build your documentation
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
-# python:
-#    install:
-#    - requirements: docs/requirements.txt
+python:
+   install:
+   - requirements: docs/requirements.txt
