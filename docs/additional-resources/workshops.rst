@@ -41,7 +41,7 @@ The Git & GitHub Workshop is divided into 2 parts, so participants must attend a
 
 **History**: Instructors will demonstrate how Git can be used to search an annotated history of the project to identify what changes were made and retrieve previous versions of code exactly as they were saved.
 
-**Branching**: Instructors will discuss the rationale for branches as well as how to create them, switch between, and incorporate changes from one into another (merging). This section emphasizes the power of branching during development and demystifies how Git works.
+**Branching**: Instructors will discuss the rationale for branches as well as how to create them, switch between them, and incorporate changes from one into another (merging). This section emphasizes the power of branching during development and demystifies how Git works.
 
 **Merging and Merge Conflicts**: Users will learn how to incorporate changes and how to handle this process when intervention is necessary.
 
