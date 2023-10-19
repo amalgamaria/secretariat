@@ -12,7 +12,7 @@ HPCC Basics Workshop
 
 **Pre-course**: Note that attendees must have a Secretariat account to attend the HPCC Basics Workshop. This workshop does not give an introduction to Linux: Before attending, it is preferred that users know some command line basics and feel comfortable navigating around a virtual computing environment using commands (e.g. `those mentioned in this tutorial`_). 
 
-The HPCC Basics Workshop is divided into 3 parts, so participants must attend all 3 sessions! It is recommended that all Secretariat users attend this workshop. The goal of this workshop is for users to understand how to use Secretariat, the CHG HPC, effectively. Topics will include many of the items discussed in the Secretariat Documentation as well as some others, described below.
+The HPCC Basics Workshop is divided into 3 parts, so participants must attend all 3 sessions! It is recommended that all Secretariat users attend this workshop. The goal of this workshop is for users to understand how to use Secretariat, the CHG HPC, effectively. Topics will include many of the items discussed in the `Secretariat Documentation`_ as well as some others, described below.
 
 **Topics**:
 
@@ -51,7 +51,7 @@ Git & GitHub Workshop
 
 **Pre-course**: Note that the CHG-BSL HPCC Basics Workshop is currently treated as a pre-requisite for the Git & GitHub Workshop. Before the workshop, users will need to install and test the Git software client, create a GitHub account, and set up SSH keys for authentication. Instructors will provide instructions for these tasks to attendees.
 
-The Git & GitHub Workshop is divided into 2 parts, so participants must attend all 2 sessions! The Git & GitHub Workshop gives explanation of version control and motivates the many ways Git and GitHub are useful tools for bioinformaticians and users of bioinformatic tools and pipelines in general!
+The Git & GitHub Workshop is divided into 2 parts, so participants must attend all 2 sessions! The Git & GitHub Workshop gives explanation of version control and motivates the many ways Git and GitHub are useful tools for bioinformaticians and users of bioinformatic tools and pipelines in general.
 
 **Topics**:
 
@@ -84,6 +84,8 @@ RNA-Seq Retreat
 
 **Pre-course**: Basic Unix/Linux command line skills are recommended. Access to Secretariat (CHG HPC) is currently required. Future iterations could be modified use Palmetto, so access to either HPC environment will be a pre-requisite.
 
+The RNA-Seq Retreat is divided into 3 parts, so participants must attend all 3 sessions! Although focused on the analysis portion, this retreat gives a comprehensive overview of transcriptomic studies, beginning with experimental design.
+
 **Topics**:
 
 - **Day 1**
@@ -112,4 +114,5 @@ RNA-Seq Retreat
    
    - **Network Analyses**: Attendees will participate in the critical discussion of the different methods commonly used to represent the relationship between genes based on expression and known interactions. The performance of popular methods such as Weighted Gene Co-expression Network Analysis and Inference-based Interaction Network Analyses will be assessed by the attendees using the test dataset. Network visualization and sub-clustering will also be discussed and demonstrated.
 
+.. _Secretariat Documentation: https://secretariat.readthedocs.io/en/latest
 .. _those mentioned in this tutorial: https://www.chm.bris.ac.uk/unix/unix1.html
