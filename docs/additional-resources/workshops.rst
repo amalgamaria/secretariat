@@ -108,6 +108,13 @@ The RNA-Seq Retreat is divided into 3 parts, so participants must attend all 3 s
    
    - **Statistical Modeling**: The concept of differential expression will be described from a statistical modeling perspective. Critical ideas such as conditional means, distribution properties and centrality, dispersion, model parametrization, mean-variance relationships, and statistical tests will be discussed.
 
+.. raw:: html
+
+    <style> .red {color:#aa0060; background-color: pink; font-weight:bold; font-size:16px}
+    </style>
+
+.. role:: red
+
 - **Day 3**
    
    - **Gene Set Analyses**: Methods to infer functional significance and consequences from a set of genes will be covered in detail. Popular techniques such as over-representation analysis, gene set enrichment and pathway analyses will be discussed. The differences between these methods will also be explained. Attendees will be provided with the necessary tools and datasets to perform their own analyses in the HPC environment.
@@ -116,10 +123,3 @@ The RNA-Seq Retreat is divided into 3 parts, so participants must attend all 3 s
 
 .. _Secretariat Documentation: https://secretariat.readthedocs.io/en/latest
 .. _those mentioned in this tutorial: https://www.chm.bris.ac.uk/unix/unix1.html
-
-.. raw:: html
-
-    <style> .red {color:#aa0060; background-color: pink; font-weight:bold; font-size:16px}
-    </style>
-
-.. role:: red
