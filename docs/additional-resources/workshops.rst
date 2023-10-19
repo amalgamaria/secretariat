@@ -112,7 +112,14 @@ The RNA-Seq Retreat is divided into 3 parts, so participants must attend all 3 s
    
    - **Gene Set Analyses**: Methods to infer functional significance and consequences from a set of genes will be covered in detail. Popular techniques such as over-representation analysis, gene set enrichment and pathway analyses will be discussed. The differences between these methods will also be explained. Attendees will be provided with the necessary tools and datasets to perform their own analyses in the HPC environment.
    
-   - **Network Analyses**: Attendees will participate in the critical discussion of the different methods commonly used to represent the relationship between genes based on expression and known interactions. The performance of popular methods such as Weighted Gene Co-expression Network Analysis and Inference-based Interaction Network Analyses will be assessed by the attendees using the test dataset. Network visualization and sub-clustering will also be discussed and demonstrated.
+   - :red:`Network Analyses`: Attendees will participate in the critical discussion of the different methods commonly used to represent the relationship between genes based on expression and known interactions. The performance of popular methods such as Weighted Gene Co-expression Network Analysis and Inference-based Interaction Network Analyses will be assessed by the attendees using the test dataset. Network visualization and sub-clustering will also be discussed and demonstrated.
 
 .. _Secretariat Documentation: https://secretariat.readthedocs.io/en/latest
 .. _those mentioned in this tutorial: https://www.chm.bris.ac.uk/unix/unix1.html
+
+.. raw:: html
+
+    <style> .red {color:#aa0060; background-color: pink; font-weight:bold; font-size:16px}
+    </style>
+
+.. role:: red
