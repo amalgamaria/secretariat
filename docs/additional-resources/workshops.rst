@@ -54,6 +54,38 @@ The Git & GitHub Workshop is divided into 2 parts, so participants must attend a
 RNA-Seq Retreat
 ---------------
 
-< TBA >
+**Frequency**: Summer (July).
+
+**Location**: Clemson University Roy Muldrow Cooper Library, Clemson, SC.
+
+**Pre-course**: Basic Unix/Linux command line skills are recommended. Access to Secretariat (CHG HPC) is currently required. Future iterations could be modified use Palmetto, so access to either HPC environment will be a pre-requisite.
+
+**Topics**:
+
+- **Day 1**:
+
+   - **Background**: Attendees will be introduced to some basic concepts such as the definition and constituents of a transcriptome, its basic properties, diversity and expression potential, and ribosomal RNA removal strategies.
+   
+   - **Experimental Design**: Hypothesis testing using transcriptome data will be addressed from a factorial design perspective. Strategies to handle variable confoundedness and block effects will also be discussed. Data-driven gold standards for replication and sequencing depth requirements will be presented and discussed.
+   
+   - **Quality Control**: Attendees will be presented with currently-recommended strategies for quality control of whole transcriptome data. They will also practice basic quality control steps such as adapter removal, length filtering, per-based quality filtering, and rRNA filtering using pre-designed pipelines and tools.
+   
+   - **Alignment and Processing**: The means of identifying and acquiring reference genome resources, basic concepts of sequencing data alignment to reference genome and the properties of the alignment intermediary files and methods to visualized feature alignments and assess quality issues will be presented and explored.
+   
+   - **Feature Quantification**: Attendees will be introduced to strategies for quantification based on transcriptome features such as gene, transcript isoform, exon and transposon. Acquisition, construction, and manipulation of gene models (GTF) will also be discussed.
+   
+- **Day 2**:
+
+   - *De Novo* **Transcriptomics**: Alternative strategies to a reference-based transcriptome analysis will be presented and discussed. Attendees will also practice the *de novo* pipeline steps which includeassembly, clustering, annotation, and assessment.
+   
+   - **Normalization**: Means to correct for technical variation in feature quantification as well as commonly utilized strategies will be discussed and explored. The consequences and affinities of different normalization methods will also be introduced and explained.
+   
+   - **Statistical Modeling**: The concept of differential expression will be described from a statistical modeling perspective. Critical ideas such as conditional means, distribution properties and centrality, dispersion, model parametrization, mean-variance relationships, and statistical tests will be discussed.
+
+- **Day 3**:
+   
+   - **Gene Set Analyses**: Methods to infer functional significance and consequences from a set of genes will be covered in detail. Popular techniques such as over-representation analysis, gene set enrichment and pathway analyses will be discussed. The differences between these methods will also be explained. Attendees will be provided with the necessary tools and datasets to perform their own analyses in the HPC environment.
+   
+   - **Network Analyses**: Attendees will participate in the critical discussion of the different methods commonly used to represent the relationship between genes based on expression and known interactions. The performance of popular methods such as Weighted Gene Co-expression Network Analysis and Inference-based Interaction Network Analyses will be assessed by the attendees using the test dataset. Network visualization and sub-clustering will also be discussed and demonstrated.
 
 .. _those mentioned in this tutorial: https://www.chm.bris.ac.uk/unix/unix1.html
