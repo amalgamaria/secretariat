@@ -18,8 +18,8 @@ build:
     # golang: "1.20"
 
 # Conda environment
-conda:
-  environment: environment.yml
+#conda:
+#  environment: environment.yml #rtd.yml
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
