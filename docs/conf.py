@@ -14,6 +14,7 @@ author = 'Maria E. Adonay'
 release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
+# 2023-10-25 : Successfully built RtD page after commenting out 'sphinx_markdown_tables' portions of conf.py and requirements.txt
 
 templates_path = ['_templates']
 exclude_patterns = ['_build']
