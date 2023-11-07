@@ -75,6 +75,13 @@ The Git & GitHub Workshop is divided into 2 parts, so participants must attend a
    
    - **Resources**: Instructors will provide a condensed list of curated resources particularly suited to new users covering basic, intermediate, and advanced topics. The goal is to provide a clear, concise, and easy to navigate set of references and tutorials to assist users easily expand their Git skills as their needs and experience grow.
 
+.. image:: ../_static/images/icon_rnaseq-retreat.png
+   :width: 2945 px
+   :height: 2945 px
+   :scale: 5%
+   :alt: 2023 CHG-BSL RNA-Seq Retreat Logo
+   :target: https://scienceweb.clemson.edu/chg/wp-content/uploads/sites/4/2023/10/The-Transcript-Fall-2023.pdf
+
 RNA-Seq Retreat
 ---------------
 
