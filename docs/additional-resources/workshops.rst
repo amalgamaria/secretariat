@@ -3,6 +3,8 @@ CHG-BSL worshops
 
 You will find information about currently-offered CHG Bioinformatics and Statistics Laboratory (BSL) workshops below.
 
+----
+
 HPCC Basics Workshop
 --------------------
 
@@ -42,6 +44,8 @@ The HPCC Basics Workshop is divided into 3 parts, so participants must attend al
    
    - **Resources**: Instructors will demonstrate how to connect to Secretariat via Open OnDemand (https://secretariat-master) and give a tour of the interface.
 
+----
+
 Git & GitHub Workshop
 ---------------------
 
@@ -75,15 +79,17 @@ The Git & GitHub Workshop is divided into 2 parts, so participants must attend a
    
    - **Resources**: Instructors will provide a condensed list of curated resources particularly suited to new users covering basic, intermediate, and advanced topics. The goal is to provide a clear, concise, and easy to navigate set of references and tutorials to assist users easily expand their Git skills as their needs and experience grow.
 
-.. image:: ../_static/images/icon_rnaseq-retreat.png
-   :width: 2945 px
-   :height: 2945 px
-   :scale: 5%
-   :alt: 2023 CHG-BSL RNA-Seq Retreat Logo
-   :target: https://scienceweb.clemson.edu/chg/wp-content/uploads/sites/4/2023/10/The-Transcript-Fall-2023.pdf
+----
 
 RNA-Seq Retreat
 ---------------
+
+.. image:: ../_static/images/icon_rnaseq-retreat.png
+   :width: 7000 px
+   :height: 7000 px
+   :scale: 100%
+   :alt: 2023 CHG-BSL RNA-Seq Retreat Logo
+   :target: https://scienceweb.clemson.edu/chg/wp-content/uploads/sites/4/2023/10/The-Transcript-Fall-2023.pdf
 
 **Frequency**: Summer (July).
 
@@ -120,6 +126,8 @@ The RNA-Seq Retreat is divided into 3 parts, so participants must attend all 3 s
    - **Gene Set Analyses**: Methods to infer functional significance and consequences from a set of genes will be covered in detail. Popular techniques such as over-representation analysis, gene set enrichment and pathway analyses will be discussed. The differences between these methods will also be explained. Attendees will be provided with the necessary tools and datasets to perform their own analyses in the HPC environment.
    
    - **Network Analyses**: Attendees will participate in the critical discussion of the different methods commonly used to represent the relationship between genes based on expression and known interactions. The performance of popular methods such as Weighted Gene Co-expression Network Analysis and Inference-based Interaction Network Analyses will be assessed by the attendees using the test dataset. Network visualization and sub-clustering will also be discussed and demonstrated.
+
+----
 
 .. _Secretariat Documentation: https://secretariat.readthedocs.io/en/latest
 .. _those mentioned in this tutorial: https://www.chm.bris.ac.uk/unix/unix1.html
