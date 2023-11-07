@@ -85,9 +85,9 @@ RNA-Seq Retreat
 ---------------
 
 .. image:: ../_static/images/icon_rnaseq-retreat.png
-   :width: 7000 px
-   :height: 7000 px
-   :scale: 100%
+   :width: 2705 px
+   :height: 1028 px
+   :scale: 20%
    :alt: 2023 CHG-BSL RNA-Seq Retreat Logo
    :target: https://scienceweb.clemson.edu/chg/wp-content/uploads/sites/4/2023/10/The-Transcript-Fall-2023.pdf
 
