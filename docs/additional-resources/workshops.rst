@@ -40,7 +40,7 @@ The HPCC Basics Workshop is divided into 3 parts, so participants must attend al
    
    - **Job submission**: Instructors will give recommendations on how to organize a project directory before beginning an analysis. Instructors will explain how Slurm handles job submissions, walk users through the general layout of an SBATCH script, and demonstrate several Slurm commands (squeue, sbatch, srun, sinfo, scontrol, scancel).
    
-   - **Cluster etiquette**: Users will learn how to create interactive sessions and instructors will demonstrate how to estimate cluster resources needed for a job by scaling down the analysis, and monitoring it in real time and / or afterwards, and looking at stats that Slurm collects.
+   - **Cluster etiquette**: Users will learn how to create interactive sessions and instructors will demonstrate how to estimate cluster resources needed for a job by scaling down the analysis, monitoring it in real time and / or afterwards, and looking at stats that Slurm collects.
    
    - **Resources**: Instructors will demonstrate how to connect to Secretariat via Open OnDemand (https://secretariat-master) and give a tour of the interface.
 
