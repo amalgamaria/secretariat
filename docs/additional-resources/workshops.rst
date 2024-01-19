@@ -93,7 +93,7 @@ RNA-Seq Retreat
 
 **Frequency**: Summer (July).
 
-**Location**: Clemson University Roy Muldrow Cooper Library, Clemson, SC.
+**Location**: [Subject to change.] Clemson University Roy Muldrow Cooper Library, Clemson, SC.
 
 **Pre-course**: Basic Unix/Linux command line skills are recommended. Access to Secretariat (CHG HPC) is currently required. Future iterations could be modified use Palmetto, so access to either HPC environment will be a pre-requisite.
 
