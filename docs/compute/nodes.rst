@@ -3,7 +3,7 @@ Computational nodes
 
 You may submit jobs to a variety of partitions and nodes on Secretariat.
 
-.. attention:: bigmem[003-007] and compute[005-008] are under two different queues / partitions. One set of queues (Lab only) have priority over the other (all user general queues). These nodes were purchased by CHG Principal Investigators and their group members get priority over the general queues for their respective nodes’ usage. Please be aware that when placing jobs on the “gen-” queues they may get terminated with the message below when node-owner group members place their jobs on their priority queues.
+.. attention:: bigmem[003-009] and compute[005-012] are under two different queues / partitions. One set of queues (Lab only) have priority over the other (all user general queues). These nodes were purchased by CHG Principal Investigators and their group members get priority over the general queues for their respective nodes’ usage. Please be aware that when placing jobs on the “gen-” queues they may get terminated with the message below when node-owner group members place their jobs on their priority queues.
 
 The following tables include CPU and RAM information. This is with respect to each node.
 
@@ -17,6 +17,8 @@ General purpose
 +------------------+-----------------------+------------+---------+--------------+
 | gen-mk-compute-1 | compute[005-008]      | 40         | 0       | 248 G        |
 +------------------+-----------------------+------------+---------+--------------+
+| gen-kw-compute-1 | compute[009-012]	   | 48         | 0	  | 1 T          |
++------------------+-----------------------+------------+---------+--------------+
 | bigmem           | bigmem[001-002]       | 40         | 0       | 1.5 T        |
 +------------------+-----------------------+------------+---------+--------------+
 | gen-fm-bigmem-1  | bigmem[003-004]       | 56         | 0       | 1.5 T        |
@@ -24,6 +26,8 @@ General purpose
 | gen-fm-bigmem-2  | bigmem[006-007]       | 56         | 0       | 2 T          |
 +------------------+-----------------------+------------+---------+--------------+
 | gen-fm-bigmem-3  | bigmem[005]           | 80         | 0       | 2 T (optane) |
++------------------+-----------------------+------------+---------+--------------+
+| gen-fm-bigmem-4  | bigmem[008-009]       | 128        | 0	  | 4 T          |
 +------------------+-----------------------+------------+---------+--------------+
 | interactive      | interactive[001-005]  | 56 or 72   | 0       | 118 or 244 G |
 +------------------+-----------------------+------------+---------+--------------+
@@ -44,17 +48,19 @@ PacBio sequencer
 Lab only
 --------
 
-+------------------+-----------------------+-------+---------------+-------------+
-| Partition        | Node                  | CPUs  | RAM           | Lab         |
-+==================+=======================+=======+===============+=============+
-| mk-compute-1     | compute[005-008]      | 40    | 248 G         | `Konkel`_   |
-+------------------+-----------------------+-------+---------------+-------------+
-| fm-bigmem-1      | bigmem[003-004]       | 56    | 1.5 T         | `Morgante`_ |
-+------------------+-----------------------+-------+---------------+-------------+
-| fm-bigmem-2      | bigmem[006-007]       | 56    | 2 T           | `Morgante`_ |
-+------------------+-----------------------+-------+---------------+-------------+
-| fm-bigmem-3      | bigmem[005]           | 80    | 2 T (optane)  | `Morgante`_ |
-+------------------+-----------------------+-------+---------------+-------------+
++------------------+-----------------------+-------+---------------+------------------+
+| Partition        | Node                  | CPUs  | RAM           | Lab              |
++==================+=======================+=======+===============+==================+
+| mk-compute-1     | compute[005-008]      | 40    | 248 G         | `Konkel`_        |
++------------------+-----------------------+-------+---------------+------------------+
+| kw-compute-1     | compute[009-012]	   | 48    | 1 T           | `Witt-Dillon`_   |
++------------------+-----------------------+-------+---------------+------------------+
+| fm-bigmem-1      | bigmem[003-004]       | 56    | 1.5 T         | `Morgante`_      |
++------------------+-----------------------+-------+---------------+------------------+
+| fm-bigmem-2      | bigmem[006-007]       | 56    | 2 T           | `Morgante`_      |
++------------------+-----------------------+-------+---------------+------------------+
+| fm-bigmem-3      | bigmem[005]           | 80    | 2 T (optane)  | `Morgante`_      |
++------------------+-----------------------+-------+---------------+------------------+
 
 __________
 
@@ -93,3 +99,4 @@ When looking at file sizes or assessing specs, it is good to bear in mind the eq
 
 .. _Konkel: https://scienceweb.clemson.edu/chg/dr-miriam-konkel
 .. _Morgante: https://scienceweb.clemson.edu/chg/dr-fabio-morgante
+.. _Witt-Dillon: https://scienceweb.clemson.edu/chg/dr-kelsey-witt-dillon
