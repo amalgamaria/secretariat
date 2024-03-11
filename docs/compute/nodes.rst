@@ -53,7 +53,7 @@ Lab only
 +==================+=======================+=======+===============+==================+
 | mk-compute-1     | compute[005-008]      | 40    | 248 G         | `Konkel`_        |
 +------------------+-----------------------+-------+---------------+------------------+
-| kw-compute-1     | compute[009-012]	   | 48    | 1 T           | `Witt-Dillon`_   |
+| kw-compute-1     | compute[009-012]	   | 48    | 1 T           | `Witt Dillon`_   |
 +------------------+-----------------------+-------+---------------+------------------+
 | fm-bigmem-1      | bigmem[003-004]       | 56    | 1.5 T         | `Morgante`_      |
 +------------------+-----------------------+-------+---------------+------------------+
@@ -99,4 +99,4 @@ When looking at file sizes or assessing specs, it is good to bear in mind the eq
 
 .. _Konkel: https://scienceweb.clemson.edu/chg/dr-miriam-konkel
 .. _Morgante: https://scienceweb.clemson.edu/chg/dr-fabio-morgante
-.. _Witt-Dillon: https://scienceweb.clemson.edu/chg/dr-kelsey-witt-dillon
+.. _Witt Dillon: https://scienceweb.clemson.edu/chg/dr-kelsey-witt-dillon
