@@ -17,7 +17,7 @@ Center for Human Genetics Research Computing
    :caption: Accessing Resources
 
    access/login
-   access/onboarding
+   access/onboard
    access/transfer
 
 .. toctree::
