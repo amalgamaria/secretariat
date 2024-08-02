@@ -32,15 +32,19 @@ For Windows
 -----------
 
 1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
-2. Download `MobaXterm`_. (The "installer" edition is fine. If this does not work, the "portabld" edition is also fine.)
-3. After installing, launch MobaXterm and click the 'Session' button. Select 'SSH'.
-4. Type **130.127.173.136** in the 'Remote host' box.
-5. Check the 'Specify username' box and type your aforementioned username.
-6. Click 'OK'.
+2. Download a terminal emulator like `MobaXterm`_. (The "installer" edition is fine. If this does not work, the "portabld" edition is also fine.)
+3. After installing, launch the emulator and log into Secretariat.
 
-	*After the box closes, a new tab should appear and you will be prompted to enter your password.*
+	E.g. For MobaXterm:
 
-7. Type initial password (obtained from `Vijay`_, `John`_, or `Maria`_ in Step 1) on the command line; Press Enter.
+		A. Click the 'Session' button. Select 'SSH'.
+		B. Type **130.127.173.136** in the 'Remote host' box.
+		C. Check the 'Specify username' box and type your aforementioned username.
+		D. Click 'OK'.
+
+		*After the box closes, a new tab should appear and you will be prompted to enter your password.*
+
+		E. Type initial password (obtained from `Vijay`_, `John`_, or `Maria`_ in Step 1) on the command line; Press Enter.
 
 Login complete!
 
