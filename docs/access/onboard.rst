@@ -18,9 +18,9 @@ Account + Access
 
 Once an account has been created for you on Secretariat, you can connect via command line terminal using the following command:
 
-ssh -X <username>@secretariat-master.clemson.edu
+``ssh -X [username]@secretariat-master.clemson.edu``
 
-Note that <username> will be replaced with your Secretariat username. 
+	Insert your own username in the place of [username] – you do not need the brackets.
 
 You may also connect to Secretariat via Open OnDemand internet browser (e.g. `https://secretariat-master`_), similar to `Palmetto's setup`_.
 
