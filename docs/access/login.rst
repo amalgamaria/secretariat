@@ -32,7 +32,7 @@ For Windows
 -----------
 
 1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
-2. Download a terminal emulator like `MobaXterm`_. (The "installer" edition is fine. If this does not work, the "portabld" edition is also fine.)
+2. Download a terminal emulator, such as `MobaXterm`_. (For MobaXterm: The "installer" edition is fine. If this does not work, the "portabld" edition is also fine.)
 3. After installing, launch the emulator and log into Secretariat.
 
 	E.g. For MobaXterm:
