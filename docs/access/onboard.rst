@@ -56,7 +56,7 @@ HPCC Etiquette
 
 Resources: Because Secretariat is a much smaller cluster than `Palmetto`_, a bit more discretion is advised when it comes to requesting resources (e.g. cpus, memory, time). Generally, being on the conservative side helps manage everyone’s needs and uses. If you are unclear about how you should request resources, please reach out to us once you are ready to run analyses on Secretariat!
 
-Home directory (/home): Make sure to keep /home/esak (<5 Gb) and clean. If you are unclear about what this means or how to monitor this once you start using Secretariat, please let us know and we can help get you started!
+Home directory (/home): Make sure to keep your home directory small (<5 Gb) and clean. If you are unclear about what this means or how to monitor this once you start using Secretariat, please let us know and we can help get you started!
 
 Data directory (/data, /data2): Your software libraries / packages / environments (e.g. R, Python, conda), data files, and related resources for analyses should be kept within your data directory. Please keep in mind that this data directory will not be backed up unless a Palmetto backup has been set up with us or you generate another copy through other means (e.g. upload to cloud storage).
 
