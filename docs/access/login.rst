@@ -42,7 +42,7 @@ For Windows
 		C. Check the 'Specify username' box and type your aforementioned username.
 		D. Click 'OK'.
 
-		*After the box closes, a new tab should appear and you will be prompted to enter your password.*
+		*Note: After the box closes, a new tab should appear and you will be prompted to enter your password. As you type the password, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
 
 		E. Type initial password (obtained from `Vijay`_, `John`_, or `Maria`_ in Step 1) on the command line; Press Enter.
 
