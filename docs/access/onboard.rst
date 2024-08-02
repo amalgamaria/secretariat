@@ -20,7 +20,7 @@ Once an account has been created for you on Secretariat, you can connect via com
 
 ``ssh -X [username]@secretariat-master.clemson.edu``
 
-	Insert your own username in the place of [username] – you do not need the brackets.
+	*Insert your own username in the place of [username] – you do not need the brackets.*
 
 You may also connect to Secretariat via Open OnDemand internet browser (e.g. `https://secretariat-master`_), similar to `Palmetto's setup`_.
 
@@ -47,7 +47,7 @@ Once you sign in, you should have permission to access these directories using t
 Communications on Slack
 #######################
 
-The `#secretariat`_ `Slack`_ channel will be used to communicate things including, but not limited to, scheduled or emergency maintenance of Secretariat and new software installations. All Secretariat users are welcome to join this channel to follow updates or post questions.
+The `#secretariat`_ channel in the CHG `Slack`_ Workspace will be used to communicate things including, but not limited to, scheduled or emergency maintenance of Secretariat and new software installations. All Secretariat users are welcome to join this channel to follow updates or post questions.
 
 ----
 
