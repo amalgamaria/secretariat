@@ -38,7 +38,15 @@ All Secretariat users are members of specific groups. The purpose of these group
 Directories
 ###########
 
-Each Secretariat user receives a directory in /home as well as a directory for data storage and analyses in /data or /data2.
+Each Secretariat user receives a directory in /home and /scratch2 as well as a directory for data storage and analyses in /data or /data2.
+
+Scratch storage is extremely fast (compared with /data, /data2, and /data3), so it can significantly shorten the runtime for jobs which read and / or write large files (including intermediate files) as well as jobs which perform a lot of random disk access. Storage quotas are not enforced on /scratch2, but please consult with us if you plan to use more than 10 Tb. 
+
+Scratch storage is for temporary use to speed computations and therefore should NOT be considered long-term storage for a number of reasons:
+
+	- Scratch storage intentionally trades redundancy for significant increases in speed (all other storage on Secretariat has built-in redundancy to provide the maximum possible data integrity in case of drive failures and, even then, you should still have independent off-site backups).
+	- Scratch is a limited shared resource (100 Tb total) so leaving large amounts of data for months after jobs have completed reduces the amount available to other users with active jobs.
+	- Scratch is much more expensive per Tb than other storage.
 
 Once you sign in, you should have permission to access these directories using the `cd`_ command-line shell command. If you have trouble with this, please let us know!
 
