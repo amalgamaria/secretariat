@@ -19,6 +19,8 @@ General purpose
 +------------------+-----------------------+------------+---------------+---------------+
 | gen-kw-compute-1 | compute[009-012]	   | 48         | 0	        | 1024          |
 +------------------+-----------------------+------------+---------------+---------------+
+| gen-sg-compute-1 | compute[013-014]	   | 48         | 0             | 1024          |
++------------------+-----------------------+------------+---------------+---------------+
 | bigmem           | bigmem[001-002]       | 40         | 0             | 1540          |
 +------------------+-----------------------+------------+---------------+---------------+
 | gen-fm-bigmem-1  | bigmem[003-004]       | 56         | 0             | 1536          |
@@ -61,6 +63,8 @@ Lab only - CPU only
 | mk-compute-1     | compute[005-008]      | 40    | 256           | `Konkel`_        |
 +------------------+-----------------------+-------+---------------+------------------+
 | kw-compute-1     | compute[009-012]	   | 48    | 1024          | `Witt Dillon`_   |
++------------------+-----------------------+-------+---------------+------------------+
+| sg-compute-1     | compute[013-014]	   | 48    | 1024          | `Gopalan`_       |
 +------------------+-----------------------+-------+---------------+------------------+
 | fm-bigmem-1      | bigmem[003-004]       | 56    | 1536          | `Morgante`_      |
 +------------------+-----------------------+-------+---------------+------------------+
@@ -122,3 +126,4 @@ When looking at file sizes or assessing specs, it is good to bear in mind the eq
 .. _Witt Dillon: https://scienceweb.clemson.edu/chg/dr-kelsey-witt-dillon
 .. _Masino: https://scienceweb.clemson.edu/chg/dr-aaron-j-masino
 .. _Mukhtar: https://scienceweb.clemson.edu/chg/dr-shahid-m-mukhtar
+.. _Gopalan: https://scienceweb.clemson.edu/chg/dr-shyamalika-gopalan
