@@ -22,7 +22,7 @@ The HPCC Basics Workshop is divided into 3 parts, so participants must attend al
    
    - **Cluster resources**: Users will learn about Secretariat's architecture (partitions, nodes, cores, RAM) so that they can request appropriate resources for their analyses.
    
-   - **Login**: Instructors will ensure that users can log into the cluster from the command line.
+   - **Login, security**: Instructors will ensure that users can log into the cluster from the command line and advise users to take security precautions.
    
    - **Workspace navigation**: Users will learn how to gather user-specific information from the command line prompt and how to use basic Unix commands to navigate around the directory structure. Instructors will advise users on where to store / access different types of data.
    
