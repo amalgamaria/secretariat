@@ -67,7 +67,7 @@ The Git & GitHub Workshop is divided into 2 parts, so participants must attend a
    
    - **History**: Instructors will demonstrate how Git can be used to search an annotated history of the project to identify what changes were made and retrieve previous versions of code exactly as they were saved.
 
-- **Day2**
+- **Day 2**
    
    - **Branching**: Instructors will discuss the rationale for branches as well as how to create them, switch between them, and incorporate changes from one into another (merging). This section emphasizes the power of branching during development and demystifies how Git works.
    
