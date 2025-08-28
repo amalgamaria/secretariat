@@ -1,7 +1,7 @@
 CHG Bioinformatics & Statistics Core Worshops
 ################
 
-You will find information about currently-offered CHG Bioinformatics & Statistics Core (BSC) workshops below.
+You will find information about currently-offered CHG Bioinformatics & Statistics Core workshops below.
 
 ----
 
