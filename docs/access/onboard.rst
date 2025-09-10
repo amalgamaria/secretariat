@@ -59,7 +59,7 @@ The `#secretariat`_ channel in the CHG `Slack`_ Workspace will be used to commun
 
 ----
 
-HPCC Etiquette
+HPC Etiquette
 ##############
 
 Resources: Because Secretariat is a much smaller cluster than `Palmetto`_, a bit more discretion is advised when it comes to requesting resources (e.g. cpus, memory, time). Generally, being on the conservative side helps manage everyone’s needs and uses. If you are unclear about how you should request resources, please reach out to us once you are ready to run analyses on Secretariat!
