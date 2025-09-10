@@ -6,10 +6,10 @@ Welcome to the Secretariat Community! We look forward to you joining us.
 
 ----
 
-HPCC Basics Workshop
+HPC Basics Workshop
 ####################
 
-We recommend that all Secretariat users attend the HPCC Basics Workshop, even if they already have cluster experience. `Please see this page for more information`_.
+We recommend that all Secretariat users attend the HPC Basics Workshop, even if they already have cluster experience. `Please see this page for more information`_.
 
 ----
 
@@ -31,7 +31,7 @@ When you are not connected to the Clemson network (e.g. when you are away from c
 Groups
 ######
 
-All Secretariat users are members of specific groups. The purpose of these group memberships is to help set specific directory and file permissions. If you have questions about how this works, please reach out! (We cover this on Day 1 of the HPCC Workshop!)
+All Secretariat users are members of specific groups. The purpose of these group memberships is to help set specific directory and file permissions. If you have questions about how this works, please reach out! (We cover this on Day 1 of the HPC Workshop!)
 
 ----
 
