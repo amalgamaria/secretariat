@@ -9,9 +9,9 @@ This is a table of the modularized software on Secretariat.
 
    .. code-block:: bash
 
-   source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/conda.sh   
-   source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/mamba.sh
-   mamba env list
+      source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/conda.sh
+      source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/mamba.sh
+      mamba env list
 
 ----
 
