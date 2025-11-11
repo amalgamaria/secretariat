@@ -41,6 +41,7 @@ Center for Human Genetics Research Computing
    :caption: Software
 
    software/software
+   software/environments
 
 .. toctree::
    :maxdepth: 1
