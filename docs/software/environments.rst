@@ -3,6 +3,18 @@ Current environments
 
 This is a table of the modularized software on Secretariat.
 
+.. attention::
+
+   - This list is updated only periodically. For a full, current list, log in to Secretariat and run the following commands:
+
+   ``source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/conda.sh``
+   
+   ``source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/mamba.sh``
+   
+   ``mamba env list``
+
+----
+
 +-------------------------+-----------------------------------+
 | Environment             | Description                       |
 +=========================+===================================+
@@ -129,10 +141,4 @@ This is a table of the modularized software on Secretariat.
 | vs_emacs                |                                   |
 +-------------------------+-----------------------------------+
 
-.. attention::
-   
-   - This list is updated only periodically. For a full, current list, log in to Secretariat and run the following commands:
-   
-   ``source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/conda.sh``
-   ``source /opt/ohpc/pub/Software/mamba-rocky/etc/profile.d/mamba.sh``
-   ``mamba env list``
+List last updated: 11 November 2025.
