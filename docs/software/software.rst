@@ -5,7 +5,7 @@ This is a table of the modularized software on Secretariat.
 
 .. attention::
    
-   - This list is updated only periodically. For a full, current list, log in to Secretariat and run the command ``module avail``. For more information on software modularization, see the `Software modularization`_ page.
+   This list is updated only periodically. For a full, current list, log in to Secretariat and run the command ``module avail``. For more information on software modularization, see the `Software modularization`_ page.
 
 ----
 
