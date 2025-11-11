@@ -1,7 +1,7 @@
 Current environments
 ====================
 
-This is a table of the modularized software on Secretariat.
+This is a table of cluster-wide environments on Secretariat.
 
 .. attention::
 
