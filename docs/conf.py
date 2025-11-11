@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'secretariat'
-copyright = '2023, Maria E. Adonay'
+copyright = '2025, Maria E. Adonay'
 author = 'Maria E. Adonay'
 release = '0.1.0'
 
@@ -27,7 +27,7 @@ extensions = [
 	'sphinx.ext.autodoc',
 	'sphinx_rtd_theme',
 #	'sphinx_markdown_tables',
-#	'recommonmark' 
+#	'recommonmark'
 ]
 
 #from sphinx.highlighting import lexers
