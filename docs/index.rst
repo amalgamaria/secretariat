@@ -1,7 +1,7 @@
 Secretariat User Guide
 ======================
-Center for Human Genetics Research Computing
---------------------------------------------
+Institute for Human Genetics Research Computing
+-----------------------------------------------
 
 ----
 
@@ -47,7 +47,7 @@ Center for Human Genetics Research Computing
    :maxdepth: 1
    :caption: Additional resources
 
-   additional-resources/chg
+   additional-resources/ihg
    additional-resources/calendar
    additional-resources/vpn
    additional-resources/palmetto
@@ -58,4 +58,3 @@ Center for Human Genetics Research Computing
    :caption: maintenance
 
    maintenance/CHANGELOG
-
