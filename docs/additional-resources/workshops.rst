@@ -1,7 +1,7 @@
-CHG Bioinformatics & Statistics Core Worshops
+IHG Bioinformatics & Statistics Core Worshops
 ################
 
-You will find information about currently-offered CHG Bioinformatics & Statistics Core workshops below.
+You will find information about currently-offered IHG Bioinformatics & Statistics Core workshops below.
 
 ----
 
@@ -10,11 +10,11 @@ HPC Basics Workshop
 
 **Frequency**: Fall (~September) and Spring (~February).
 
-**Location**: CHG, Greenwood, SC (remote option possible).
+**Location**: IHG, Greenwood, SC (remote option possible).
 
 **Pre-course**: Note that attendees must have a Secretariat account to attend the HPC Basics Workshop. This workshop does not give an introduction to Linux: Before attending, it is preferred that users know some command line basics and feel comfortable navigating around a virtual computing environment using commands (e.g. `those mentioned in this tutorial`_). 
 
-The HPC Basics Workshop is divided into 3 parts, so participants must attend all 3 sessions! It is recommended that all Secretariat users attend this workshop. The goal of this workshop is for users to understand how to use Secretariat, the CHG HPC, effectively. Topics will include many of the items discussed in the `Secretariat Documentation`_ as well as some others, described below.
+The HPC Basics Workshop is divided into 3 parts, so participants must attend all 3 sessions! It is recommended that all Secretariat users attend this workshop. The goal of this workshop is for users to understand how to use Secretariat, the IHG HPC, effectively. Topics will include many of the items discussed in the `Secretariat Documentation`_ as well as some others, described below.
 
 **Topics**:
 
@@ -51,9 +51,9 @@ Git & GitHub Workshop
 
 **Frequency**: Fall (~October) and Spring (~March).
 
-**Location**: CHG, Greenwood, SC (remote option possible).
+**Location**: IHG, Greenwood, SC (remote option possible).
 
-**Pre-course**: Note that the CHG Bioinformatics & Statistics Core HPC Basics Workshop is currently treated as a pre-requisite for the Git & GitHub Workshop. Before the workshop, users will need to install and test the Git software client, create a GitHub account, and set up SSH keys for authentication. Instructors will provide instructions for these tasks to attendees.
+**Pre-course**: Note that the IHG Bioinformatics & Statistics Core HPC Basics Workshop is currently treated as a pre-requisite for the Git & GitHub Workshop. Before the workshop, users will need to install and test the Git software client, create a GitHub account, and set up SSH keys for authentication. Instructors will provide instructions for these tasks to attendees.
 
 The Git & GitHub Workshop is divided into 2 parts, so participants must attend all 2 sessions! The Git & GitHub Workshop gives explanation of version control and motivates the many ways Git and GitHub are useful tools for bioinformaticians and users of bioinformatic tools and pipelines in general.
 
@@ -95,7 +95,7 @@ RNA-Seq Retreat
 
 **Location**: [Subject to change.] B36 Long Hall, Clemson, SC. /OR/ Clemson University Roy Muldrow Cooper Library, Clemson, SC.
 
-**Pre-course**: Basic Unix/Linux command line skills are recommended. Access to Secretariat (CHG HPC) is currently required. Future iterations could be modified use Palmetto, so access to either HPC environment will be a pre-requisite.
+**Pre-course**: Basic Unix/Linux command line skills are recommended. Access to Secretariat (IHG HPC) is currently required. Future iterations could be modified use Palmetto, so access to either HPC environment will be a pre-requisite.
 
 The RNA-Seq Retreat is divided into 3 parts, so participants must attend all 3 sessions! Although focused on the analysis portion, this retreat gives a comprehensive overview of transcriptomic studies, beginning with experimental design.
 

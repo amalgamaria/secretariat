@@ -1,7 +1,7 @@
-CHG-BSL calendar
-################
+IHG Bioinformatics & Statistics Core Calendar
+#############################################
 
-You will find the CHG Bioinformatics and Statistics Laboratory (BSL) calendar below. It includes periodic reminders of good data management practices as well as our scheduled workshops.
+You will find the IHG Bioinformatics and Statistics Core calendar below. It includes periodic reminders of good data management practices as well as our scheduled workshops.
 
 .. attention:: This is a public calendar. Feel free to subscribe so that you don't miss anything!
    
@@ -22,4 +22,3 @@ You will find the CHG Bioinformatics and Statistics Laboratory (BSL) calendar be
 .. _How_1: https://support.google.com/calendar/answer/37100
 .. |How_2| replace:: Instructions
 .. _How_2: https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df
-

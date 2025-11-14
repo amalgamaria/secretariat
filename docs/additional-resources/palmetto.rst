@@ -8,7 +8,7 @@ As a Clemson student, faculty, or staff member, you are eligible to `request an 
 Hyperion
 --------
 
-All members of the Center for Human Genetics (CHG) may request to use our CHG-designated node on Palmetto.
+All members of the Institute for Human Genetics (IHG) may request to use our IHG-designated node on Palmetto.
 
 +---------------+-----------------------+---------------+
 | Cluster	| Compute cores (CPUs)  | RAM           |

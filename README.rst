@@ -1,9 +1,9 @@
 Overview
 --------
 
-`Documentation`_ for research computing at the Clemson_ `Center for Human Genetics`_ (CHG).
+`Documentation`_ for research computing at the Clemson_ `Institute for Human Genetics`_ (IHG).
 
 .. _Documentation: https://secretariat.readthedocs.io
 .. _Clemson: https://www.clemson.edu/
-.. _Center for Human Genetics: https://www.clemson.edu/science/research/chg.html
+.. _Institute for Human Genetics: https://scienceweb.clemson.edu/ihg/
 

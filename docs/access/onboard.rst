@@ -55,7 +55,7 @@ Once you sign in, you should have permission to access these directories using t
 Communications on Slack
 #######################
 
-The `#secretariat`_ channel in the CHG `Slack`_ Workspace will be used to communicate things including, but not limited to, scheduled or emergency maintenance of Secretariat and new software installations. All Secretariat users are welcome to join this channel to follow updates or post questions.
+The `#secretariat`_ channel in the IHG `Slack`_ Workspace will be used to communicate things including, but not limited to, scheduled or emergency maintenance of Secretariat and new software installations. All Secretariat users are welcome to join this channel to follow updates or post questions.
 
 ----
 

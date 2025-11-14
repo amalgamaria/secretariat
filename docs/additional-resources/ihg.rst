@@ -1,12 +1,12 @@
-CHG links
+IHG links
 #########
 
-To learn more about the CHG, please visit our `website`_. Here are some additional links that might be useful:
+To learn more about the IHG, please visit our `website`_. Here are some additional links that might be useful:
 
-- CHG Bioinformatics and Statistcial Lab `GitHub page`_
+- IHG Bioinformatics and Statistcial Core `GitHub page`_
 - `Greenwood Genetic Center`_
 
-Labs (physically located) at the CHG:
+Labs (physically located) at the IHG:
 
 .. image:: ../_static/images/lab_alexandrov.png
    :width: 2945 px
@@ -43,7 +43,7 @@ Labs (physically located) at the CHG:
    :alt: Morgante Lab Figure
    :target: https://morgantelab.com/
 
-For more information about other people working with the CHG, see the `"People" tab`_ of our `website`_.
+For more information about other people working with the IHG, see the `"People" tab`_ of our `website`_.
 
 ----
 
@@ -60,7 +60,7 @@ For more information about other people working with the CHG, see the `"People" 
 ----
 
 
-.. _website: https://scienceweb.clemson.edu/chg/
+.. _website: https://scienceweb.clemson.edu/ihg/
 .. _Greenwood Genetic Center: https://www.ggc.org/
 .. _GitHub page: https://github.com/chg-bsl
-.. _"People" tab: https://scienceweb.clemson.edu/chg/people/
+.. _"People" tab: https://scienceweb.clemson.edu/ihg/people/
