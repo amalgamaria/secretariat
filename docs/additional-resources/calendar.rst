@@ -1,5 +1,5 @@
-IHG Bioinformatics & Statistics Core Calendar
-#############################################
+Calendar
+########
 
 You will find the IHG Bioinformatics and Statistics Core calendar below. It includes periodic reminders of good data management practices as well as our scheduled workshops.
 
