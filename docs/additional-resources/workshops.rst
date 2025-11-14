@@ -1,5 +1,5 @@
-IHG Bioinformatics & Statistics Core Worshops
-################
+Workshops
+#########
 
 You will find information about currently-offered IHG Bioinformatics & Statistics Core workshops below.
 
