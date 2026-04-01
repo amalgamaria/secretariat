@@ -81,7 +81,7 @@ The Git & GitHub Workshop is divided into 2 parts, so participants must attend a
 
 ----
 
-RNA-Seq Retreat
+Bulk RNA-Seq Retreat
 ---------------
 
 .. image:: ../_static/images/icon_rnaseq-retreat.png
@@ -93,11 +93,11 @@ RNA-Seq Retreat
 
 **Frequency**: Summer (July).
 
-**Location**: [Subject to change.] B36 Long Hall, Clemson, SC. /OR/ Clemson University Roy Muldrow Cooper Library, Clemson, SC.
+**Location**: [Subject to change.] Clemson, SC. Previous locations: B36, Long Hall; Classroom 220B, Roy Muldrow Cooper Library.
 
 **Pre-course**: Basic Unix/Linux command line skills are recommended. Access to Secretariat (IHG HPC) is currently required. Future iterations could be modified use Palmetto, so access to either HPC environment will be a pre-requisite.
 
-The RNA-Seq Retreat is divided into 3 parts, so participants must attend all 3 sessions! Although focused on the analysis portion, this retreat gives a comprehensive overview of transcriptomic studies, beginning with experimental design.
+The Bulk RNA-Seq Retreat is divided into 3 parts, so participants must attend all 3 sessions! Although focused on the analysis portion, this retreat gives a comprehensive overview of transcriptomic studies, beginning with experimental design.
 
 **Topics**:
 
