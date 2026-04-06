@@ -82,7 +82,7 @@ The Git & GitHub Workshop is divided into 2 parts, so participants must attend a
 ----
 
 Bulk RNA-Seq Retreat
----------------
+--------------------
 
 .. image:: ../_static/images/icon_rnaseq-retreat.png
    :width: 2705 px
