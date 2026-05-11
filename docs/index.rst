@@ -5,7 +5,7 @@ Institute for Human Genetics Research Computing
 
 .. tip::
 
-   **Contact the Sys Admin Team with Questions!**
+   **Contact the Secretariat Sys Admin Team with Questions!**
 
         - `Vijay Shankar`_
         - `John Poole`_
@@ -15,14 +15,14 @@ Institute for Human Genetics Research Computing
 
       vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
 
-----
-
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
    faq
    tickets
+
+----
 
 .. toctree::
    :maxdepth: 1
