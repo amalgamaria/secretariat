@@ -29,12 +29,12 @@ Labs (physically located) at the IHG:
    :alt: Alexandrov Lab Figure
    :target: https://alexandrovlab.com/
    
-.. image:: ../_static/images/lab_duren.png
+.. image:: ../_static/images/lab_doucetohare.png
    :width: 2945	px
    :height: 2945 px
    :scale: 5%
-   :alt: Duren Lab Figure
-   :target: https://durenlab.com/
+   :alt: Doucet-O'Hare Lab Figure
+   :target: https://scienceweb.clemson.edu/ihg/dr-tara-doucet-ohare/
 
 .. image:: ../_static/images/lab_lackey.png
    :width: 2945	px
@@ -72,7 +72,6 @@ For more information about other people working with the IHG, see the `"People" 
    <a class="twitter-timeline tw-align-center" data-lang="en" data-width="400" data-height="800" data-theme="light" href="https://twitter.com/ClemsonCHG?ref_src=twsrc%5Etfw">Tweets by ClemsonCHG</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ----
-
 
 .. _website: https://scienceweb.clemson.edu/ihg/
 .. _Greenwood Genetic Center: https://www.ggc.org/
