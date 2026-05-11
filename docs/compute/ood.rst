@@ -53,7 +53,7 @@ Dashboard Overview
 Interactive Apps
 -----------------
 
-These applications support genomics, data analysis, visualization, and reproducible research workflows:
+View our current apps, below:
 
 +----------------------------+----------------------------------------------------------------------+
 | App                        | Description                                                          |
