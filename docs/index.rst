@@ -37,8 +37,8 @@ Institute for Human Genetics Research Computing
    :caption: The Compute Environment
 
    compute/nodes
-   compute/ood
    compute/modules
+   compute/ood
 
 .. toctree::
    :maxdepth: 1
