@@ -39,7 +39,7 @@ Dashboard Overview
 | Section           | Description                                                     |
 +===================+=================================================================+
 | Files             | Access your ``/home`` directory immediately, or navigate        |
-|                   | to other permitted locations. Upload / download files or edit   |
+|                   | to other permitted locations. Upload / download / edit          |
 |                   | small text files!                                               |
 +-------------------+-----------------------------------------------------------------+
 | Jobs              | Create, submit, and monitor Slurm batch jobs on Secretariat.    |
