@@ -3,11 +3,17 @@ Secretariat User Guide
 Institute for Human Genetics Research Computing
 -----------------------------------------------
 
-.. tip:: Contact us with questions:
+.. tip::
 
-   `Vijay Shankar`_ (vshanka@clemson.edu)
-   `John Poole`_ (jopoole@clemson.edu)
-        - `Maria E. Adonay`_ (madonay@clemson.edu)
+   **Contact the Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
 
 ----
 
