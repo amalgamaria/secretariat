@@ -18,7 +18,7 @@ IHG links
 To learn more about the IHG, please visit our `website`_. Here are some additional links that might be useful:
 
 - `IHG Bioinformatics and Statistics Core Website`_
-- `IHG Bioinformatics and Statistcial Core GitHub Page`_
+- `IHG Bioinformatics and Statistics Core GitHub Page`_
 - `Greenwood Genetic Center`_
 
 Labs (physically located) at Self Regional Hall in Greenwood, SC:
