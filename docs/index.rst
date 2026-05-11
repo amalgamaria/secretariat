@@ -37,6 +37,7 @@ Institute for Human Genetics Research Computing
    :caption: The Compute Environment
 
    compute/nodes
+   comput/ood
    compute/modules
 
 .. toctree::
