@@ -17,10 +17,11 @@ IHG links
 
 To learn more about the IHG, please visit our `website`_. Here are some additional links that might be useful:
 
-- IHG Bioinformatics and Statistcial Core `GitHub page`_
+- `IHG Bioinformatics and Statistics Core Website`_
+- `IHG Bioinformatics and Statistcial Core GitHub Page`_
 - `Greenwood Genetic Center`_
 
-Labs (physically located) at the IHG:
+Labs (physically located) at Self Regional Hall in Greenwood, SC:
 
 .. image:: ../_static/images/lab_alexandrov.png
    :width: 2945 px
@@ -75,7 +76,8 @@ For more information about other people working with the IHG, see the `"People" 
 
 .. _website: https://scienceweb.clemson.edu/ihg/
 .. _Greenwood Genetic Center: https://www.ggc.org/
-.. _GitHub page: https://github.com/chg-bsl
+.. _IHG Bioinformatics and Statistics Core Website: https://scienceweb.clemson.edu/ihg/research-cores/bsc-core/
+.. _IHG Bioinformatics and Statistics Core GitHub Page: https://github.com/chg-bsl
 .. _"People" tab: https://scienceweb.clemson.edu/ihg/people/
 .. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
