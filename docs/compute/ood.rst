@@ -1,5 +1,5 @@
-Software modularization
-=======================
+Secretariat OnDemand
+====================
 
 .. tip::
 
