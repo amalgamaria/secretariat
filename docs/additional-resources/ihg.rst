@@ -29,7 +29,7 @@ Labs (physically located) at the IHG:
    :alt: Alexandrov Lab Figure
    :target: https://alexandrovlab.com/
    
-.. image:: ../_static/images/lab_doucetohare.png
+.. image:: ../_static/images/lab_doucet-ohare.png
    :width: 2945	px
    :height: 2945 px
    :scale: 5%
