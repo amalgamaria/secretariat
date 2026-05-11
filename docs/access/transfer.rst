@@ -141,7 +141,7 @@ scp
 
 	where
 
-             	- ``/path/to/file.txt``: file (including full path) to download from Secretariat
+                - ``/path/to/file.txt``: file (including full path) to download from Secretariat
                 - ``username``: your username to log in	to Secretariat
                 - ``/local/directory/``: where to download file on local machine
 
@@ -193,3 +193,6 @@ Transfer complete!
 .. _MobaXterm: https://mobaxterm.mobatek.net/
 .. _Logging in: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#for-windows
 .. _previously described: https://secretariat.readthedocs.io/en/latest/access/transferring-files.html#scp
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

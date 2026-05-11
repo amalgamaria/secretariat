@@ -313,3 +313,6 @@ This is a table of the modularized software on Secretariat.
 List last updated: 11 November 2025.
 
 .. _Software modularization: https://secretariat.readthedocs.io/en/latest/compute/modules.html#software-modularization
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

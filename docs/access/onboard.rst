@@ -94,3 +94,6 @@ Login node: Do not run analyses or resource intensive tasks on the login / head 
 .. _#secretariat: https://cu-chg.slack.com/archives/C0472VDJ8PL
 .. _Slack: https://slack.com
 .. _Palmetto: https://docs.rcd.clemson.edu/palmetto
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

@@ -129,3 +129,6 @@ where [*username*] is your username.
 .. _Slurm documentation: https://slurm.schedmd.com/man_index.html
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
 .. _Squeue status codes: https://secretariat.readthedocs.io/en/latest/running-jobs/squeue-status-codes.html#squeue-status-codes
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

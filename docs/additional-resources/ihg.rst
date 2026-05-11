@@ -78,3 +78,6 @@ For more information about other people working with the IHG, see the `"People" 
 .. _Greenwood Genetic Center: https://www.ggc.org/
 .. _GitHub page: https://github.com/chg-bsl
 .. _"People" tab: https://scienceweb.clemson.edu/ihg/people/
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

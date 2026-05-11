@@ -61,4 +61,6 @@ Every option that you could include in your *sbatch* header should be possible t
 .. _Logging in: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#logging-in
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#batch-jobs
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
-
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

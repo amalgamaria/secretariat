@@ -37,3 +37,6 @@ You may also run the command ``touch [filename].sh`` if you would like to create
 .. _UNIX Tutorial for Beginners: http://www.chm.bris.ac.uk/unix
 .. _nano: https://www.nano-editor.org/dist/latest/cheatsheet.html
 .. _vim: https://vim.rtorr.com/
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

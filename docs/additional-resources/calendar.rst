@@ -36,3 +36,6 @@ You will find the IHG Bioinformatics and Statistics Core calendar below. It incl
 .. _How_1: https://support.google.com/calendar/answer/37100
 .. |How_2| replace:: Instructions
 .. _How_2: https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

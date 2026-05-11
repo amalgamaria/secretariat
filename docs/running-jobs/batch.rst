@@ -189,3 +189,6 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 .. _Slurm commands: https://secretariat.readthedocs.io/en/latest/running-jobs/slurm-commands.html
 .. _integers: https://en.wikipedia.org/wiki/Integer
 .. _Slurm FAQ: https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

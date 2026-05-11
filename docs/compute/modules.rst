@@ -61,3 +61,6 @@ The pertinent software must be loaded in this manner before it / they can be use
 .. _Lmod documentation: http://lmod.readthedocs.org
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
 .. _full example: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/

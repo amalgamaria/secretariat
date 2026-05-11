@@ -145,3 +145,6 @@ When looking at file sizes or assessing specs, it is good to bear in mind the eq
 .. _Masino: https://scienceweb.clemson.edu/chg/dr-aaron-j-masino
 .. _Mukhtar: https://scienceweb.clemson.edu/chg/dr-shahid-m-mukhtar
 .. _Gopalan: https://scienceweb.clemson.edu/chg/dr-shyamalika-gopalan
+.. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
+.. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
+.. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/
