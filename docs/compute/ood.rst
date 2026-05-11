@@ -15,7 +15,9 @@ Secretariat OnDemand
 
 ----
 
-`Open OnDemand`_ (OOD) is a web-based interface that is designed to be a user-friendly method for accessing HPC resources and services through your browser. To access Secretariat's OOD Page, navigate to `secretariat-master.clemson.edu`_ or `130.127.173.136`_ using your web browser. (Or click on the image, below!) Log in using your Secretariat credentials and complete DUO two-factor authentication when prompted.
+`Open OnDemand`_ (OOD) is a web-based interface that is designed to be a user-friendly method for accessing HPC resources and services through your browser. To access Secretariat's OOD Page, navigate to `secretariat-master.clemson.edu`_ or `130.127.173.136`_ using your web browser. (Or click on the image, below!)
+
+Log in using your Secretariat credentials and complete DUO two-factor authentication when prompted.
 
 .. image:: ../_static/images/ood.png
    :width: 630 px
