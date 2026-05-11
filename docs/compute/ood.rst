@@ -38,7 +38,7 @@ Dashboard Overview
 +-------------------+-----------------------------------------------------------------+
 | Section           | Description                                                     |
 +===================+=================================================================+
-| Files             | Access your ``/home`` directory immediately, or navigate        |
+| Files             | Access your **/home** directory immediately, or navigate        |
 |                   | to other permitted locations. Upload / download / edit          |
 |                   | small text files!                                               |
 +-------------------+-----------------------------------------------------------------+
