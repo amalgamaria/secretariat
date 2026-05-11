@@ -28,7 +28,7 @@ Secretariat OnDemand
 
    Although you may encounter a warning message that says the connection is not private, it is safe to proceed to the site. To proceed, you may need to click a button labeled something like "Advanced" in the lower portion of the window. If you have any trouble during this process, send us a message!
 
-After a successful login, you will arrive at the Dashboard, which provides quick access to Secretariat resources and utilities:
+After a successful login, you will arrive at the Dashboard, which provides quick access to Secretariat resources and tools!
 
 Dashboard Overview
 ------------------
