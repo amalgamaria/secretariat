@@ -2,6 +2,20 @@
 Interactive jobs
 ================
 
+.. tip::
+
+   **Contact the Secretariat Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+----
+
 .. attention:: When testing code on Secretariat, it is important that you **not** run your commands on the head node (*secretariat-master*).
 
 When you follow the instructions on the `Logging in`_ page, you are connecting to the head node. To make sure that you are testing your code appropriately, please read the following.

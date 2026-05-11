@@ -2,6 +2,20 @@
 Onboarding
 ==========
 
+.. tip::
+
+   **Contact the Secretariat Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+----
+
 Welcome to the Secretariat Community! We look forward to you joining us.
 
 ----

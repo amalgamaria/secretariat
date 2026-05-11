@@ -2,6 +2,20 @@
 Logging in
 ==========
 
+.. tip::
+
+   **Contact the Secretariat Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+----
+
 Sequentially complete **both** Parts 1 and 2 to login, set your password, and to submit jobs to nodes. For Part 1, complete the instructions appropriate for your machine.
 
 .. attention:: Do not attempt the following steps until you have been contacted regarding your username.
@@ -16,7 +30,7 @@ Part 1: Login
 For Linux / Mac
 ---------------
 
-1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
+1. Contact `Vijay`_, `John`_, and `Maria`_ for information about your intial password.
 2. Open a Terminal window.
 3. Type ``ssh -X [username]@130.127.173.136`` on the command line; Press Enter.
 

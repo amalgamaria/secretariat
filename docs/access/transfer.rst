@@ -1,6 +1,20 @@
 Transferring files
 ==================
 
+.. tip::
+
+   **Contact the Secretariat Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+----
+
 When transferring files between external sources and Secretariat, you have a few options.
 
 If you have a small number of small files and you are not very comfortable working from the command line, **FileZilla** may be a good option for you. FileZilla facilitates file transfers within a graphical user interface (GUI) that may feel more familiar to novice programmers. For larger files or larger numbers of files, you should use **scp** and **rsync**. 

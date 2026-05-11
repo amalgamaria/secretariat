@@ -1,6 +1,20 @@
 IHG links
 #########
 
+.. tip::
+
+   **Contact the Secretariat Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+----
+
 To learn more about the IHG, please visit our `website`_. Here are some additional links that might be useful:
 
 - IHG Bioinformatics and Statistcial Core `GitHub page`_

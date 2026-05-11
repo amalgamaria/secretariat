@@ -1,6 +1,20 @@
 Squeue status codes
 ===================
 
+.. tip::
+
+   **Contact the Secretariat Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+----
+
 If you were to run the command ``squeue`` from the command line, a table similar to the one below would be printed to your screen.
 
 +-----------+---------------+-----------+----------+--------+------------+-----------+----------------------+

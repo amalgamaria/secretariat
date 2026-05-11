@@ -1,6 +1,20 @@
 Software modularization
 =======================
 
+.. tip::
+
+   **Contact the Secretariat Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+----
+
 Software on Secretariat are accessed via a module system. Most of the software are not accessible unless loaded; To access the software, this must be done for each user's environment.
 
 To see what modules are available, run ``module avail`` from the command line. This command returns a list of loadable software in the form [*software_name*]/[*version_number*].

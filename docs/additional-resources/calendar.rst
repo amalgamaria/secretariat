@@ -1,6 +1,20 @@
 Calendar
 ########
 
+.. tip::
+
+   **Contact the Secretariat Sys Admin Team with Questions!**
+
+        - `Vijay Shankar`_
+        - `John Poole`_
+        - `Maria E. Adonay`_
+
+   .. code-block:: text
+
+      vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+----
+
 You will find the IHG Bioinformatics and Statistics Core calendar below. It includes periodic reminders of good data management practices as well as our scheduled workshops.
 
 .. attention:: This is a public calendar. Feel free to subscribe so that you don't miss anything!
