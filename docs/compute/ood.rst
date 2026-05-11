@@ -39,18 +39,15 @@ Dashboard Overview
 | Section           | Description                                                     |
 +===================+=================================================================+
 | Files             | Access your ``/home`` directory immediately, or navigate        |
-|                   | to other permitted locations. Upload / download files, edit     |
-|                   | small text files, and manage basic file operations.             |
+|                   | to other permitted locations. Upload / download files or edit   |
+|                   | small text files!                                               |
 +-------------------+-----------------------------------------------------------------+
 | Jobs              | Create, submit, and monitor Slurm batch jobs on Secretariat.    |
 +-------------------+-----------------------------------------------------------------+
 | Clusters          | Launch a browser-based terminal session on Secretariat.         |
-|                   | (Note: Launches on the head node!)                              |
+|                   | (**Note: Launches on the head node!**)                          |
 +-------------------+-----------------------------------------------------------------+
 | Interactive Apps  | Launch GUI-based scientific applications in the browser.        |
-+-------------------+-----------------------------------------------------------------+
-| Help              | Access documentation and restart dashboard services if          |
-|                   | needed for troubleshooting or development.                      |
 +-------------------+-----------------------------------------------------------------+
 
 Interactive Apps
@@ -61,10 +58,10 @@ These applications support genomics, data analysis, visualization, and reproduci
 +----------------------------+----------------------------------------------------------------------+
 | App                        | Description                                                          |
 +============================+======================================================================+
-| Cytoscape                  | Network analysis and visualization of gene / protein interactions,   |
-|                            | pathways, and omics networks.                                        |
+| Cytoscape                  | Network analysis and visualization of gene / protein / etc           |
+|                            | interactions, pathways, and omics networks.                          |
 +----------------------------+----------------------------------------------------------------------+
-| DGRP2 Webserver            | Tools for Drosophila Genetics Reference Panel analyses and           |
+| DGRP2 Webserver            | Tool for Drosophila Genetic Reference Panel analyses and             |
 |                            | population genomics workflows.                                       |
 +----------------------------+----------------------------------------------------------------------+
 | Dynamic Bic Flows          | Biclustering-based visualization for exploring complex gene          |
@@ -77,7 +74,7 @@ These applications support genomics, data analysis, visualization, and reproduci
 |                            | exploration workflows.                                               |
 +----------------------------+----------------------------------------------------------------------+
 | Secretariat Remote Desktop | Full Linux desktop environment for GUI-based applications and        |
-|                            | interactive workflows.                                               |
+|                            | point-and-click navigation.                                          |
 +----------------------------+----------------------------------------------------------------------+
 | ASC Seurat                 | Single-cell RNA-seq analysis environment using Seurat for            |
 |                            | clustering, visualization, and downstream interpretation.            |
@@ -85,13 +82,13 @@ These applications support genomics, data analysis, visualization, and reproduci
 | Code Server                | Browser-based VS Code environment for editing scripts and            |
 |                            | running computational pipelines.                                     |
 +----------------------------+----------------------------------------------------------------------+
-| Jupyter Notebook           | Interactive notebooks for Python/R analysis, visualization, and      |
-|                            | reproducible research.                                               |
+| Jupyter Notebook           | Interactive notebooks for Python / R / etc analysis, visualization,  |
+|                            | and reproducible research.                                           |
 +----------------------------+----------------------------------------------------------------------+
 | RStudio 1.4                | IDE for R-based statistical analysis and visualization.              |
 +----------------------------+----------------------------------------------------------------------+
-| ShinyR DAM                 | Interactive R Shiny apps for data analysis and visualization         |
-|                            | dashboards.                                                          |
+| ShinyR DAM                 | Interactive R Shiny app for Drosophila Activity Monitor              |
+|                            | data analysis and visualization.                                     |
 +----------------------------+----------------------------------------------------------------------+
 | iDEP & ShinyGO             | Web tools for differential expression analysis, enrichment, and      |
 |                            | functional genomics interpretation.                                  |
