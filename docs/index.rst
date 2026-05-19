@@ -5,7 +5,7 @@ Institute for Human Genetics Research Computing
 
 .. tip::
 
-   **Contact the** Secretariat Sys Admin Team **with HPC Questions!**
+   **Contact** `Secretariat System Administrators`_ **with HPC Questions!**
 
         - `Vijay Shankar`_
         - `John Poole`_
@@ -86,5 +86,5 @@ Institute for Human Genetics Research Computing
 .. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
 .. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _Cores: https://scienceweb.clemson.edu/ihg/research-cores/
-
+.. _Secretariat System Administrators: https://scienceweb.clemson.edu/ihg/research-cores/bsc-core/
 .. _IHG Research Cores: https://scienceweb.clemson.edu/ihg/research-cores/
