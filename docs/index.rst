@@ -14,7 +14,7 @@ Institute for Human Genetics Research Computing
    .. code-block:: text
 
       vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
-
+      
    **Contact `IHG Research Cores`_ with Research Questions!**
 
    .. code-block:: text
