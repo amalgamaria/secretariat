@@ -5,7 +5,7 @@ Institute for Human Genetics Research Computing
 
 .. tip::
 
-   **Contact the Secretariat Sys Admin Team with HPC Questions!**
+   **Contact the** Secretariat Sys Admin Team **with HPC Questions!**
 
         - `Vijay Shankar`_
         - `John Poole`_
@@ -19,7 +19,7 @@ Institute for Human Genetics Research Computing
 
       <hr>
       
-   **Contact** **`IHG Research Cores`_** **with Research Questions!**
+   **Contact** `IHG Research Cores`_ **with Research Questions!**
 
    .. code-block:: text
 
