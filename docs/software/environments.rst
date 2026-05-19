@@ -3,15 +3,25 @@ Current environments
 
 .. tip::
 
-   **Contact the Secretariat Sys Admin Team with Questions!**
+   **Contact** `Secretariat System Administrators`_ **with HPC Questions!**
 
-        - `Vijay Shankar`_
-        - `John Poole`_
-        - `Maria E. Adonay`_
+   +------------------+----------------+--------------------+
+   | `Vijay Shankar`_ | `John Poole`_  | `Maria E. Adonay`_ |
+   +------------------+----------------+--------------------+
 
    .. code-block:: text
 
       vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
+
+   .. raw:: html
+
+      <hr>
+
+   **Contact** `IHG Research Cores`_ **with Research Questions!**
+
+   .. code-block:: text
+
+      ihgcores@clemson.edu
 
 ----
 
@@ -160,3 +170,5 @@ List last updated: 11 November 2025.
 .. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
 .. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/
+.. _Secretariat System Administrators: https://scienceweb.clemson.edu/ihg/research-cores/bsc-core/
+.. _IHG Research Cores: https://scienceweb.clemson.edu/ihg/research-cores/
