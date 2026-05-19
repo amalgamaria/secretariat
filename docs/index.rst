@@ -7,9 +7,9 @@ Institute for Human Genetics Research Computing
 
    **Contact** `Secretariat System Administrators`_ **with HPC Questions!**
 
-        - `Vijay Shankar`_
-        - `John Poole`_
-        - `Maria E. Adonay`_
+   +------------------+----------------+--------------------+
+   | `Vijay Shankar`_ | `John Poole`_  | `Maria E. Adonay`_ |
+   +------------------+----------------+--------------------+
 
    .. code-block:: text
 
