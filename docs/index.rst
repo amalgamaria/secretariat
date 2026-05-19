@@ -15,7 +15,7 @@ Institute for Human Genetics Research Computing
 
       vshanka@clemson.edu,jopoole@clemson.edu,madonay@clemson.edu
       
-   Contact `Cores` with Research Questions!
+   Contact |ihg-research-cores| with Research Questions!
 
    .. code-block:: text
 
@@ -82,3 +82,6 @@ Institute for Human Genetics Research Computing
 .. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
 .. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _Cores: https://scienceweb.clemson.edu/ihg/research-cores/
+
+.. |ihg-research-cores| replace:: **IHG Research Cores**
+.. _ihg-research-cores: https://scienceweb.clemson.edu/ihg/research-cores/
