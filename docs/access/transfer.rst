@@ -135,8 +135,6 @@ GUI (FileZilla)
 
       Transfer complete!
 
-----
-
 Command line (scp)
 ------------------
 
@@ -163,28 +161,6 @@ Command line (scp)
          - ``/path/to/file.txt``: file (including full path) to download from Secretariat
          - ``username``: your username to log into Secretariat
          - ``/local/directory/``: where to download file on local machine
-
----
-
-1. **Local to remote**
-
-	``scp /path/to/file.txt username@130.127.173.136:/remote/directory/``
-
-	where
-
-		- ``/path/to/file.txt``: file (including full path) to upload to Secretariat
-		- ``username``: your username to log in to Secretariat
-		- ``/remote/directory/``: where to upload file on Secretariat
-
-2. **Remote to local**
-
-	``scp username@130.127.173.136:/path/to/file.txt /local/directory/``
-
-	where
-
-                - ``/path/to/file.txt``: file (including full path) to download from Secretariat
-                - ``username``: your username to log in	to Secretariat
-                - ``/local/directory/``: where to download file on local machine
 
 Note: ``rsync`` follows a similar convention to ``scp``!
 
