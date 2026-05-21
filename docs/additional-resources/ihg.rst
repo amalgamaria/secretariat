@@ -66,22 +66,21 @@ For more information about other people working with the IHG, see the `"People" 
 
 .. raw:: html
 
-   <a href="https://twitter.com/ClemsonCHG?ref_src=twsrc%5Etfw" class="twitter-follow-button tw-align-center" data-lang="en" data-show-count="false">Follow @ClemsonCHG</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-----
-
-.. raw:: html
-
-   <div style="border:1px solid #ddd; padding:12px; border-radius:8px; text-align:center;">
+   <div style="text-align:center;">
       <a href="https://www.linkedin.com/company/clemson-ihg" target="_blank" rel="noopener"
-         style="font-size:16px; font-weight:bold;">
+         style="
+            display:inline-block;
+            background-color:#581745;
+            color:#ffffff;
+            font-size:16px;
+            font-weight:bold;
+            padding:10px 16px;
+            border-radius:8px;
+            text-decoration:none;
+         ">
          Follow Clemson IHG on LinkedIn
       </a>
    </div>
-
-.. raw:: html
-   
-   <a class="twitter-timeline tw-align-center" data-lang="en" data-width="400" data-height="800" data-theme="light" href="https://twitter.com/ClemsonCHG?ref_src=twsrc%5Etfw">Tweets by ClemsonCHG</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ----
 
