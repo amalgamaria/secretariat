@@ -46,7 +46,7 @@ Once an account has been created for you on Secretariat, you can connect via com
 
 	*Insert your own username in the place of [username] – you do not need the brackets.*
 
-You may also connect to Secretariat via Open OnDemand internet browser (e.g. `https://secretariat-master`_), similar to `Palmetto's setup`_.
+You may also `access Secretariat through the Open OnDemand web interface` (e.g. `https://secretariat-master`_), similar to `Palmetto's setup`_.
 
 When you are not connected to the Clemson network (e.g. when you are away from campus), make sure you connect to the `Clemson Virtual Private Network (CUVPN)`_ before trying to log into Secretariat!
 
@@ -97,7 +97,8 @@ Login node: Do not run analyses or resource intensive tasks on the login / head 
 ----
 
 .. _Please see this page for more information: https://secretariat.readthedocs.io/en/latest/additional-resources/workshops.html#hpcc-basics-workshop
-.. _https://secretariat-master: https://secretariat-master
+.. _access Secretariat through the Open OnDemand web interface: https://secretariat-master: https://secretariat-master
+.. https://secretariat.readthedocs.io/en/latest/compute/ood.html
 .. _Palmetto's setup: https://docs.rcd.clemson.edu/openod
 .. _Clemson Virtual Private Network (CUVPN): https://secretariat.readthedocs.io/en/latest/additional-resources/vpn.html
 .. _cd: https://www.geeksforgeeks.org/cd-command-in-linux-with-examples
