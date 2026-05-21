@@ -34,6 +34,8 @@ Sequentially complete **both** Parts 1 and 2 to login, set your password, and to
 
    If you would like an account on Secretariat, please let us know!.
 
+When you plan to connect to Secretariat while **away** from campus, **make sure you first connect to the `Clemson Virtual Private Network (CUVPN)`_**! 
+
 ----
 
 Part 1: Login
@@ -55,6 +57,14 @@ Part 1: Login
 
          *Note: As you type the password on the command line, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
 
+      5. Select your method of Duo Two-Factor Authenication.
+
+         *Mobile device users should enter the number associated with their preferred Duo authentication method (commonly ``1``) to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
+
+         *`Click here for more information about Duo`_.*
+
+         *The process will be complete when the command line prompt shows to the* ``[username]@secretariat-master ~]$`` *format.*
+
       Login complete!
 
       .. attention:: Remain logged in to complete Part 2.
@@ -74,6 +84,14 @@ Part 1: Login
       4. Type initial password; Press Enter.
 
         *Note: When you type your password from the command line, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
+
+      5. Select your method of Duo Two-Factor Authenication.
+
+         *Mobile device users should enter the number associated with their preferred Duo authentication method (commonly ``1``) to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
+
+         *`Click here for more information about Duo`_.*
+
+         *The process will be complete when the command line prompt shows to the* ``[username]@secretariat-master ~]$`` *format.*
 
       Login complete!
 
@@ -110,7 +128,8 @@ Part 2: Prepare work environment
 
 .. attention:: Immediately after completing Part 2, inform Vijay, John, and Maria (see :ref:`above email list <tip-contact>`.) so that they may finalize the status of your newly created account on Secretariat!
 
-.. _MobaXterm: https://mobaxterm.mobatek.net/
+.. _Clemson Virtual Private Network (CUVPN): https://secretariat.readthedocs.io/en/latest/additional-resources/vpn.html
+.. _Click here for more information about Duo: https://2fa.app.clemson.edu/
 .. _StarNet X-Win32: https://www.starnet.com/xwin32/
 .. _Company Portal: https://hdkb.clemson.edu/phpkb/article.php?id=1835
 .. _Windows Powershell: https://learn.microsoft.com/en-us/powershell/
