@@ -34,7 +34,7 @@ Sequentially complete **both** Parts 1 and 2 to login, set your password, and to
 
    If you would like an account on Secretariat, please let us know!.
 
-When you plan to connect to Secretariat while **away** from campus, **make sure you first connect to the `Clemson Virtual Private Network (CUVPN)`_**! 
+When you plan to connect to Secretariat while **away** from campus, **you must first connect** to the `Clemson Virtual Private Network (CUVPN)`_! 
 
 ----
 
@@ -51,7 +51,7 @@ Part 1: Login
 
       3. Type ``ssh [username]@130.127.173.136`` on the command line; Press Enter.
 
-	     *Insert your own username in the place of [username] -- you do not need the brackets.*
+         *Insert your own username in the place of [username] -- you do not need the brackets.*
 
       4. Type initial password; Press Enter.
 
@@ -61,7 +61,7 @@ Part 1: Login
 
          *Mobile device users should enter the number associated with their preferred Duo authentication method (commonly ``1``) to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
 
-         *`Click here for more information about Duo`_.*
+         `Click here for more information about Duo`_.
 
          *The process will be complete when the command line prompt shows to the* ``[username]@secretariat-master ~]$`` *format.*
 
@@ -79,17 +79,17 @@ Part 1: Login
 
       3. Type ``ssh [username]@130.127.173.136`` on the command line; Press Enter.
 
-        *Some terminal emulators provide separate fields for connection information rather than a command-line prompt. In these cases, make sure to use ``130.127.173.136`` as the "remote host" or "server address".*
+         *Some terminal emulators provide separate fields for connection information rather than a command-line prompt. In these cases, make sure to use ``130.127.173.136`` as the "remote host" or "server address".*
 
       4. Type initial password; Press Enter.
 
-        *Note: When you type your password from the command line, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
+         *Note: When you type your password from the command line, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
 
       5. Select your method of Duo Two-Factor Authenication.
 
          *Mobile device users should enter the number associated with their preferred Duo authentication method (commonly ``1``) to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
 
-         *`Click here for more information about Duo`_.*
+         `Click here for more information about Duo`_.
 
          *The process will be complete when the command line prompt shows to the* ``[username]@secretariat-master ~]$`` *format.*
 
@@ -112,11 +112,11 @@ Part 2: Prepare work environment
 
       1. While logged in to Secretariat, Type ``passwd`` on the command line; Press Enter.
 
-	     *You will be prompted to enter your current password and then your new password twice. When you type your password, it will not appear as you type. This is for security reasons. Press Enter after you have typed each password.*
+         *You will be prompted to enter your current password and then your new password twice. When you type your password, it will not appear as you type. This is for security reasons. Press Enter after you have typed each password.*
 
       2. Type ``ssh-keygen -t rsa`` on the command line; Continue pressing Enter until complete.
 
-	     *The process will be complete when the command line prompt returns to the* ``[username]@secretariat-master ~]$`` *format.*
+         *The process will be complete when the command line prompt returns to the* ``[username]@secretariat-master ~]$`` *format.*
 
       3. Type ``cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys`` on the command line; Press Enter.
 
