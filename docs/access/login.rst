@@ -2,6 +2,8 @@
 Logging in
 ==========
 
+.. _tip-contact:
+
 .. tip::
 
    **Contact** `Secretariat System Administrators`_ **with HPC Questions!**
@@ -40,59 +42,42 @@ Part 1: Login
 .. tab-set::
 
    .. tab-item:: Linux / Mac
-      
-      Test content.
 
-      1. ...
-      2. ...
+      1. Contact Vijay, John, and Maria (see :ref:`above email list <tip-contact>`.) for information about your intial password if you have lost it.
 
-         .. code-block:: bash
+      2. Open a Terminal window.
 
-         # Test comment
+      3. Type ``ssh [username]@130.127.173.136`` on the command line; Press Enter.
 
-      3. ...
+	     *Insert your own username in the place of [username] -- you do not need the brackets.*
+
+      4. Type initial password; Press Enter.
+
+         *Note: As you type the password on the command line, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
+
+      Login complete!
+
+      .. attention:: Remain logged in to complete Part 2.
 
    .. tab-item:: Windows
 
-      Test content.
+      1. Contact Vijay, John, and Maria (see :ref:`above email list <tip-contact>`.) for information about your intial password if you have lost it.
 
+      2. Open your preferred terminal emulator.
 
-For Linux / Mac
----------------
+         *As of 2025, Clemson had a license for `StarNet X-Win32`_, which could be installed on Windows from `Company Portal`_. However, many Windows machines come equipped with `Windows PowerShell`_, which should also work!
 
-1. Contact `Vijay`_, `John`_, and `Maria`_ for information about your intial password if you have lost it.
-2. Open a Terminal window.
-3. Type ``ssh -X [username]@130.127.173.136`` on the command line; Press Enter.
+      3. Type ``ssh [username]@130.127.173.136`` on the command line; Press Enter.
 
-	*Insert your own username in the place of [username] -- you do not need the brackets.*
+        *Some terminal emulators provide separate fields for connection information rather than a command-line prompt. In these cases, make sure to use ``130.127.173.136`` as the "remote host" or "server address".*
 
-4. Type initial password (obtained from `Vijay`_, `John`_, or `Maria`_ in Step 1) on the command line; Press Enter.
+      4. Type initial password; Press Enter.
 
-        *Note: As you type the password, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
+        *Note: When you type your password from the command line, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
 
-Login complete!
+      Login complete!
 
-For Windows
------------
-
-1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
-2. Download a terminal emulator (e.g. `MobaXterm`_).
-3. After installing, launch the emulator and log into Secretariat.
-
-	E.g. For MobaXterm:
-
-		A. Click the 'Session' button. Select 'SSH'.
-		B. Type **130.127.173.136** in the 'Remote host' box.
-		C. Check the 'Specify username' box and type your aforementioned username.
-		D. Click 'OK'.
-
-		*Note: After the box closes, a new tab should appear and you will be prompted to enter your password. As you type the password, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
-
-		E. Type initial password (obtained from `Vijay`_, `John`_, or `Maria`_ in Step 1) on the command line; Press Enter.
-
-Login complete!
-
-.. attention:: Remain logged in to complete Part 2.
+      .. attention:: Remain logged in to complete Part 2.
 
 ..
 
@@ -103,33 +88,32 @@ Login complete!
 Part 2: Prepare work environment
 ################################
 
-For Linux / Mac / Windows
--------------------------
+.. tab-set::
 
-1. While logged in to Secretariat, Type ``passwd`` on the command line; Press Enter.
+   .. tab-item:: Linux / Mac / Windows
 
-	*You will be prompted to enter your current password and then your new password. When you type your password, it will not appear as you type. This is for security reasons. Press Enter after you have typed each password.*
+      1. While logged in to Secretariat, Type ``passwd`` on the command line; Press Enter.
 
-2. Type ``ssh-keygen -t rsa`` on the command line; Continue pressing Enter until complete.
+	     *You will be prompted to enter your current password and then your new password twice. When you type your password, it will not appear as you type. This is for security reasons. Press Enter after you have typed each password.*
 
-	*The process will be complete when the command line prompt returns to the* ``[username]@secretariat-master ~]$`` *format.*
+      2. Type ``ssh-keygen -t rsa`` on the command line; Continue pressing Enter until complete.
 
-3. Type ``cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys`` on the command line; Press Enter.
+	     *The process will be complete when the command line prompt returns to the* ``[username]@secretariat-master ~]$`` *format.*
 
-4. Type ``chmod -R 700 ~/.ssh`` on the command line; Press Enter.
+      3. Type ``cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys`` on the command line; Press Enter.
 
-5. Type ``exit`` on the command line; Press Enter.
+      4. Type ``chmod -R 700 ~/.ssh`` on the command line; Press Enter.
 
-Session ended!
+      5. Type ``exit`` on the command line; Press Enter.
+
+      Session ended!
 
 .. attention:: Immediately after completing Part 2, inform `Vijay`_, `John`_, or `Maria`_ so that they may finalize the status of your newly created account on Secretariat!
 
-
 .. _MobaXterm: https://mobaxterm.mobatek.net/
-.. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
-.. _John: https://scienceweb.clemson.edu/chg/dr-john-poole/
-.. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
-.. _Ticket Request Form: https://secretariat.readthedocs.io/en/latest/tickets.html#ticket-requests
+.. _StarNet X-Win32: https://www.starnet.com/xwin32/
+.. _Company Portal: https://hdkb.clemson.edu/phpkb/article.php?id=1835
+.. _Windows Powershell: https://learn.microsoft.com/en-us/powershell/
 .. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
 .. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/
