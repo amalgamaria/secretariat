@@ -108,7 +108,7 @@ Part 2: Prepare work environment
 
       Session ended!
 
-.. attention:: Immediately after completing Part 2, inform `Vijay`_, `John`_, or `Maria`_ so that they may finalize the status of your newly created account on Secretariat!
+.. attention:: Immediately after completing Part 2, inform Vijay, John, and Maria (see :ref:`above email list <tip-contact>`.) so that they may finalize the status of your newly created account on Secretariat!
 
 .. _MobaXterm: https://mobaxterm.mobatek.net/
 .. _StarNet X-Win32: https://www.starnet.com/xwin32/
