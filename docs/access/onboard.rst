@@ -42,11 +42,11 @@ Account + Access
 
 Once an account has been created for you on Secretariat, you can connect via command line terminal using the following command:
 
-``ssh -X [username]@secretariat-master.clemson.edu``
+``ssh -X [username]@130.127.173.136``
 
 	*Insert your own username in the place of [username] – you do not need the brackets.*
 
-You may also `access Secretariat through the Open OnDemand web interface` (e.g. `https://secretariat-master`_), similar to `Palmetto's setup`_.
+You may also `access Secretariat through the Open OnDemand web interface`_ (e.g. `https://secretariat-master`_), similar to `Palmetto's setup`_.
 
 When you are not connected to the Clemson network (e.g. when you are away from campus), make sure you connect to the `Clemson Virtual Private Network (CUVPN)`_ before trying to log into Secretariat!
 
@@ -55,7 +55,7 @@ When you are not connected to the Clemson network (e.g. when you are away from c
 Groups
 ######
 
-All Secretariat users are members of specific groups. The purpose of these group memberships is to help set specific directory and file permissions. If you have questions about how this works, please reach out! (We cover this on Day 1 of the HPC Workshop!)
+All Secretariat users are members of specific groups. The purpose of these group memberships is to help set specific directory and file permissions. If you have questions about how this works, please reach out! (We cover this on Day 1 of the HPC Basics Workshop!)
 
 ----
 
@@ -97,8 +97,8 @@ Login node: Do not run analyses or resource intensive tasks on the login / head 
 ----
 
 .. _Please see this page for more information: https://secretariat.readthedocs.io/en/latest/additional-resources/workshops.html#hpcc-basics-workshop
-.. _access Secretariat through the Open OnDemand web interface: https://secretariat-master: https://secretariat-master
-.. https://secretariat.readthedocs.io/en/latest/compute/ood.html
+.. _access Secretariat through the Open OnDemand web interface: https://secretariat.readthedocs.io/en/latest/compute/ood.html
+.. _https://secretariat-master: https://secretariat-master
 .. _Palmetto's setup: https://docs.rcd.clemson.edu/openod
 .. _Clemson Virtual Private Network (CUVPN): https://secretariat.readthedocs.io/en/latest/additional-resources/vpn.html
 .. _cd: https://www.geeksforgeeks.org/cd-command-in-linux-with-examples
