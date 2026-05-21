@@ -44,8 +44,6 @@ Consider the example script from the `Batch jobs`_ page:
    #SBATCH --mem=2G
    #SBATCH --output=/opt/ohpc/pub/workshop/toyout/logs/fastp_ex.%j.out
    #SBATCH --error=/opt/ohpc/pub/workshop/toyout/logs/fastp_ex.%j.err
-   #SBATCH --mail-type=all
-   #SBATCH --mail-user=madonay@clemson.edu
 
    # Load software
    module load fastp/0.21.0
@@ -73,9 +71,6 @@ Consider the example script from the `Batch jobs`_ page:
          --json ${dir_out}/${prefix}.json \
          --html ${dir_out}/${prefix}.html
    done
-
-   # Unload software
-   module unload fastp/0.21.0
 
 Say that we saved this code to a file named *fastp_ex.sh*. We would then submit the script by running the following commands from the command line:
 
@@ -134,7 +129,6 @@ If you need to terminate **all** of your currently submitted jobs, run the follo
 where [*username*] is your username.
 
 .. attention:: Do not include the brackets ("[" and "]") when substituting your *job_id_number* and *username*.
-
 
 .. _Slurm documentation: https://slurm.schedmd.com/man_index.html
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#example
