@@ -71,7 +71,6 @@ Institute for Human Genetics Research Computing
    :caption: Additional resources
 
    additional-resources/ihg
-   additional-resources/calendar
    additional-resources/vpn
    additional-resources/palmetto
    additional-resources/workshops
