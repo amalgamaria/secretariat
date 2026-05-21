@@ -44,7 +44,7 @@ GUI (FileZilla)
       2. Launch the client
       3. Open the "Site manager" -- this is usually the upper left icon on the *Toolbar*
 
-	     *It resembles a cluster of three rectangular machines*
+            *It resembles a cluster of three rectangular machines*
 
       4. Create a new site: 
 
@@ -58,13 +58,13 @@ GUI (FileZilla)
 	     e. Type your ``username`` in the "User" box
 	     f. Click "OK" at the bottom of the window
 
-      *You will only need to create a new site the first time: After this, start from Step 5*
+            *You will only need to create a new site the first time: After this, start from Step 5*
 
       5. Reopen the "Site manager" and select "**Secretariat**" in the list of sites in the left window
 
       6. Click "Connect", enter your password, and authenticate
 
-         *First prompt will ask for your password; The second prompt will ask for either your mobile device or key to authenticate via Duo.*
+            *First prompt will ask for your password; The second prompt will ask for either your mobile device or key to authenticate via Duo.*
 
       7. Trust the host: An "Unknown host key" window may appear with a message similar to the one below; Click "OK"
 
@@ -78,7 +78,7 @@ GUI (FileZilla)
 
       8. Output should print to the 'Message log'
 
-	    *This is the panel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
+            *This is the panel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
 
         When output similar to the following appears and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
 
@@ -99,17 +99,17 @@ GUI (FileZilla)
 
 	     a. Locate the file(s) / folder(s) to upload
 
-		    *Within the 'Local site' window, select the file(s) / folder(s)*
+               *Within the 'Local site' window, select the file(s) / folder(s)*
 
 	     b. Locate the destination folder
 
-		    *Within the 'Remote site' window, select the destination folder*
+               *Within the 'Remote site' window, select the destination folder*
 	
 	    c. Right click the file(s) / folder(s) to upload; Select "Upload" in the drop down list that appears
 		
 		   i. The transfer should initiate; You may track your progress in the "Transfer queue"
 
-			*This is the panel at the bottom of the window*
+                *This is the panel at the bottom of the window*
 
 		   ii. Once the files appear in the "Successful transfers" tab of the "Transfer queue", the file has been successfully transferred from the local site to the remote site
 
@@ -119,17 +119,17 @@ GUI (FileZilla)
 
 	    a. Locate the file(s) / folder(s) to download
 
-		   *Within the 'Remote site' window, select the file(s) / folder(s)*
+              *Within the 'Remote site' window, select the file(s) / folder(s)*
 
 	    b. Locate the destination folder
 
-		   *Within the 'Local site' window, select the destination folder*
+              *Within the 'Local site' window, select the destination folder*
 	
 	    c. Right click the file(s) / folder(s) to download; Select "Download" in the drop down list that appears
 		
 		   i. The transfer should initiate; You may track your progress in the "Transfer queue"
 
-			  *This is the panel at the bottom of the window*
+                 *This is the panel at the bottom of the window*
 
 		   ii. Once the files appear in the "Successful transfers" tab of the "Transfer queue", the file has been successfully transferred from the remote site to the local site
 
