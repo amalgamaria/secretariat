@@ -27,19 +27,19 @@ Transferring files
 
 When transferring files between external sources and Secretariat, you have a few options.
 
-If you have a small number of small files and you are not very comfortable working from the command line, **FileZilla** may be a good option for you. FileZilla facilitates file transfers within a graphical user interface (GUI) that may feel more familiar to novice programmers. For larger files or larger numbers of files, you should use **scp** and **rsync**. 
+If you have a small number of small files and you are not very comfortable working from the command line, A software like **FileZilla** may be a good option for you. (FileZilla facilitates file transfers within a graphical user interface (GUI) that may feel more familiar to novice programmers.) For larger files or larger numbers of files, you should use command line tools like **scp** and **rsync**. 
 
 Please find instructions on how to use each of the methods, below.
 
 ----
 
-FileZilla
----------
+GUI (FileZilla)
+---------------
 
 Part 1: Connect
 ^^^^^^^^^^^^^^^
 
-1. Download and install the `FileZilla client`_
+1. Download and install the desired softare (e.g. `FileZilla client`_)
 2. Launch the client
 3. Open the "Site manager" -- this is usually the upper left icon on the *Toolbar*
 
@@ -49,15 +49,22 @@ Part 1: Connect
 
 	a. Click "New Site" and name it **Secretariat**
 	b. Set "Protocol" as "SFTP - SSH File Transfer Protocol" in the dropdown list
-	c. Type ``secretariat-master.clemson.edu`` in the "Host" box
-	d. Set "Logon Type" as "Ask for password" in the dropdown list
+	c. Type ``130.127.173.136`` in the "Host" box
+	d. Set "Logon Type" as "Interactive" in the dropdown list
+
+       *The "Logon Type" must be set to "Interactive" because this will allow you to authenticate using Duo.*
+
 	e. Type your ``username`` in the "User" box
 	f. Click "OK" at the bottom of the window
 
 	*You will only need to create a new site the first time: After this, start from Step 5*
 
 5. Reopen the "Site manager" and select "**Secretariat**" in the list of sites in the left window
-6. Click "Connect" and enter your password
+
+6. Click "Connect", enter your password, and authenticate
+
+   *First prompt will ask for your password; The second prompt will ask for either your mobile device or key to authenticate via Duo.*
+
 7. Trust the host: An "Unknown host key" window may appear with a message similar to the one below; Click "OK"
 
 .. code-block:: bash
@@ -70,13 +77,13 @@ Part 1: Connect
 
 8. Output should print to the 'Message log'
 
-	*This is the pannel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
+	*This is the panel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
 
    When output similar to the following appears and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
 
 .. code-block:: rst
 
-   Status:	Connected to secretariat-master.clemson.edu
+   Status:	Connected to 130.127.173.136
    Status:	Retrieving directory listing...
    Status:	Listing directory /home/[`username`]
    Status:	Directory listing of "/home/[`username`]" successful
@@ -130,14 +137,14 @@ Once you have established a connection, you may initiate uploads and downloads b
 
 ----
 
-scp
----
+Command line (scp)
+------------------
 
 ``scp`` is a function used to securely copy files and is already installed on Secretariat. Please see the use-cases, below.
 
 1. **Local to remote**
 
-	``scp /path/to/file.txt username@secretariat-master.clemson.edu:/remote/directory/``
+	``scp /path/to/file.txt username@130.127.173.136:/remote/directory/``
 
 	where
 
@@ -147,7 +154,7 @@ scp
 
 2. **Remote to local**
 
-	``scp username@secretariat-master.clemson.edu:/path/to/file.txt /local/directory/``
+	``scp username@130.127.173.136:/path/to/file.txt /local/directory/``
 
 	where
 
@@ -155,54 +162,11 @@ scp
                 - ``username``: your username to log in	to Secretariat
                 - ``/local/directory/``: where to download file on local machine
 
-----
-
-MobaXterm scp
--------------
-
-If are a Windows user and followed the instructions for installing and using `MobaXterm`_ on the `Logging in`_ page, then you also have the option of using MobaXterm's built in ``scp``.
-
-.. attention:: Note: This process is similar to using `FileZilla`_ (`above`_).
-
-Part 1: Connect
-^^^^^^^^^^^^^^^
-
-1. Click "Session"
-2. Click "SSH"
-3. Click "Advanced SSH settings"
-4. Select "SCP (normal speed)" as the SSH browser type
-5. Enter ``secretariat-master.clemson.edu`` in the "Remote host" box
-6. Check the box beside "Specify username" and type your ``username``
-7. Click "OK"
-8. Enter password, if prompted
-
-Connection established!
-
-Part 2: Transfer
-^^^^^^^^^^^^^^^^
-
-.. attention:: All of the following steps take place in the left sidebar.
-
-1. Select the "Scp" tab
-2. Enter ``/path/to/directory/`` in the search bar
-
-	*Where you enter the specific directory to your file(s) of interest in place of /path/to/directory/* 
-
-3. Right-click the file(s) in the file list that you would like to download
-4. Click "Download"
-5. Select / create the local directory to receive the file(s)
-6. Click "OK"
-
-Transfer complete!
-
-.. attention:: Another option within MobaXterm is to initiate a local session and use the `previously described`_ ``scp`` commands. To do this, either select "Start local session" after launching MobaXterm or open a new tab by clicking on the "+" icon. This second option should start a local session by default.
-
+Note: ``rsync`` follows a similar convention to ``scp``!
 
 .. _FileZilla client: https://filezilla-project.org/
 .. _above: https://secretariat.readthedocs.io/en/latest/access/transferring-files.html#filezilla
-.. _MobaXterm: https://mobaxterm.mobatek.net/
 .. _Logging in: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#for-windows
-.. _previously described: https://secretariat.readthedocs.io/en/latest/access/transferring-files.html#scp
 .. _Vijay Shankar: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
 .. _John Poole: https://scienceweb.clemson.edu/chg/dr-john-poole/
 .. _Maria E. Adonay: https://scienceweb.clemson.edu/chg/maria-adonay/
