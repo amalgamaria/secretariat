@@ -142,6 +142,30 @@ Command line (scp)
 
 ``scp`` is a function used to securely copy files and is already installed on Secretariat. Please see the use-cases, below.
 
+.. tab-set::
+
+   .. tab-item:: Local to remote
+
+      ``scp /path/to/file.txt username@130.127.173.136:/remote/directory/``
+
+      where
+
+         - ``/path/to/file.txt``: file (including full path) to upload to Secretariat
+         - ``username``: your username to log into Secretariat
+         - ``/remote/directory/``: where to upload file on Secretariat
+
+   .. tab-item:: Remote to local
+
+      ``scp username@130.127.173.136:/path/to/file.txt /local/directory/``
+
+      where
+
+         - ``/path/to/file.txt``: file (including full path) to download from Secretariat
+         - ``username``: your username to log into Secretariat
+         - ``/local/directory/``: where to download file on local machine
+
+---
+
 1. **Local to remote**
 
 	``scp /path/to/file.txt username@130.127.173.136:/remote/directory/``
