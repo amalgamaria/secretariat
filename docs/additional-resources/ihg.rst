@@ -29,7 +29,6 @@ To learn more about the IHG, please visit our `website`_. Here are some addition
 
 - `IHG Bioinformatics and Statistics Core Website`_
 - `IHG Bioinformatics and Statistics Core GitHub Page`_
-- `Greenwood Genetic Center`_
 
 Labs (physically located) at Self Regional Hall in Greenwood, SC:
    
@@ -61,7 +60,7 @@ Labs (physically located) at Self Regional Hall in Greenwood, SC:
    :alt: Morgante Lab Figure
    :target: https://morgantelab.com/
 
-For more information about other people working with the IHG, see the `"People" tab`_ of our `website`_.
+For more information about other people working with the IHG, see the `"People" tab`_ of the `IHG website`_.
 
 ----
 
@@ -72,13 +71,21 @@ For more information about other people working with the IHG, see the `"People" 
 ----
 
 .. raw:: html
+
+   <div style="border:1px solid #ddd; padding:12px; border-radius:8px; text-align:center;">
+      <a href="https://www.linkedin.com/company/clemson-ihg" target="_blank" rel="noopener"
+         style="font-size:16px; font-weight:bold;">
+         Follow Clemson IHG on LinkedIn
+      </a>
+   </div>
+
+.. raw:: html
    
    <a class="twitter-timeline tw-align-center" data-lang="en" data-width="400" data-height="800" data-theme="light" href="https://twitter.com/ClemsonCHG?ref_src=twsrc%5Etfw">Tweets by ClemsonCHG</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ----
 
-.. _website: https://scienceweb.clemson.edu/ihg/
-.. _Greenwood Genetic Center: https://www.ggc.org/
+.. _IHG website: https://scienceweb.clemson.edu/ihg/
 .. _IHG Bioinformatics and Statistics Core Website: https://scienceweb.clemson.edu/ihg/research-cores/bsc-core/
 .. _IHG Bioinformatics and Statistics Core GitHub Page: https://github.com/chg-bsl
 .. _"People" tab: https://scienceweb.clemson.edu/ihg/people/
