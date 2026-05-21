@@ -37,10 +37,30 @@ Sequentially complete **both** Parts 1 and 2 to login, set your password, and to
 Part 1: Login
 #############
 
+.. tab-set::
+
+   .. tab-item:: Linux / Mac
+      
+      Test content.
+
+      1. ...
+      2. ...
+
+         .. code-block:: bash
+
+         # Test comment
+
+      3. ...
+
+   .. tab-item:: Windows
+
+      Test content.
+
+
 For Linux / Mac
 ---------------
 
-1. Contact `Vijay`_, `John`_, and `Maria`_ for information about your intial password.
+1. Contact `Vijay`_, `John`_, and `Maria`_ for information about your intial password if you have lost it.
 2. Open a Terminal window.
 3. Type ``ssh -X [username]@130.127.173.136`` on the command line; Press Enter.
 
@@ -56,7 +76,7 @@ For Windows
 -----------
 
 1. Contact `Vijay`_, `John`_, or `Maria`_ for information about your intial password.
-2. Download a terminal emulator, such as `MobaXterm`_. (For MobaXterm: The "installer" edition is fine. If this does not work, the "portabld" edition is also fine.)
+2. Download a terminal emulator (e.g. `MobaXterm`_).
 3. After installing, launch the emulator and log into Secretariat.
 
 	E.g. For MobaXterm:
