@@ -32,13 +32,6 @@ To learn more about the IHG, please visit our `website`_. Here are some addition
 - `Greenwood Genetic Center`_
 
 Labs (physically located) at Self Regional Hall in Greenwood, SC:
-
-.. image:: ../_static/images/lab_alexandrov.png
-   :width: 2945 px
-   :height: 2945 px
-   :scale: 5%
-   :alt: Alexandrov Lab Figure
-   :target: https://alexandrovlab.com/
    
 .. image:: ../_static/images/lab_doucet-ohare.png
    :width: 2945	px
