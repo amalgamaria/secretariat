@@ -1,6 +1,8 @@
 Batch jobs
 ==========
 
+.. _tip-contact:
+
 .. tip::
 
    **Contact** `Secretariat System Administrators`_ **with HPC Questions!**
@@ -27,7 +29,7 @@ Batch jobs
 
 A common way of running an analysis on Secretariat is to run your command(s) / script(s) from within an "*sbatch* script." This method allows the user to request specific resources from within the script rather than typing them out on the command line. Since Secretariat's resources are managed by `Slurm`_, resource requests must be denoted in what is called an *sbatch* header.
 
-.. attention:: It is important to be careful when requesting resources on Secretariat. If you request more than what you actually need, this could stall other users waiting for resources to become available. If you are unsure about how much you should allocate for your job, please consult with `Vijay`_ or `Maria`_.
+.. attention:: It is important to be careful when requesting resources on Secretariat. If you request more than what you actually need, this could stall other users waiting for resources to become available. If you are unsure about how much you should allocate for your job, please :ref:`contact us` <tip-contact>`!
 
 Template
 --------
@@ -48,8 +50,6 @@ Here is a template of how to declare Slurm parameters in the header of an *sbatc
    #SBATCH --mem=[mem]
    #SBATCH --output=[/path/to/][jobname].%j.out
    #SBATCH --error=[/path/to/][jobname].%j.err
-   #SBATCH --mail-type=[mailtype]
-   #SBATCH --mail-user=[username]@clemson.edu
 
 .. attention:: At the least, please set the parameters for lines 1-7. The only line that is absolutely required is the first: ``#!/bin/bash``.  Lines 8-11 may be helpful for organizational purposes, but are optional. Please see the `Slurm documentation`_ for a full list of possible *sbatch* header options.
 
@@ -79,24 +79,6 @@ Here is a template of how to declare Slurm parameters in the header of an *sbatc
 
 - [``/path/to/``][``jobname``]: parent directory and filename of which to print standard error and output
 
-- [``mailtype``]: events for which to send notifications via email
-
-   - *NONE*
-   - *BEGIN*
-   - *END*
-   - *FAIL*
-   - *REQUEUE*
-   - *ALL* (BEGIN, END, FAIL, REQUEUE, STAGE_OUT)
-   - *STAGE_OUT*
-   - *TIME_LIMIT*
-   - *TIME_LIMIT_90*
-   - *TIME_LIMIT_80*
-   - *TIME_LIMIT_50*
-   - *ARRAY_TASKS*
-
-- [``username``]: email address before the "@" to send the notifications specified in [``mailtype``]
-
-
 Example
 -------
 
@@ -114,8 +96,6 @@ Here is an example of an *sbatch* header for a script to run `fastp`_.
    #SBATCH --mem=2G
    #SBATCH --output=/opt/ohpc/pub/workshop/toyout/logs/fastp_ex.%j.out
    #SBATCH --error=/opt/ohpc/pub/workshop/toyout/logs/fastp_ex.%j.err
-   #SBATCH --mail-type=all
-   #SBATCH --mail-user=madonay@clemson.edu
 
    # Load software   
    module load fastp/0.21.0
@@ -143,13 +123,10 @@ Here is an example of an *sbatch* header for a script to run `fastp`_.
        	 --json ${dir_out}/${prefix}.json \
        	 --html ${dir_out}/${prefix}.html
    done
-   
-   # Unload software
-   module unload fastp/0.21.0
 
 **Explanation**:
 
-This script sets up a job named **fastp_ex** to execute the function **fastp**. This script allocates **1 CPU** on a **compute** node (compute[001-004]) with up to **2 GB of memory** and no more than **30 minutes of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs** and the email address **madonay@clemson.edu** will receive notifications when the job **begins** and if it **ends**, **fails**, **requeues**, or **stages out**.
+This script sets up a job named **fastp_ex** to execute the function **fastp**. This script allocates **1 CPU** on a **compute** node (compute[001-004]) with up to **2 GB of memory** and no more than **30 minutes of runtime** to complete this job. Standard error and output will be outputted to separate files in **/opt/ohpc/pub/workshop/tmp/logs**.
 
 .. attention:: To actually submit this script to Secretariat, please refer to the `Slurm commands`_ tab.
 
@@ -188,9 +165,6 @@ Amended from the example on the `Slurm FAQ`_ page, suppose you need to allocate 
 
 .. attention:: Know your software! Make sure that the software within your script supports multiple CPU usage before requesting resources that allow for multithreading.
 
-
-.. _Vijay: https://scienceweb.clemson.edu/chg/dr-vijay-shankar-2/
-.. _Maria: https://scienceweb.clemson.edu/chg/maria-adonay/
 .. _FAQ: https://secretariat.readthedocs.io/en/latest/faq.html#how-do-i-create-edit-files-on-secretariat
 .. _Slurm: https://slurm.schedmd.com/documentation.html
 .. _Slurm documentation: https://slurm.schedmd.com/sbatch.html
