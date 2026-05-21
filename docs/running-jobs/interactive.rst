@@ -51,8 +51,6 @@ Consider the *sbatch* header in the example script from the `Batch jobs`_ page:
    #SBATCH --mem=2G
    #SBATCH --output=/opt/ohpc/pub/workshop/toyout/logs/fastp_ex.%j.out
    #SBATCH --error=/opt/ohpc/pub/workshop/toyout/logs/fastp_ex.%j.err
-   #SBATCH --mail-type=all
-   #SBATCH --mail-user=madonay@clemson.edu
    
 When initiating your session, you should specify your resource requests in your command. Make sure that you specify parameters for the options in lines 4-7, at least:
 
@@ -66,7 +64,6 @@ where
 	- ``bash``: creates an "interactive bash shell"\
 
 Every option that you could include in your *sbatch* header should be possible to include in an ``srun`` command. Please see the `Slurm documentation`_ for more details.
-
 
 .. _Logging in: https://secretariat.readthedocs.io/en/latest/access/logging-in.html#logging-in
 .. _Batch jobs: https://secretariat.readthedocs.io/en/latest/running-jobs/batch-jobs.html#batch-jobs
