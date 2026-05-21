@@ -26,6 +26,7 @@ source_suffix = ['.rst', '.md']
 extensions = [
 	'sphinx.ext.autodoc',
 	'sphinx_rtd_theme',
+	'sphinx_design'
 #	'sphinx_markdown_tables',
 #	'recommonmark'
 ]
