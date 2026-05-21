@@ -72,7 +72,6 @@ Institute for Human Genetics Research Computing
 
    additional-resources/ihg
    additional-resources/vpn
-   additional-resources/palmetto
    additional-resources/workshops
 
 .. toctree::
