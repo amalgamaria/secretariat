@@ -75,7 +75,7 @@ Part 1: Login
 
       2. Open your preferred terminal emulator.
 
-         *As of 2025, Clemson had a license for `StarNet X-Win32`_, which could be installed on Windows from `Company Portal`_. However, many Windows machines come equipped with `Windows PowerShell`_, which should also work!
+         *As of 2025, Clemson had a license for `StarNet X-Win32`_, which could be installed on Windows from `Company Portal`_. However, many Windows machines come equipped with `Windows PowerShell`_, which should also work!*
 
       3. Type ``ssh [username]@130.127.173.136`` on the command line; Press Enter.
 
