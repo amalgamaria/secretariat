@@ -6,14 +6,3 @@
 .margin-auto {
     margin: 0 auto;
 }
-
-/* TIP */
-
-.admonition.tip {
-    border-left: 6px solid #581745;
-}
-
-.admonition.tip .admonition-title {
-    background-color: #581745;
-    color: #ffffff;
-}
