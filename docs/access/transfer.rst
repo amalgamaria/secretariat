@@ -44,19 +44,19 @@ GUI (FileZilla)
       2. Launch the client
       3. Open the "Site manager" -- this is usually the upper left icon on the *Toolbar*
 
-            *It resembles a cluster of three rectangular machines*
+         *It resembles a cluster of three rectangular machines*
 
       4. Create a new site: 
 
-	     a. Click "New Site" and name it **Secretariat**
-	     b. Set "Protocol" as "SFTP - SSH File Transfer Protocol" in the dropdown list
-	     c. Type ``130.127.173.136`` in the "Host" box
-	     d. Set "Logon Type" as "Interactive" in the dropdown list
+         a. Click "New Site" and name it **Secretariat**
+         b. Set "Protocol" as "SFTP - SSH File Transfer Protocol" in the dropdown list
+         c. Type ``130.127.173.136`` in the "Host" box
+         d. Set "Logon Type" as "Interactive" in the dropdown list
 
-	        *The "Logon Type" must be set to "Interactive" because this will allow you to authenticate using Duo.*
+            *The "Logon Type" must be set to "Interactive" because this will allow you to authenticate using Duo.*
 
-	     e. Type your ``username`` in the "User" box
-	     f. Click "OK" at the bottom of the window
+         e. Type your ``username`` in the "User" box
+         f. Click "OK" at the bottom of the window
 
             *You will only need to create a new site the first time: After this, start from Step 5*
 
@@ -64,7 +64,7 @@ GUI (FileZilla)
 
       6. Click "Connect", enter your password, and authenticate
 
-            *First prompt will ask for your password; The second prompt will ask for either your mobile device or key to authenticate via Duo.*
+         *First prompt will ask for your password; The second prompt will ask for either your mobile device or key to authenticate via Duo.*
 
       7. Trust the host: An "Unknown host key" window may appear with a message similar to the one below; Click "OK"
 
@@ -78,11 +78,11 @@ GUI (FileZilla)
 
       8. Output should print to the 'Message log'
 
-            *This is the panel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
+         *This is the panel below the 'Toolbar' and 'Quickconnect' sections at the top of the window.*
 
-        When output similar to the following appears and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
+         When output similar to the following appears and files / directories are present in both the 'Local site' and the 'Remote site' panels, the connection has been successfully established.
 
-        .. code-block:: rst
+         .. code-block:: rst
 
            Status:	Connected to 130.127.173.136
            Status:	Retrieving directory listing...
@@ -97,41 +97,41 @@ GUI (FileZilla)
 
       1. **Upload: Local-to-remote**
 
-	     a. Locate the file(s) / folder(s) to upload
+         a. Locate the file(s) / folder(s) to upload
 
-               *Within the 'Local site' window, select the file(s) / folder(s)*
+            *Within the 'Local site' window, select the file(s) / folder(s)*
 
-	     b. Locate the destination folder
+         b. Locate the destination folder
 
-               *Within the 'Remote site' window, select the destination folder*
-	
-	    c. Right click the file(s) / folder(s) to upload; Select "Upload" in the drop down list that appears
-		
-		   i. The transfer should initiate; You may track your progress in the "Transfer queue"
+            *Within the 'Remote site' window, select the destination folder*
 
-                *This is the panel at the bottom of the window*
+         c. Right click the file(s) / folder(s) to upload; Select "Upload" in the drop down list that appears
 
-		   ii. Once the files appear in the "Successful transfers" tab of the "Transfer queue", the file has been successfully transferred from the local site to the remote site
+            i. The transfer should initiate; You may track your progress in the "Transfer queue"
+
+               *This is the panel at the bottom of the window*
+
+            ii. Once the files appear in the "Successful transfers" tab of the "Transfer queue", the file has been successfully transferred from the local site to the remote site
 
       Transfer complete!
 
-     2. **Download: Remote-to-local**
+      2. **Download: Remote-to-local**
 
-	    a. Locate the file(s) / folder(s) to download
+         a. Locate the file(s) / folder(s) to download
 
-              *Within the 'Remote site' window, select the file(s) / folder(s)*
+            *Within the 'Remote site' window, select the file(s) / folder(s)*
 
-	    b. Locate the destination folder
+         b. Locate the destination folder
 
-              *Within the 'Local site' window, select the destination folder*
-	
-	    c. Right click the file(s) / folder(s) to download; Select "Download" in the drop down list that appears
-		
-		   i. The transfer should initiate; You may track your progress in the "Transfer queue"
+            *Within the 'Local site' window, select the destination folder*
 
-                 *This is the panel at the bottom of the window*
+         c. Right click the file(s) / folder(s) to download; Select "Download" in the drop down list that appears
 
-		   ii. Once the files appear in the "Successful transfers" tab of the "Transfer queue", the file has been successfully transferred from the remote site to the local site
+            i. The transfer should initiate; You may track your progress in the "Transfer queue"
+
+               *This is the panel at the bottom of the window*
+
+            ii. Once the files appear in the "Successful transfers" tab of the "Transfer queue", the file has been successfully transferred from the remote site to the local site
 
       Transfer complete!
 
