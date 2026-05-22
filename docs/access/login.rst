@@ -75,11 +75,11 @@ Part 1: Login
 
       2. Open your preferred terminal emulator.
 
-         *As of 2025, Clemson had a license for `StarNet X-Win32`_, which could be installed on Windows from `Company Portal`_. However, many Windows machines come equipped with `Windows PowerShell`_, which should also work!*
+         *As of 2025, Clemson had a license for* `StarNet X-Win32`_, *which could be installed on Windows from* `Company Portal`_. *However, many Windows machines come equipped with* `Windows PowerShell`_, *which should also work!*
 
       3. Type ``ssh [username]@130.127.173.136`` on the command line; Press Enter.
 
-         *Some terminal emulators provide separate fields for connection information rather than a command-line prompt. In these cases, make sure to use ``130.127.173.136`` as the "remote host" or "server address".*
+         *Some terminal emulators provide separate fields for connection information rather than a command-line prompt. In these cases, make sure to use* ``130.127.173.136`` *as the "remote host" or "server address".*
 
       4. Type initial password; Press Enter.
 
@@ -87,7 +87,7 @@ Part 1: Login
 
       5. Select your method of Duo Two-Factor Authenication.
 
-         *Mobile device users should enter the number associated with their preferred Duo authentication method (commonly ``1``) to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
+         *Mobile device users should enter the number associated with their preferred Duo authentication method* (commonly ``1``) *to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
 
          `Click here for more information about Duo`_.
 
