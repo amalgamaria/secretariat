@@ -51,7 +51,7 @@ Part 1: Login
 
       3. Type ``ssh [username]@130.127.173.136`` on the command line; Press Enter.
 
-         *Insert your own username in the place of [username] -- you do not need the brackets.*
+         *Insert your own username in the place of* ``[username]`` -- *you do not need the brackets.*
 
       4. Type initial password; Press Enter.
 
@@ -59,7 +59,7 @@ Part 1: Login
 
       5. Select your method of Duo Two-Factor Authenication.
 
-         *Mobile device users should enter the number associated with their preferred Duo authentication method (commonly ``1``) to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
+         *Mobile device users should enter the number associated with their preferred Duo authentication method* (commonly ``1``) *to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
 
          `Click here for more information about Duo`_.
 
