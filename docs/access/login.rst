@@ -57,7 +57,7 @@ Part 1: Login
 
          *Note: As you type the password on the command line, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
 
-      5. Select your method of Duo Two-Factor Authenication.
+      5. Select your method of Duo Two-Factor Authenication; Authenticate accordingly.
 
          *Mobile device users should enter the number associated with their preferred Duo authentication method* (commonly ``1``) *to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
 
@@ -85,7 +85,7 @@ Part 1: Login
 
          *Note: When you type your password from the command line, the cursor will not move to indicate that you have typed anything. This is a security feature. Type the entire password and press Enter.*
 
-      5. Select your method of Duo Two-Factor Authenication.
+      5. Select your method of Duo Two-Factor Authenication; Authenticate accordingly.
 
          *Mobile device users should enter the number associated with their preferred Duo authentication method* (commonly ``1``) *to trigger a push notification. Users with alternative methods will get a second prompt for a passcode or token key.*
 
