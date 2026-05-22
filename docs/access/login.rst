@@ -45,7 +45,7 @@ Part 1: Login
 
    .. tab-item:: Linux / Mac
 
-      1. Contact Vijay, John, and Maria (see :ref:`above email list <tip-contact>`.) for information about your intial password if you have lost it.
+      1. Contact Vijay, John, and Maria (see :ref:`above email list <tip-contact>`) for information about your intial password if you have lost it.
 
       2. Open a Terminal window.
 
@@ -71,7 +71,7 @@ Part 1: Login
 
    .. tab-item:: Windows
 
-      1. Contact Vijay, John, and Maria (see :ref:`above email list <tip-contact>`.) for information about your intial password if you have lost it.
+      1. Contact Vijay, John, and Maria (see :ref:`above email list <tip-contact>`) for information about your intial password if you have lost it.
 
       2. Open your preferred terminal emulator.
 
