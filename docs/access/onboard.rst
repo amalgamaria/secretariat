@@ -55,14 +55,14 @@ When you are not connected to the Clemson network (e.g. when you are away from c
 Groups
 ######
 
-All Secretariat users are members of specific groups. The purpose of these group memberships is to help set specific directory and file permissions. If you have questions about how this works, please reach out! (We cover this on Day 1 of the HPC Basics Workshop!)
+All Secretariat users are members of specific groups. The purpose of these group memberships is to help set specific directory and file permissions. If you have questions about how this works, please reach out! (We cover this on Day 1 of the `HPC Basics Workshop`_!)
 
 ----
 
 Directories
 ###########
 
-Each Secretariat user receives a directory in /home and /scratch2 as well as a directory for data storage and analyses in /data or /data2.
+Each Secretariat user receives a directory in **``/home``** and **``/scratch2``** as well as a directory for data storage and analyses in **``/data``** or **``/data2``**.
 
 Scratch storage is extremely fast (compared with /data, /data2, and /data3), so it can significantly shorten the runtime for jobs which read and / or write large files (including intermediate files) as well as jobs which perform a lot of random disk access. Storage quotas are not enforced on /scratch2, but please consult with us if you plan to use more than 10 Tb. 
 
@@ -86,15 +86,15 @@ The `#secretariat`_ channel in the IHG `Slack`_ Workspace will be used to commun
 HPC Etiquette
 ##############
 
-Resources: We ask that all resource requests (e.g. cpus, memory, time) be reasonable and aligned with the needs of your workload. Generally, being on the conservative side helps manage everyone’s needs and uses. If you are unclear about how you should request resources, please reach out to us once you are ready to run analyses on Secretariat!
+*Resources*: We ask that all resource requests (e.g. cpus, memory, time) be reasonable and aligned with the needs of your workload. Generally, being on the conservative side helps manage everyone’s needs and uses. If you are unclear about how you should request resources, please reach out to us once you are ready to run analyses on Secretariat!
 
-Home directory (/home): Make sure to keep your home directory small (<5 Gb) and clean. If you are unclear about what this means or how to monitor this once you start using Secretariat, please let us know and we can help get you started!
+*Home directory* (**``/home``**): Make sure to keep your home directory small (<5 Gb) and clean. If you are unclear about what this means or how to monitor this once you start using Secretariat, please let us know and we can help get you started!
 
-   *If you fill up the quota for your home directory, you will likely begin to encounter issues with things such as logging in and accessing the `Open OnDemand interface`_.*
+   *If you fill up the quota for your home directory, you will likely begin to encounter issues with things such as logging in and accessing the* `Open OnDemand interface`_.
 
-Data directory (/data, /data2): Your software libraries / packages / environments (e.g. R, Python, conda), data files, and related resources for analyses should be kept within your data directory. Please keep in mind that this data directory will not be backed up unless a Palmetto backup has been set up with us or you generate another copy through other means (e.g. upload to cloud storage).
+*Data directory* (**``/data``**, **``/data2``**): Your software libraries / packages / environments (e.g. R, Python, conda), data files, and related resources for analyses should be kept within your data directory. Please keep in mind that this data directory will not be backed up unless a Palmetto backup has been set up with us or you generate another copy through other means (e.g. upload to cloud storage).
 
-Login node: Do not run analyses or resource intensive tasks on the login / head node (secretariat-master). Instead, we recommend that you submit a script to one of the computational nodes. If you would like any assistance, please let us know and we can advise you on how to do this properly!
+*Login node*: Do not run analyses or resource intensive tasks on the login / head node (secretariat-master). Instead, we recommend that you submit a script to one of the computational nodes. If you would like any assistance, please let us know and we can advise you on how to do this properly!
 
 ----
 
@@ -104,6 +104,7 @@ Login node: Do not run analyses or resource intensive tasks on the login / head 
 .. _https://secretariat-master: https://secretariat-master
 .. _Palmetto's setup: https://docs.rcd.clemson.edu/openod
 .. _Clemson Virtual Private Network (CUVPN): https://secretariat.readthedocs.io/en/latest/additional-resources/vpn.html
+.. _HPC Basics Workshop: https://secretariat.readthedocs.io/en/latest/additional-resources/workshops.html#hpc-basics-workshop
 .. _cd: https://www.geeksforgeeks.org/cd-command-in-linux-with-examples
 .. _#secretariat: https://cu-chg.slack.com/archives/C0472VDJ8PL
 .. _Slack: https://slack.com
